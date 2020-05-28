@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-react": "0.1.0",
-    "@meteorlxy/eslint-config-typescript": "0.3.0"
+    "@meteorlxy/eslint-config-react": "1.0.0",
+    "@meteorlxy/eslint-config-typescript": "1.0.0"
   },
   "publishConfig": {
     "access": "public"

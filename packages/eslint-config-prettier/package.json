@@ -23,7 +23,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "1.0.3",
+    "@meteorlxy/eslint-config": "1.0.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.1",
     "prettier": "^1.18.2"

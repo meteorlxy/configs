@@ -23,7 +23,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "1.0.3",
+    "@meteorlxy/eslint-config": "1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.3.1",
     "@typescript-eslint/parser": "^2.3.1",
     "eslint-config-airbnb-base": "^14.0.0"

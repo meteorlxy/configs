@@ -23,7 +23,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "1.0.3",
+    "@meteorlxy/eslint-config": "1.0.0",
     "babel-eslint": "^10.0.3",
     "eslint-plugin-vue": "^5.2.3"
   },
