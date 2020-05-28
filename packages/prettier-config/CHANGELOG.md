@@ -6,3 +6,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.0.0 (2020-05-28)
 
 **Note:** Version bump only for package @meteorlxy/prettier-config
+
+
+
+
+
+# 1.0.0 (2020-05-28)
+
+**Note:** Version bump only for package @meteorlxy/prettier-config
