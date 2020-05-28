@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "meteorlxy eslint config for React.js with Prettier",
   "keywords": [
     "config",
@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "1.0.0",
-    "@meteorlxy/eslint-config-react": "1.0.0"
+    "@meteorlxy/eslint-config-prettier": "1.0.1",
+    "@meteorlxy/eslint-config-react": "1.0.1"
   },
   "publishConfig": {
     "access": "public"
