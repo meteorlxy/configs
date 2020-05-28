@@ -1,0 +1,33 @@
+{
+  "name": "@meteorlxy/eslint-config-react",
+  "version": "1.0.0",
+  "description": "meteorlxy eslint config for React.js",
+  "keywords": [
+    "config",
+    "eslint",
+    "react",
+    "meteorlxy"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@meteorlxy/eslint-config": "1.0.3",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@meteorlxy/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "meteorlxy eslint config for Vue.js",
+  "keywords": [
+    "config",
+    "eslint",
+    "meteorlxy",
+    "vue"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@meteorlxy/eslint-config": "1.0.3",
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}

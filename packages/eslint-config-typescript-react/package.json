@@ -1,0 +1,30 @@
+{
+  "name": "@meteorlxy/eslint-config-typescript-react",
+  "version": "1.0.0",
+  "description": "meteorlxy eslint config for TypeScript + React.js",
+  "keywords": [
+    "config",
+    "eslint",
+    "react",
+    "meteorlxy",
+    "typescript"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@meteorlxy/eslint-config-react": "0.1.0",
+    "@meteorlxy/eslint-config-typescript": "0.3.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@meteorlxy/eslint-config",
+  "version": "1.0.0",
+  "description": "meteorlxy eslint config",
+  "keywords": [
+    "config",
+    "eslint",
+    "meteorlxy"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

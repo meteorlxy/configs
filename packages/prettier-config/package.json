@@ -1,0 +1,24 @@
+{
+  "name": "@meteorlxy/prettier-config",
+  "version": "1.0.0",
+  "description": "meteorlxy prettier config",
+  "keywords": [
+    "config",
+    "prettier",
+    "meteorlxy"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ]
+}

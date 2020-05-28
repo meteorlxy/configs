@@ -1,0 +1,48 @@
+/**
+ * Based on Vue.js Rules
+ *
+ * @see https://eslint.vuejs.org/rules/
+ */
+module.exports = {
+  extends: ['@meteorlxy', 'plugin:vue/recommended'],
+
+  plugins: ['vue'],
+
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
+
+  // Rules overrides
+  rules: {
+    // Use PascalCase to introduce components in <template>
+    'vue/component-name-in-template-casing': [
+      'error',
+      'PascalCase',
+      {
+        registeredComponentsOnly: false,
+        ignores: [],
+      },
+    ],
+
+    // Component file name should match component name
+    'vue/match-component-file-name': [
+      'error',
+      {
+        extensions: ['js', 'jsx', 'ts', 'tsx', 'vue'],
+        shouldMatchCase: false,
+      },
+    ],
+
+    // Put multiple attrs in multiple lines
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: 1,
+        multiline: {
+          max: 1,
+          allowFirstLine: false,
+        },
+      },
+    ],
+  },
+};

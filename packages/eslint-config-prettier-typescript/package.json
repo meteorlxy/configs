@@ -1,0 +1,30 @@
+{
+  "name": "@meteorlxy/eslint-config-prettier-typescript",
+  "version": "1.0.0",
+  "description": "meteorlxy eslint config for Typescript with Prettier",
+  "keywords": [
+    "config",
+    "eslint",
+    "prettier",
+    "meteorlxy",
+    "typescript"
+  ],
+  "homepage": "https://git.code.oa.com/javascript/rules",
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/javascript/rules.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@meteorlxy/eslint-config-prettier": "0.1.3",
+    "@meteorlxy/eslint-config-typescript": "0.3.0"
+  }
+}
