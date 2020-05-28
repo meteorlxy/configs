@@ -27,5 +27,8 @@
   "dependencies": {
     "@meteorlxy/eslint-config-prettier": "0.1.3",
     "@meteorlxy/eslint-config-typescript-vue": "0.1.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
