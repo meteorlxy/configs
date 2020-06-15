@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-vue",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "meteorlxy eslint config for Vue.js",
   "keywords": [
     "config",
@@ -23,7 +23,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "1.0.1",
+    "@meteorlxy/eslint-config": "1.1.0",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-vue": "^6.2.2"
   },
