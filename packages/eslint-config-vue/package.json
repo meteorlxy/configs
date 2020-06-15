@@ -24,8 +24,8 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "1.0.1",
-    "babel-eslint": "^10.0.3",
-    "eslint-plugin-vue": "^5.2.3"
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-vue": "^6.2.2"
   },
   "publishConfig": {
     "access": "public"
