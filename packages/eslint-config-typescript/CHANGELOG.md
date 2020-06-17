@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript@1.1.0...@meteorlxy/eslint-config-typescript@1.1.1) (2020-06-17)
+
+### Bug Fixes
+
+- **eslint-config-typescript:** set default parserOptions.project ([88094e7](http://git.code.oa.com/javascript/rules/commits/88094e74a3ab40950b8be4e6881110999f8b34aa))
+
 # [1.1.0](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript@1.0.1...@meteorlxy/eslint-config-typescript@1.1.0) (2020-06-15)
 
 ### Features
