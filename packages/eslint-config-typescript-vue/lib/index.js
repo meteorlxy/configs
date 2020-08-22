@@ -10,5 +10,6 @@ module.exports = {
   // TODO: `babel-eslint` in `@meteorlxy/eslint-config-vue` is useless
   parserOptions: {
     parser: '@typescript-eslint/parser',
+    extraFileExtensions: ['.vue'],
   },
 };
