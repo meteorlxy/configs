@@ -186,7 +186,7 @@ module.exports = {
         devDependencies: airbnbImports.rules[
           'import/no-extraneous-dependencies'
         ][1].devDependencies.map((glob) =>
-          glob.replace('js,jsx', 'js,jsx,ts,tsx')
+          glob.replace('js,jsx', 'js,jsx,ts,tsx'),
         ),
       },
     ],
