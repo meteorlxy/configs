@@ -24,8 +24,19 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "1.1.0",
-    "babel-eslint": "^10.1.0",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-vue": "^7.3.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "optional": true
+    },
+    "@babel/eslint-parser": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

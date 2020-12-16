@@ -22,8 +22,8 @@
     "lib"
   ],
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.21.2"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   },
   "publishConfig": {
     "access": "public"
