@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-vue@1.1.0...@meteorlxy/eslint-config-vue@1.2.0) (2020-12-16)
+
+### Features
+
+- **eslint-config-vue:** move babel parser to peerDependencies ([204c4aa](http://git.code.oa.com/javascript/rules/commits/204c4aa504fa50b6a878bd0422b5b7db9ead924a))
+
 # [1.1.0](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-vue@1.0.1...@meteorlxy/eslint-config-vue@1.1.0) (2020-06-15)
 
 ### Features

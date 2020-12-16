@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript-vue@1.0.6...@meteorlxy/eslint-config-typescript-vue@1.0.7) (2020-12-16)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config-typescript-vue
+
 ## [1.0.6](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript-vue@1.0.5...@meteorlxy/eslint-config-typescript-vue@1.0.6) (2020-08-22)
 
 ### Bug Fixes

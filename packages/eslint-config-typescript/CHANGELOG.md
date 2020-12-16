@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript@1.2.0...@meteorlxy/eslint-config-typescript@1.3.0) (2020-12-16)
+
+### Features
+
+- **eslint-config-typescript:** sync rules ([884b111](http://git.code.oa.com/javascript/rules/commits/884b1111a1a8e22786266e4ae7637595d1896c3e))
+
 # [1.2.0](http://git.code.oa.com/javascript/rules/compare/@meteorlxy/eslint-config-typescript@1.1.2...@meteorlxy/eslint-config-typescript@1.2.0) (2020-08-22)
 
 ### Features
