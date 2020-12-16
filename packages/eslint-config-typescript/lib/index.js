@@ -35,8 +35,50 @@ module.exports = {
     project: ['tsconfig.json', 'packages/**/tsconfig.json'],
   },
 
+  settings: {
+    // Apply special parsing for TypeScript files
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
+    },
+
+    // Append 'ts' extensions to Airbnb 'import/resolver' setting
+    'import/resolver': {
+      node: {
+        extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'],
+      },
+    },
+
+    // Append 'ts' extensions to Airbnb 'import/extensions' setting
+    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
+
+    // Resolve type definition packages
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+  },
+
   // Rules overrides
   rules: {
+    // ==================
+    // Forked from eslint-config-airbnb-typescript
+    // ==================
+
+    // The following rules are enabled in Airbnb config, but are already checked (more thoroughly) by the TypeScript compiler
+    // Some of the rules also fail in TypeScript files, for example: https://github.com/typescript-eslint/typescript-eslint/issues/662#issuecomment-507081586
+    'constructor-super': 'off',
+    'getter-return': 'off',
+    'no-const-assign': 'off',
+    'no-dupe-args': 'off',
+    'no-dupe-keys': 'off',
+    'no-func-assign': 'off',
+    'no-new-symbol': 'off',
+    'no-obj-calls': 'off',
+    'no-this-before-super': 'off',
+    'no-undef': 'off',
+    'no-unreachable': 'off',
+    'no-unsafe-negation': 'off',
+    'valid-typeof': 'off',
+    'import/named': 'off',
+    'import/no-unresolved': 'off',
+
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/brace-style.md
     'brace-style': 'off',
     '@typescript-eslint/brace-style': airbnbStyle.rules['brace-style'],
@@ -60,6 +102,18 @@ module.exports = {
       {
         selector: 'typeLike',
         format: ['PascalCase'],
+      },
+    ],
+
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': [
+      airbnbStyle.rules['comma-dangle'][0],
+      {
+        ...airbnbStyle.rules['comma-dangle'][1],
+        enums: airbnbStyle.rules['comma-dangle'][1].arrays,
+        generics: airbnbStyle.rules['comma-dangle'][1].arrays,
+        tuples: airbnbStyle.rules['comma-dangle'][1].arrays,
       },
     ],
 
@@ -118,10 +172,24 @@ module.exports = {
     '@typescript-eslint/no-implied-eval':
       airbnbBestPractices.rules['no-implied-eval'],
 
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loop-func.md
+    'no-loop-func': 'off',
+    '@typescript-eslint/no-loop-func':
+      airbnbBestPractices.rules['no-loop-func'],
+
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
     'no-magic-numbers': 'off',
     '@typescript-eslint/no-magic-numbers':
       airbnbBestPractices.rules['no-magic-numbers'],
+
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare':
+      airbnbBestPractices.rules['no-redeclare'],
+
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': airbnbVariables.rules['no-shadow'],
 
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
     'no-throw-literal': 'off',
@@ -190,6 +258,10 @@ module.exports = {
         ),
       },
     ],
+
+    // ==================
+    // My own modifications
+    // ==================
 
     // Default export should not be encouraged in typescript
     'import/prefer-default-export': 'off',
