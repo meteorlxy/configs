@@ -4,13 +4,9 @@
  * @see https://eslint.vuejs.org/rules/
  */
 module.exports = {
-  extends: ['@meteorlxy', 'plugin:vue/recommended'],
+  extends: ['@meteorlxy', 'plugin:vue/vue3-recommended'],
 
   plugins: ['vue'],
-
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
 
   // Rules overrides
   rules: {
