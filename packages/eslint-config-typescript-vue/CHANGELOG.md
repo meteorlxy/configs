@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2021-03-02)
+
+### Bug Fixes
+
+- **eslint-config-typescript-vue:** add .vue extension ([3556265](https://github.com/meteorlxy/configs/commit/3556265949579dc7937eb59ca3465fe88d7edff1))
+- normalize dependencies version ([1e206fa](https://github.com/meteorlxy/configs/commit/1e206faa32ccbc82d46b53981a656bc58726e3f8))
+
 ## [1.0.7](https://github.com/meteorlxy/configs/compare/@meteorlxy/eslint-config-typescript-vue@1.0.6...@meteorlxy/eslint-config-typescript-vue@1.0.7) (2020-12-16)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-typescript-vue
