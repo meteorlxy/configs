@@ -28,13 +28,6 @@ module.exports = {
   // Use @typescript-eslint/parser
   parser: '@typescript-eslint/parser',
 
-  // Set options for @typescript-eslint/parser
-  parserOptions: {
-    // Set default project value
-    // @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#parseroptionsproject
-    project: ['tsconfig.json', 'packages/**/tsconfig.json'],
-  },
-
   settings: {
     // Apply special parsing for TypeScript files
     'import/parsers': {
