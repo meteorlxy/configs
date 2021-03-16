@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/meteorlxy/configs/compare/v2.0.0...v2.1.0) (2021-03-16)
+
+### Features
+
+- **eslint-config-typescript:** remove default project setting ([e610f19](https://github.com/meteorlxy/configs/commit/e610f19b2764aab5f95cfabb056e6021a1b40e0b))
+
 # 2.0.0 (2021-03-02)
 
 ### Bug Fixes
