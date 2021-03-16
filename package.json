@@ -5,6 +5,7 @@
   ],
   "scripts": {
     "lint": "eslint packages",
+    "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue test",
     "release": "npm run lint && lerna publish",
     "prepare": "husky install"
   },
