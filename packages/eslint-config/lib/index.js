@@ -38,7 +38,7 @@ module.exports = {
     ],
 
     /**
-     *  Override airbnb-base rules to allow reassign params props
+     * Override airbnb-base rules to allow reassign params props
      *
      * @see https://eslint.org/docs/rules/no-param-reassign
      * @see https://github.com/airbnb/javascript/issues/1217
@@ -48,6 +48,31 @@ module.exports = {
       'error',
       {
         props: false,
+      },
+    ],
+
+    /**
+     * Override airbnb-base rules to ensure import order
+     *
+     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+     * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L144-L147
+     */
+    'import/order': [
+      'error',
+      {
+        'groups': [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+        'newlines-between': 'ignore',
+        'alphabetize': {
+          order: 'asc',
+          caseInsensitive: true,
+        },
       },
     ],
   },
