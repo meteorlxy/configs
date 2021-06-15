@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-typescript-react",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "meteorlxy eslint config for Typescript + React.js with Prettier",
   "keywords": [
     "config",
@@ -25,8 +25,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "2.0.0",
-    "@meteorlxy/eslint-config-typescript-react": "2.1.0"
+    "@meteorlxy/eslint-config-prettier": "2.2.0",
+    "@meteorlxy/eslint-config-typescript-react": "2.2.0"
   },
   "publishConfig": {
     "access": "public"

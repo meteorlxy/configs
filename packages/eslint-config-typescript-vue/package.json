@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-typescript-vue",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "meteorlxy eslint config for Typescript + Vue.js",
   "keywords": [
     "config",
@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-typescript": "2.1.0",
-    "@meteorlxy/eslint-config-vue": "2.0.0"
+    "@meteorlxy/eslint-config-typescript": "2.2.0",
+    "@meteorlxy/eslint-config-vue": "2.2.0"
   },
   "publishConfig": {
     "access": "public"
