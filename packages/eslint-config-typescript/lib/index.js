@@ -223,7 +223,7 @@ module.exports = {
       airbnbStyle.rules['space-before-function-paren'],
 
     // Add .ts and .tsx extensions
-    // @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+    // @see https://github.com/benmosher/eslint-plugin-import/blob/main/docs/rules/extensions.md
     'import/extensions': [
       airbnbImports.rules['import/extensions'][0],
       airbnbImports.rules['import/extensions'][1],
@@ -239,7 +239,7 @@ module.exports = {
     'import/no-cycle': 'off',
 
     // Add .ts and .tsx extensions
-    // @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
+    // @see https://github.com/benmosher/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [
       airbnbImports.rules['import/no-extraneous-dependencies'][0],
       {
@@ -256,8 +256,9 @@ module.exports = {
     // My own modifications
     // ==================
 
-    // Default export should not be encouraged in typescript
-    'import/prefer-default-export': 'off',
+    // Use type-only imports as possible
+    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
+    '@typescript-eslint/consistent-type-imports': 'error',
 
     // Allow functions in expressions not to be checked
     // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
@@ -269,5 +270,9 @@ module.exports = {
         allowHigherOrderFunctions: true,
       },
     ],
+
+    // Default export should not be encouraged in typescript
+    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
+    'import/prefer-default-export': 'off',
   },
 };
