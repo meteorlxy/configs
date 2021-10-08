@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/meteorlxy/configs/compare/v2.2.0...v2.3.0) (2021-10-08)
+
+### Features
+
+- **eslint-config-typescript:** enable consistent-type-imports ([4e0c06e](https://github.com/meteorlxy/configs/commit/4e0c06e14fac028e1270ed80e8a7bf7bb95bde0b))
+
 # [2.2.0](https://github.com/meteorlxy/configs/compare/v2.1.0...v2.2.0) (2021-06-15)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-typescript

@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-typescript-react",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "meteorlxy eslint config for TypeScript + React.js",
   "keywords": [
     "config",
@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config-react": "2.2.0",
-    "@meteorlxy/eslint-config-typescript": "2.2.0"
+    "@meteorlxy/eslint-config-typescript": "2.3.0"
   },
   "publishConfig": {
     "access": "public"

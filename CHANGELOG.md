@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/meteorlxy/configs/compare/v2.2.0...v2.3.0) (2021-10-08)
+
+### Features
+
+- **eslint-config-typescript:** enable consistent-type-imports ([4e0c06e](https://github.com/meteorlxy/configs/commit/4e0c06e14fac028e1270ed80e8a7bf7bb95bde0b))
+- **prettier-config:** compat with prettier 2.4 ([45ae7d0](https://github.com/meteorlxy/configs/commit/45ae7d0e987e766e7b1eba9920f58977480c6045))
+
 # [2.2.0](https://github.com/meteorlxy/configs/compare/v2.1.0...v2.2.0) (2021-06-15)
 
 ### Features
