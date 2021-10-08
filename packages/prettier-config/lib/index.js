@@ -31,8 +31,8 @@ module.exports = {
   // Print spaces between brackets in object literals.
   bracketSpacing: true,
 
-  // Put the `>` of a multi-line JSX element at the end of the last line instead of being alone on the next line (does not apply to self closing elements)
-  jsxBracketSameLine: false,
+  // Put the `>` of a multi-line HTML element at the end of the last line instead of being alone on the next line (does not apply to self closing elements)
+  bracketSameLine: false,
 
   // Include parentheses around a sole arrow function parameter
   arrowParens: 'always',
