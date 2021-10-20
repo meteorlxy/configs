@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-typescript",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "meteorlxy eslint config for Typescript with Prettier",
   "keywords": [
     "config",
@@ -24,8 +24,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "2.2.0",
-    "@meteorlxy/eslint-config-typescript": "2.3.0"
+    "@meteorlxy/eslint-config-prettier": "2.4.0",
+    "@meteorlxy/eslint-config-typescript": "2.4.0"
   },
   "publishConfig": {
     "access": "public"
