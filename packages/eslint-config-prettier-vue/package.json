@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-vue",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "meteorlxy eslint config for Vue.js with Prettier",
   "keywords": [
     "config",
@@ -21,8 +21,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "2.4.0",
-    "@meteorlxy/eslint-config-vue": "2.4.0"
+    "@meteorlxy/eslint-config-prettier": "2.5.0",
+    "@meteorlxy/eslint-config-vue": "2.5.0"
   },
   "publishConfig": {
     "access": "public"
