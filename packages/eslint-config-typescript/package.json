@@ -16,16 +16,13 @@
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
     "lib"
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "2.4.0",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
     "eslint-config-airbnb-base": "^14.2.1"
   },
   "publishConfig": {

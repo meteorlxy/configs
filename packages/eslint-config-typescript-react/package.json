@@ -5,9 +5,9 @@
   "keywords": [
     "config",
     "eslint",
-    "react",
     "meteorlxy",
-    "typescript"
+    "typescript",
+    "react"
   ],
   "homepage": "https://github.com/meteorlxy/configs",
   "repository": {
@@ -17,9 +17,6 @@
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
     "lib"
   ],
