@@ -10,11 +10,15 @@ module.exports = {
       extends: '@meteorlxy/prettier-react',
     },
     {
-      files: ['*.ts', '*.tsx', '*.vue'],
-      extends: [
-        '@meteorlxy/prettier-typescript-react',
-        '@meteorlxy/prettier-typescript-vue',
-      ],
+      files: ['*.ts', '*.tsx'],
+      extends: ['@meteorlxy/prettier-typescript-react'],
+      parserOptions: {
+        project: ['tsconfig.json'],
+      },
+    },
+    {
+      files: ['*.ts', '*.vue'],
+      extends: ['@meteorlxy/prettier-typescript-vue'],
       parserOptions: {
         project: ['tsconfig.json'],
       },
