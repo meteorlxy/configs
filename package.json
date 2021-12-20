@@ -30,7 +30,7 @@
     "@meteorlxy/eslint-config-prettier-typescript-react": "file:./packages/eslint-config-prettier-typescript-react",
     "@meteorlxy/eslint-config-prettier-typescript-vue": "file:./packages/eslint-config-prettier-typescript-vue",
     "@meteorlxy/prettier-config": "file:./packages/prettier-config",
-    "eslint": "^7.32.0",
+    "eslint": "^8.5.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "lint-staged": "^12.1.3",
