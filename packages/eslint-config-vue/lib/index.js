@@ -28,17 +28,5 @@ module.exports = {
         shouldMatchCase: false,
       },
     ],
-
-    // Put multiple attrs in multiple lines
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: 1,
-        multiline: {
-          max: 1,
-          allowFirstLine: false,
-        },
-      },
-    ],
   },
 };
