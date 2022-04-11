@@ -15,9 +15,6 @@
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
     "lib"
   ],
