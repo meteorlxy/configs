@@ -52,3 +52,9 @@ If you want to use prettier + eslint, we also provide corresponding prettier int
 - [@meteorlxy/eslint-config-prettier-typescript-vue](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-typescript-vue) - for typescript + vue rules
 - [@meteorlxy/eslint-config-prettier-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-react) - for react rules
 - [@meteorlxy/eslint-config-prettier-typescript-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-typescript-react) - for typescript + react rules
+
+## TSConfig
+
+- [@meteorlxy/tsconfig](https://www.npmjs.com/package/@meteorlxy/tsconfig)
+
+  TSConfig, i.e. `tsconfig.json`.

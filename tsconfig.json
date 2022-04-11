@@ -1,4 +1,5 @@
 {
+  "extends": "@meteorlxy/tsconfig/base.json",
   "compilerOptions": {
     "jsx": "react"
   },

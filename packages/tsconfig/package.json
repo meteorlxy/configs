@@ -1,0 +1,23 @@
+{
+  "name": "@meteorlxy/tsconfig",
+  "version": "1.0.0",
+  "description": "meteorlxy tsconfig",
+  "keywords": [
+    "config",
+    "tsconfig",
+    "meteorlxy"
+  ],
+  "homepage": "https://github.com/meteorlxy/configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meteorlxy/configs.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
