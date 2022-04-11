@@ -1,5 +1,5 @@
 /**
- * Vue.js Rules with Typescript Rules
+ * Vue.js Rules with TypeScript Rules
  */
 module.exports = {
   extends: ['@meteorlxy/vue', '@meteorlxy/typescript'],

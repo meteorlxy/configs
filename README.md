@@ -1,52 +1,54 @@
-# My config
+# My Config Repo
 
-ESLint config & Prettier config for my personal projects.
+Configs for my personal projects.
 
-## ESLint Rules
+## ESLint
 
-### Base Rules
+### ESLint Base
 
-#### [@meteorlxy/eslint-config](https://www.npmjs.com/package/eslint-config)
+- [@meteorlxy/eslint-config](https://www.npmjs.com/package/@meteorlxy/eslint-config)
 
-The base rules mainly come from [Airbnb Javascript Style](https://github.com/airbnb/javascript) .i.e [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
+  The base rules mainly come from [Airbnb Javascript Style](https://github.com/airbnb/javascript) .i.e [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base).
 
-### Typescript Rules
+### ESLint TypeScript
 
-#### [@meteorlxy/eslint-config-typescript](https://www.npmjs.com/package/eslint-config-typescript)
+- [@meteorlxy/eslint-config-typescript](https://www.npmjs.com/package/@meteorlxy/eslint-config-typescript)
 
-Typescript rules are extended from the base rules, with some extensions come from [Typescript ESLint](https://github.com/typescript-eslint/typescript-eslint).
+  TypeScript rules are extended from the base rules, with some extensions come from [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint).
 
-### Vue Rules
+### ESLint Vue
 
-#### [@meteorlxy/eslint-config-vue](https://www.npmjs.com/package/eslint-config-vue)
+- [@meteorlxy/eslint-config-vue](https://www.npmjs.com/package/@meteorlxy/eslint-config-vue)
 
-Vue rules are extended from the base rules, with some extensions come from [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue).
+  Vue rules are extended from the base rules, with some extensions come from [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue).
 
-#### [@meteorlxy/eslint-config-typescript-vue](https://www.npmjs.com/package/eslint-config-typescript-vue)
+- [@meteorlxy/eslint-config-typescript-vue](https://www.npmjs.com/package/@meteorlxy/eslint-config-typescript-vue)
 
-Typescript + Vue rules are extended from the typescript rules and vue rules.
+  TypeScript + Vue rules are extended from the typescript rules and vue rules.
 
-### React Rules
+### ESLint React
 
-#### [@meteorlxy/eslint-config-react](https://www.npmjs.com/package/eslint-config-react)
+- [@meteorlxy/eslint-config-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-react)
 
-React rules are extended from base rules and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
+  React rules are extended from base rules and [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
-#### [@meteorlxy/eslint-config-typescript-react](https://www.npmjs.com/package/eslint-config-typescript-react)
+- [@meteorlxy/eslint-config-typescript-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-typescript-react)
 
-Typescript + React rules are extended from the typescript rules and react rules.
+  TypeScript + React rules are extended from the typescript rules and react rules.
 
-### Prettier Rules
+## Prettier
 
-#### [@meteorlxy/prettier-config](https://www.npmjs.com/package/prettier-config)
+- [@meteorlxy/prettier-config](https://www.npmjs.com/package/@meteorlxy/prettier-config)
 
-Prettier config, which is compatible with Airbnb Style.
+  Prettier config, which is compatible with Airbnb Style.
 
-If you want to use prettier + eslint, we also provide corresponding prettier integrated version for all the rules above.
+### Prettier ESLint
 
-- [@meteorlxy/eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) - for base rules
-- [@meteorlxy/eslint-config-prettier-typescript](https://www.npmjs.com/package/eslint-config-prettier-typescript) - for typescript rules
-- [@meteorlxy/eslint-config-prettier-vue](https://www.npmjs.com/package/eslint-config-prettier-vue) - for vue rules
-- [@meteorlxy/eslint-config-prettier-typescript-vue](https://www.npmjs.com/package/eslint-config-prettier-typescript-vue) - for typescript + vue rules
-- [@meteorlxy/eslint-config-prettier-react](https://www.npmjs.com/package/eslint-config-prettier-react) - for react rules
-- [@meteorlxy/eslint-config-prettier-typescript-react](https://www.npmjs.com/package/eslint-config-prettier-typescript-react) - for typescript + react rules
+If you want to use prettier + eslint, we also provide corresponding prettier integrated version for all the eslint config above.
+
+- [@meteorlxy/eslint-config-prettier](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier) - for base rules
+- [@meteorlxy/eslint-config-prettier-typescript](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-typescript) - for typescript rules
+- [@meteorlxy/eslint-config-prettier-vue](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-vue) - for vue rules
+- [@meteorlxy/eslint-config-prettier-typescript-vue](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-typescript-vue) - for typescript + vue rules
+- [@meteorlxy/eslint-config-prettier-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-react) - for react rules
+- [@meteorlxy/eslint-config-prettier-typescript-react](https://www.npmjs.com/package/@meteorlxy/eslint-config-prettier-typescript-react) - for typescript + react rules

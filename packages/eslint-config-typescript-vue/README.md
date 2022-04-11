@@ -1,4 +1,4 @@
-# ESLint Config for Typescript + Vue.js
+# ESLint Config for TypeScript + Vue.js
 
 ## Install
 

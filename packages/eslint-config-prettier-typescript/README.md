@@ -1,4 +1,4 @@
-# ESLint Config for Typescript with Prettier
+# ESLint Config for TypeScript with Prettier
 
 ## Install
 

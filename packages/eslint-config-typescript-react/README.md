@@ -1,4 +1,4 @@
-# ESLint Config for Typescript + React.js
+# ESLint Config for TypeScript + React.js
 
 ## Install
 

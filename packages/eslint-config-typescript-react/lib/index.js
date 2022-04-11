@@ -1,5 +1,5 @@
 /**
- * React.js Rules with Typescript Rules
+ * React.js Rules with TypeScript Rules
  */
 module.exports = {
   extends: ['@meteorlxy/react', '@meteorlxy/typescript'],

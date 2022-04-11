@@ -1,4 +1,4 @@
-# ESLint Config for Typescript
+# ESLint Config for TypeScript
 
 ## Install
 

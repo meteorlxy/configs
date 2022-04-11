@@ -1,4 +1,4 @@
-# ESLint Config for Typescript + Vue.js with Prettier
+# ESLint Config for TypeScript + Vue.js with Prettier
 
 ## Install
 
