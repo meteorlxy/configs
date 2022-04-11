@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-react",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "meteorlxy eslint config for React.js",
   "keywords": [
     "config",
@@ -20,7 +20,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "2.6.0",
+    "@meteorlxy/eslint-config": "2.7.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",

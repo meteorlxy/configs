@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/meteorlxy/configs/compare/v2.6.0...v2.7.0) (2022-04-11)
+
+### Features
+
+- **prettier-config:** compat with prettier 2.6 ([1e9981e](https://github.com/meteorlxy/configs/commit/1e9981e3eba7de3f611c863842cda63fe68e157c))
+
 # [2.3.0](https://github.com/meteorlxy/configs/compare/v2.2.0...v2.3.0) (2021-10-08)
 
 ### Features
