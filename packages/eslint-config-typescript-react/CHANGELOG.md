@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://github.com/meteorlxy/configs/compare/v2.7.0...v2.8.0) (2022-04-20)
+
+### Features
+
+- **eslint-config-typescript-react:** add mjs extension ([e0734c5](https://github.com/meteorlxy/configs/commit/e0734c598a0675ea01644f93023124d61191e0c0))
+
 # [2.7.0](https://github.com/meteorlxy/configs/compare/v2.6.0...v2.7.0) (2022-04-11)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-typescript-react
