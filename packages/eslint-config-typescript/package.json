@@ -23,7 +23,7 @@
     "@meteorlxy/eslint-config": "2.7.0",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
-    "eslint-config-airbnb-base": "^15.0.0"
+    "eslint-config-airbnb-typescript": "^17.0.0"
   },
   "publishConfig": {
     "access": "public"
