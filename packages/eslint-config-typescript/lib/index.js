@@ -59,10 +59,6 @@ module.exports = {
       },
     ],
 
-    // Disable no-cycle config
-    // @see https://github.com/benmosher/eslint-plugin-import/issues/1453
-    'import/no-cycle': 'off',
-
     // Default export should not be encouraged in typescript
     // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'off',
