@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-typescript",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "description": "meteorlxy eslint config for TypeScript",
   "keywords": [
     "config",
@@ -20,7 +20,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "2.7.0",
+    "@meteorlxy/eslint-config": "2.9.0",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
     "eslint-config-airbnb-typescript": "^17.0.0"

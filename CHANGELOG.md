@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/meteorlxy/configs/compare/v2.8.0...v2.9.0) (2022-05-07)
+
+### Features
+
+- **eslint-config-typescript:** remove import/no-cycle override ([39b37bd](https://github.com/meteorlxy/configs/commit/39b37bd833ddb059acfe16c41f53184aa77dde98))
+- **eslint-config:** disable ignoreCase option of sort-imports rule ([a9d70b1](https://github.com/meteorlxy/configs/commit/a9d70b162d897cc7d10421c1392931b18c57d0ca))
+
 # [2.8.0](https://github.com/meteorlxy/configs/compare/v2.7.0...v2.8.0) (2022-04-20)
 
 ### Features
