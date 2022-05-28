@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.10.0](https://github.com/meteorlxy/configs/compare/v2.9.0...v2.10.0) (2022-05-28)
+
+### Features
+
+- **tsconfig:** add compiler options about imports ([cac396e](https://github.com/meteorlxy/configs/commit/cac396e50fd5e387ed7d6a64184d5ea6a568f168))
+
 # [2.7.0](https://github.com/meteorlxy/configs/compare/v2.6.0...v2.7.0) (2022-04-11)
 
 ### Features
