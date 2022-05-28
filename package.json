@@ -11,7 +11,8 @@
   },
   "lint-staged": {
     "*.{json,md}": "prettier --write",
-    "!(test)/**/*.js": "eslint --fix",
+    "*.{js,ts,vue},!test": "eslint --fix",
+    ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
   "prettier": "@meteorlxy/prettier-config",
