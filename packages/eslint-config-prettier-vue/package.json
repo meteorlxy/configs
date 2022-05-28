@@ -21,8 +21,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "2.9.0",
-    "@meteorlxy/eslint-config-vue": "2.9.0"
+    "@meteorlxy/eslint-config-prettier": "workspace:*",
+    "@meteorlxy/eslint-config-vue": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

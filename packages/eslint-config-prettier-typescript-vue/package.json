@@ -22,8 +22,8 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config-prettier": "2.9.0",
-    "@meteorlxy/eslint-config-typescript-vue": "2.9.0"
+    "@meteorlxy/eslint-config-prettier": "workspace:*",
+    "@meteorlxy/eslint-config-typescript-vue": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

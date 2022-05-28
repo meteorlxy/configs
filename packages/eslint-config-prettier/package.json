@@ -20,7 +20,7 @@
     "lib"
   ],
   "dependencies": {
-    "@meteorlxy/eslint-config": "2.9.0",
+    "@meteorlxy/eslint-config": "workspace:*",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
