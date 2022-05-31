@@ -1,14 +1,12 @@
 # TSConfig
 
-## Usage
-
-### Install
+## Install
 
 ```sh
 npm i -D @meteorlxy/tsconfig
 ```
 
-### Extend this config
+## Usage
 
 In `tsconfig.json`:
 
