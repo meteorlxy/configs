@@ -1,14 +1,12 @@
 # Prettier Config
 
-## Usage
-
-### Install
+## Install
 
 ```sh
 npm i -D @meteorlxy/prettier-config
 ```
 
-### Extend this config
+## Usage
 
 In `package.json`:
 
