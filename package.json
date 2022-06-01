@@ -1,8 +1,6 @@
 {
+  "name": "@meteorlxy/configs",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "eslint packages",
     "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue test",
