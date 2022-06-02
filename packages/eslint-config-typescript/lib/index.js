@@ -59,6 +59,25 @@ module.exports = {
       },
     ],
 
+    // Add config files of some other tools
+    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+    'import/no-extraneous-dependencies': [
+      airbnbTypescript.rules['import/no-extraneous-dependencies'][0],
+      {
+        ...airbnbTypescript.rules['import/no-extraneous-dependencies'][1],
+        devDependencies: [
+          ...airbnbTypescript.rules['import/no-extraneous-dependencies'][1]
+            .devDependencies,
+          '**/.vitepress/*.ts',
+          '**/.vuepress/*.ts',
+          '**/tsup.config.ts',
+          '**/vite.config.ts',
+          '**/vitest.config.ts',
+          '**/vuepress.config.ts',
+        ],
+      },
+    ],
+
     // Default export should not be encouraged in typescript
     // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'off',
