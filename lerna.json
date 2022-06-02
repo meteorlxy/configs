@@ -1,13 +1,12 @@
 {
-  "npmClient": "npm",
-  "useWorkspaces": true,
+  "npmClient": "pnpm",
   "version": "2.10.0",
   "command": {
     "version": {
       "allowBranch": "main",
       "conventionalCommits": true,
       "exact": true,
-      "message": "build: publish"
+      "message": "build: publish %s"
     }
   }
 }
