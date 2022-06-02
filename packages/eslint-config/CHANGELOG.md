@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.11.0](https://github.com/meteorlxy/configs/compare/v2.10.0...v2.11.0) (2022-06-02)
+
+### Features
+
+- **eslint-config:** add more config files in no-extraneous-dependencies ([dd5e0ba](https://github.com/meteorlxy/configs/commit/dd5e0ba1165de90ce6835a0d3c5eeaf72a7e22fa))
+
 # [2.9.0](https://github.com/meteorlxy/configs/compare/v2.8.0...v2.9.0) (2022-05-07)
 
 ### Features
