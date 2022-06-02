@@ -10,7 +10,9 @@ module.exports = {
 
   // Rules overrides
   rules: {
-    // Use PascalCase to introduce components in <template>
+    /**
+     * Use PascalCase to introduce components in <template>
+     */
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
@@ -20,7 +22,9 @@ module.exports = {
       },
     ],
 
-    // Component file name should match component name
+    /**
+     * Component file name should match component name
+     */
     'vue/match-component-file-name': [
       'error',
       {

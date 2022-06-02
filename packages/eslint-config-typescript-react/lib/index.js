@@ -14,8 +14,11 @@ module.exports = {
   },
 
   rules: {
-    // Append 'tsx' to Airbnb 'react/jsx-filename-extension' rule
-    // @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    /**
+     * Append 'tsx' to Airbnb 'react/jsx-filename-extension' rule
+     *
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+     */
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   },
 };

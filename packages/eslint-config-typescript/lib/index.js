@@ -44,12 +44,18 @@ module.exports = {
     // My own modifications
     // ==================
 
-    // Use type-only imports as possible
-    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
+    /**
+     * Use type-only imports as possible
+     *
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
+     */
     '@typescript-eslint/consistent-type-imports': 'error',
 
-    // Allow functions in expressions not to be checked
-    // @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
+    /**
+     * Allow functions in expressions not to be checked
+     *
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
+     */
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {
@@ -59,8 +65,11 @@ module.exports = {
       },
     ],
 
-    // Add config files of some other tools
-    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+    /**
+     * Add config files of some other tools
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+     */
     'import/no-extraneous-dependencies': [
       airbnbTypescript.rules['import/no-extraneous-dependencies'][0],
       {
@@ -78,8 +87,11 @@ module.exports = {
       },
     ],
 
-    // Default export should not be encouraged in typescript
-    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
+    /**
+     * Default export should not be encouraged in typescript
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md
+     */
     'import/prefer-default-export': 'off',
   },
 };

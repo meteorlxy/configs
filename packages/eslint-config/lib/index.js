@@ -69,8 +69,11 @@ module.exports = {
       },
     ],
 
-    // Add config files of some other tools
-    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+    /**
+     * Add config files of some other tools
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+     */
     'import/no-extraneous-dependencies': [
       airbnbRulesImports.rules['import/no-extraneous-dependencies'][0],
       {
