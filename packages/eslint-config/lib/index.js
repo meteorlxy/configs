@@ -1,3 +1,5 @@
+const airbnbRulesImports = require('eslint-config-airbnb-base/rules/imports');
+
 /**
  * Based on Airbnb JavaScript Base Style
  *
@@ -64,6 +66,25 @@ module.exports = {
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         allowSeparatedGroups: false,
+      },
+    ],
+
+    // Add config files of some other tools
+    // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+    'import/no-extraneous-dependencies': [
+      airbnbRulesImports.rules['import/no-extraneous-dependencies'][0],
+      {
+        ...airbnbRulesImports.rules['import/no-extraneous-dependencies'][1],
+        devDependencies: [
+          ...airbnbRulesImports.rules['import/no-extraneous-dependencies'][1]
+            .devDependencies,
+          '**/.vitepress/*.js',
+          '**/.vuepress/*.js',
+          '**/tsup.config.js',
+          '**/vite.config.js',
+          '**/vitest.config.js',
+          '**/vuepress.config.js',
+        ],
       },
     ],
 
