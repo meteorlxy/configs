@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.12.0](https://github.com/meteorlxy/configs/compare/v2.11.0...v2.12.0) (2022-06-08)
+
+### Features
+
+- **eslint-config:** allow for-in and await-in-loop ([9adbf85](https://github.com/meteorlxy/configs/commit/9adbf85b0defa8b24eb62cdb8ad95117174ee76e))
+
 # [2.11.0](https://github.com/meteorlxy/configs/compare/v2.10.0...v2.11.0) (2022-06-02)
 
 ### Features
