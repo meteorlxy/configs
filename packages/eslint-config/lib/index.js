@@ -15,18 +15,29 @@ module.exports = {
   // Rules overrides
   rules: {
     /**
-     * Override airbnb-base rules to allow for-of
+     * Disable checking for-in loops guard
+     *
+     * @see https://eslint.org/docs/rules/guard-for-in
+     * @see https://github.com/airbnb/javascript/blob/366bfa66380c08304101c6add46355696e90b348/packages/eslint-config-airbnb-base/rules/best-practices.js#L60-L62
+     */
+    'guard-for-in': 'off',
+
+    /**
+     * Allow await in loop
+     *
+     * @see https://eslint.org/docs/rules/no-await-in-loop
+     * @see https://github.com/airbnb/javascript/blob/366bfa66380c08304101c6add46355696e90b348/packages/eslint-config-airbnb-base/rules/errors.js#L15-L17
+     */
+    'no-await-in-loop': 'off',
+
+    /**
+     * Override airbnb-base rules to allow for-of and for-in
      *
      * @see https://eslint.org/docs/rules/no-restricted-syntax
-     * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/style.js#L336-L339
+     * @see https://github.com/airbnb/javascript/blob/366bfa66380c08304101c6add46355696e90b348/packages/eslint-config-airbnb-base/rules/style.js#L334-L354
      */
     'no-restricted-syntax': [
       'error',
-      {
-        selector: 'ForInStatement',
-        message:
-          'for..in loops iterate over the entire prototype chain, which is virtually never what you want.',
-      },
       {
         selector: 'LabeledStatement',
         message:

@@ -8,3 +8,13 @@ import baz from '@foo/bar'
 let foo = 'foo'
 
 export type TestTs = string
+
+for (const item of []) {
+  console.log(item)
+
+  await Promise.resolve()
+}
+
+for (const key in {}) {
+  console.log(key)
+}
