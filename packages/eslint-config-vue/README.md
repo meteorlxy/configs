@@ -17,24 +17,3 @@ In `package.json`:
   }
 }
 ```
-
-### Usage with babel eslint parser
-
-Use `@babel/eslint-parser`:
-
-```sh
-npm i -D @babel/core @babel/eslint-parser
-```
-
-In `package.json`:
-
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/vue",
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    }
-  }
-}
-```

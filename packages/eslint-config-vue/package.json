@@ -23,18 +23,6 @@
     "@meteorlxy/eslint-config": "workspace:*",
     "eslint-plugin-vue": "^9.1.0"
   },
-  "peerDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/eslint-parser": "^7.18.2"
-  },
-  "peerDependenciesMeta": {
-    "@babel/core": {
-      "optional": true
-    },
-    "@babel/eslint-parser": {
-      "optional": true
-    }
-  },
   "publishConfig": {
     "access": "public"
   }
