@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
-    "eslint-plugin-vue": "^9.0.1"
+    "eslint-plugin-vue": "^9.1.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.18.2",
