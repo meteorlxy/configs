@@ -15,3 +15,9 @@ In `tsconfig.json`:
   "extends": "@meteorlxy/tsconfig/base.json"
 }
 ```
+
+```json
+{
+  "extends": "@meteorlxy/tsconfig/strict.json"
+}
+```
