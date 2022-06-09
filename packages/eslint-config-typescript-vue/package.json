@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-typescript-vue",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "description": "meteorlxy eslint config for TypeScript + Vue.js",
   "keywords": [
     "config",

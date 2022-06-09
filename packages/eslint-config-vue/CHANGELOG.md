@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.13.0](https://github.com/meteorlxy/configs/compare/v2.12.0...v2.13.0) (2022-06-09)
+
+### Features
+
+- **eslint-config-vue:** set order of sfc tags ([047efb5](https://github.com/meteorlxy/configs/commit/047efb5914514c9aa1d048a9a84698df0658f4cb))
+
 # [2.12.0](https://github.com/meteorlxy/configs/compare/v2.11.0...v2.12.0) (2022-06-08)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-vue
