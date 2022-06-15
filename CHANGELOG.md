@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/meteorlxy/configs/compare/v2.13.0...v2.14.0) (2022-06-15)
+
+### Features
+
+- **eslint-config-typescript:** enforce .mjs extension ([6760d33](https://github.com/meteorlxy/configs/commit/6760d33f37ebd97dc532cfc51f1c06a2bcc34fd6))
+- **eslint-config:** enforce .mjs extension ([57776eb](https://github.com/meteorlxy/configs/commit/57776eb387a52e32f339626c3e8f3fda08ed6588))
+
 # [2.13.0](https://github.com/meteorlxy/configs/compare/v2.12.0...v2.13.0) (2022-06-09)
 
 ### Features
