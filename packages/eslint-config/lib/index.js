@@ -81,6 +81,21 @@ module.exports = {
     ],
 
     /**
+     * Override airbnb-base rules to enforce .mjs extension
+     *
+     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L138-L142
+     */
+    'import/extensions': [
+      airbnbRulesImports.rules['import/extensions'][0],
+      airbnbRulesImports.rules['import/extensions'][1],
+      {
+        ...airbnbRulesImports.rules['import/extensions'][2],
+        mjs: 'always',
+      },
+    ],
+
+    /**
      * Add config files of some other tools
      *
      * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
