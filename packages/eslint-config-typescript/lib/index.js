@@ -1,3 +1,4 @@
+const baseConfig = require('@meteorlxy/eslint-config');
 const airbnbTypescript = require('eslint-config-airbnb-typescript/lib/shared');
 
 /**
@@ -62,6 +63,22 @@ module.exports = {
         allowExpressions: true,
         allowTypedFunctionExpressions: true,
         allowHigherOrderFunctions: true,
+      },
+    ],
+
+    /**
+     * Override airbnb-base rules to enforce .mjs extension
+     *
+     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L138-L142
+     */
+    'import/extensions': [
+      baseConfig.rules['import/extensions'][0],
+      baseConfig.rules['import/extensions'][1],
+      {
+        ...baseConfig.rules['import/extensions'][2],
+        ts: 'never',
+        tsx: 'never',
       },
     ],
 
