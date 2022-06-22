@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/meteorlxy/configs/compare/v2.14.1...v2.15.0) (2022-06-22)
+
+### Features
+
+- allow dev-deps import in unbuild config file ([5737a44](https://github.com/meteorlxy/configs/commit/5737a4482f0949825033a3c3e0544d10a0a27f79))
+
 ## [2.14.1](https://github.com/meteorlxy/configs/compare/v2.14.0...v2.14.1) (2022-06-22)
 
 ### Bug Fixes
