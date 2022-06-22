@@ -96,6 +96,7 @@ module.exports = {
             .devDependencies,
           '**/.vitepress/*.ts',
           '**/.vuepress/*.ts',
+          '**/build.config.ts',
           '**/tsup.config.ts',
           '**/vite.config.ts',
           '**/vitest.config.ts',
