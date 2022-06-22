@@ -21,7 +21,7 @@
     "noImplicitUseStrict": false,
     "noPropertyAccessFromIndexSignature": false,
     "noStrictGenericChecks": false,
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveValueImports": false,

@@ -3,6 +3,7 @@
   "extends": "./base.json",
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
-    "noPropertyAccessFromIndexSignature": true
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true
   }
 }
