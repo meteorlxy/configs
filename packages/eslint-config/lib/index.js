@@ -31,6 +31,14 @@ module.exports = {
     'no-await-in-loop': 'off',
 
     /**
+     * Allow bitwise operators
+     *
+     * @see https://eslint.org/docs/rules/no-bitwise
+     * @see https://github.com/airbnb/javascript/blob/366bfa66380c08304101c6add46355696e90b348/packages/eslint-config-airbnb-base/rules/style.js#L275-L277
+     */
+    'no-bitwise': 'off',
+
+    /**
      * Override airbnb-base rules to allow for-of and for-in
      *
      * @see https://eslint.org/docs/rules/no-restricted-syntax
