@@ -39,6 +39,14 @@ module.exports = {
     'no-bitwise': 'off',
 
     /**
+     * Allow continue statements
+     *
+     * @see https://eslint.org/docs/rules/no-continue
+     * @see https://github.com/airbnb/javascript/blob/366bfa66380c08304101c6add46355696e90b348/packages/eslint-config-airbnb-base/rules/style.js#L279-L281
+     */
+    'no-continue': 'off',
+
+    /**
      * Override airbnb-base rules to allow for-of and for-in
      *
      * @see https://eslint.org/docs/rules/no-restricted-syntax
