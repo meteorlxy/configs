@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/meteorlxy/configs/compare/v2.15.0...v2.16.0) (2022-07-01)
+
+### Features
+
+- **eslint-config:** allow bitwise operators ([99c1e54](https://github.com/meteorlxy/configs/commit/99c1e54d489336fcfa7485ce2448d3f968011cf9))
+- **eslint-config:** allow continue statements ([6f59314](https://github.com/meteorlxy/configs/commit/6f593145edb8a5fd9d3c1ed88da1d4e1513be7a5))
+
 # [2.15.0](https://github.com/meteorlxy/configs/compare/v2.14.1...v2.15.0) (2022-06-22)
 
 ### Features

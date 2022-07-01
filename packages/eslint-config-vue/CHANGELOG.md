@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/meteorlxy/configs/compare/v2.15.0...v2.16.0) (2022-07-01)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config-vue
+
 # [2.15.0](https://github.com/meteorlxy/configs/compare/v2.14.1...v2.15.0) (2022-06-22)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-vue
