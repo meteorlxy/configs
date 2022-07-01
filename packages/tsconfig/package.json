@@ -15,7 +15,8 @@
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "files": [
-    "base.json"
+    "base.json",
+    "strict.json"
   ],
   "publishConfig": {
     "access": "public"
