@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
-    "eslint-plugin-vue": "^9.1.0"
+    "eslint-plugin-vue": "^9.1.1"
   },
   "publishConfig": {
     "access": "public"

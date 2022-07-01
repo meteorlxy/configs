@@ -22,7 +22,7 @@
   "dependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "publishConfig": {
     "access": "public"

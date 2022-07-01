@@ -15,22 +15,23 @@
   },
   "prettier": "@meteorlxy/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-conventional": "^17.0.2",
-    "@lerna-lite/cli": "^1.4.0",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@lerna-lite/cli": "^1.6.0",
     "@meteorlxy/eslint-config-prettier": "workspace:*",
     "@meteorlxy/eslint-config-prettier-react": "workspace:*",
     "@meteorlxy/eslint-config-prettier-typescript-react": "workspace:*",
     "@meteorlxy/eslint-config-prettier-typescript-vue": "workspace:*",
     "@meteorlxy/prettier-config": "workspace:*",
     "@meteorlxy/tsconfig": "workspace:*",
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.0",
-    "prettier": "^2.6.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
     "sort-package-json": "^1.57.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.4"
   },
+  "packageManager": "pnpm@7.4.1",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
