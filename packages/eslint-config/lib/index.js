@@ -123,8 +123,10 @@ module.exports = {
         devDependencies: [
           ...airbnbRulesImports.rules['import/no-extraneous-dependencies'][1]
             .devDependencies,
-          '**/.vitepress/*.js',
-          '**/.vuepress/*.js',
+          '**/.vitepress/**',
+          '**/.vuepress/**',
+          '**/.eslintrc.{cjs,js}',
+          '**/.commitlintrc.{cjs,js}',
           '**/build.config.js',
           '**/tsup.config.js',
           '**/vite.config.js',
