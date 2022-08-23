@@ -137,6 +137,13 @@ module.exports = {
     ],
 
     /**
+     * Allow named default because it's necessary for import some cjs modules in node esm
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md
+     */
+    'import/no-named-default': 'off',
+
+    /**
      * Override airbnb-base rules to ensure import order
      *
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
