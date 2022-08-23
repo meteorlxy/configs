@@ -69,7 +69,7 @@ module.exports = {
     /**
      * Override airbnb-base rules to enforce .mjs extension
      *
-     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     * @see https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/extensions.md
      * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L138-L142
      */
     'import/extensions': [
