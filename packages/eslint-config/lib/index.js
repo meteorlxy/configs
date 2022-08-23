@@ -97,9 +97,19 @@ module.exports = {
     ],
 
     /**
+     * Disable import default check
+     *
+     * This rule currently does not interpret `module.exports = ...` as a `default` export,
+     * which will report error when importing cjs in node esm
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/default.md
+     */
+    'import/default': 'off',
+
+    /**
      * Override airbnb-base rules to enforce .mjs extension
      *
-     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+     * @see https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/extensions.md
      * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L138-L142
      */
     'import/extensions': [
@@ -137,7 +147,10 @@ module.exports = {
     ],
 
     /**
-     * Allow named default because it's necessary for import some cjs modules in node esm
+     * Allow named default
+     *
+     * Some cjs packages explicitly provide a `exports.default` export, which is required to
+     * use `import { default as ... } from ...` syntax to be imported in node esm
      *
      * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md
      */
@@ -146,7 +159,7 @@ module.exports = {
     /**
      * Override airbnb-base rules to ensure import order
      *
-     * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+     * @see https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/order.md
      * @see https://github.com/airbnb/javascript/blob/1ca21aba799699ba556bed058e3900514a9fbee3/packages/eslint-config-airbnb-base/rules/imports.js#L144-L147
      */
     'import/order': [
