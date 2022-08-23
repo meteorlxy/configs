@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.16.1](https://github.com/meteorlxy/configs/compare/v2.16.0...v2.16.1) (2022-08-23)
+
+### Bug Fixes
+
+- **eslint-config:** disable import/default ([53baeb0](https://github.com/meteorlxy/configs/commit/53baeb0c5ce4e6a72be4dffbfdfebeb735e59609))
+- **eslint-config:** disable import/no-named-default ([95bfc2f](https://github.com/meteorlxy/configs/commit/95bfc2f700bd09c4e98d05e01935c9ac16c80c43))
+- **eslint-config:** update import/no-extraneous-dependencies ([761aaa9](https://github.com/meteorlxy/configs/commit/761aaa9207db782e9ec8d03b4caa00ae2666f625))
+
 # [2.16.0](https://github.com/meteorlxy/configs/compare/v2.15.0...v2.16.0) (2022-07-01)
 
 ### Features

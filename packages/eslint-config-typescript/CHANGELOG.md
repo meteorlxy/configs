@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.16.1](https://github.com/meteorlxy/configs/compare/v2.16.0...v2.16.1) (2022-08-23)
+
+### Bug Fixes
+
+- **eslint-config:** update import/no-extraneous-dependencies ([761aaa9](https://github.com/meteorlxy/configs/commit/761aaa9207db782e9ec8d03b4caa00ae2666f625))
+
 # [2.16.0](https://github.com/meteorlxy/configs/compare/v2.15.0...v2.16.0) (2022-07-01)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-typescript
