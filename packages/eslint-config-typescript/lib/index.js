@@ -14,6 +14,7 @@ module.exports = {
     '@meteorlxy',
     // Enable all the recommended rules for @typescript-eslint/eslint-plugin
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     // Add typescript settings for `eslint-plugin-import`
     'plugin:import/typescript',
   ],
