@@ -8,22 +8,13 @@ npm i -D @meteorlxy/eslint-config-prettier-react
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/prettier-react"
-  }
-}
-```
-
-For React hooks:
-
-```json
-{
-  "eslintConfig": {
-    "extends": ["@meteorlxy/prettier-react", "@meteorlxy/react/lib/hooks"]
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/prettier-react'],
+  rules: {
+    // override rules
+  },
+};
 ```

@@ -8,22 +8,13 @@ npm i -D @meteorlxy/eslint-config-react
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/react"
-  }
-}
-```
-
-For React hooks:
-
-```json
-{
-  "eslintConfig": {
-    "extends": ["@meteorlxy/react", "@meteorlxy/react/lib/hooks"]
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/react'],
+  rules: {
+    // override rules
+  },
+};
 ```

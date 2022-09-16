@@ -8,12 +8,13 @@ npm i -D @meteorlxy/eslint-config-prettier-vue
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/prettier-vue"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/prettier-vue'],
+  rules: {
+    // override rules
+  },
+};
 ```

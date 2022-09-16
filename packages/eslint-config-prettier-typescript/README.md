@@ -8,12 +8,16 @@ npm i -D @meteorlxy/eslint-config-prettier-typescript
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/prettier-typescript"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/prettier-typescript'],
+  parserOptions: {
+    project: ['tsconfig.json'],
+  },
+  rules: {
+    // override rules
+  },
+};
 ```

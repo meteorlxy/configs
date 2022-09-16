@@ -8,12 +8,13 @@ npm i -D @meteorlxy/eslint-config
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy'],
+  rules: {
+    // override rules
+  },
+};
 ```

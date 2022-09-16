@@ -8,12 +8,13 @@ npm i -D @meteorlxy/eslint-config-vue
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/vue"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/vue'],
+  rules: {
+    // override rules
+  },
+};
 ```

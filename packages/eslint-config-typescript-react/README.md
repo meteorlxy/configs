@@ -8,22 +8,16 @@ npm i -D @meteorlxy/eslint-config-typescript-react
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/typescript-react"
-  }
-}
-```
-
-For React hooks:
-
-```json
-{
-  "eslintConfig": {
-    "extends": ["@meteorlxy/typescript-react", "@meteorlxy/react/lib/hooks"]
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/typescript-react'],
+  parserOptions: {
+    project: ['tsconfig.json'],
+  },
+  rules: {
+    // override rules
+  },
+};
 ```

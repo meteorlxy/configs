@@ -8,12 +8,16 @@ npm i -D @meteorlxy/eslint-config-typescript-vue
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/typescript-vue"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/typescript-vue'],
+  parserOptions: {
+    project: ['tsconfig.json'],
+  },
+  rules: {
+    // override rules
+  },
+};
 ```

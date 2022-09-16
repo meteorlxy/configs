@@ -8,12 +8,16 @@ npm i -D @meteorlxy/eslint-config-typescript
 
 ## Usage
 
-In `package.json`:
+Create `.eslintrc.cjs`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@meteorlxy/typescript"
-  }
-}
+```cjs
+module.exports = {
+  extends: ['@meteorlxy/typescript'],
+  parserOptions: {
+    project: ['tsconfig.json'],
+  },
+  rules: {
+    // override rules
+  },
+};
 ```
