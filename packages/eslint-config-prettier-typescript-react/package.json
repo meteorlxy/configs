@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-typescript-react",
-  "version": "2.16.1",
+  "version": "2.17.0",
   "description": "meteorlxy eslint config for TypeScript + React.js with Prettier",
   "keywords": [
     "config",

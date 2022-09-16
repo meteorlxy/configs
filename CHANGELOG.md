@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.17.0](https://github.com/meteorlxy/configs/compare/v2.16.1...v2.17.0) (2022-09-16)
+
+### Features
+
+- **eslint-config-typescript:** extends recommended-requiring-type-checking ([25ec8f3](https://github.com/meteorlxy/configs/commit/25ec8f33a367fbbc5261aae48c07a2c1259db937))
+
 ## [2.16.1](https://github.com/meteorlxy/configs/compare/v2.16.0...v2.16.1) (2022-08-23)
 
 ### Bug Fixes
