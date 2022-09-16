@@ -10,6 +10,7 @@ module.exports = {
   extends: [
     // Airbnb JavaScript Style
     'airbnb',
+    'airbnb/hooks',
   ],
 
   // Rules overrides
