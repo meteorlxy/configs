@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0](https://github.com/meteorlxy/configs/compare/v2.17.0...v2.18.0) (2022-09-23)
+
+### Bug Fixes
+
+- **eslint-config:** turn off import order caseInsensitive ([e965304](https://github.com/meteorlxy/configs/commit/e96530401e4ab459ce08692916720d1562d0aba5))
+
+### Features
+
+- **eslint-config-react:** extends hooks config by default ([7065f1a](https://github.com/meteorlxy/configs/commit/7065f1ab9e1cc321a8bf38b4391e1f66ed50d1cf))
+
 # [2.17.0](https://github.com/meteorlxy/configs/compare/v2.16.1...v2.17.0) (2022-09-16)
 
 ### Features
