@@ -176,7 +176,7 @@ module.exports = {
         'newlines-between': 'ignore',
         'alphabetize': {
           order: 'asc',
-          caseInsensitive: true,
+          caseInsensitive: false,
         },
       },
     ],
