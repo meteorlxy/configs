@@ -95,6 +95,8 @@ module.exports = {
         devDependencies: [
           ...airbnbTypescript.rules['import/no-extraneous-dependencies'][1]
             .devDependencies,
+          '**/.vitepress/**',
+          '**/.vuepress/**',
           '**/build.config.ts',
           '**/tsup.config.ts',
           '**/vite.config.ts',
