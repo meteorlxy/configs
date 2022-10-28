@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-typescript-vue",
-  "version": "2.18.0",
+  "version": "2.18.1",
   "description": "meteorlxy eslint config for TypeScript + Vue.js with Prettier",
   "keywords": [
     "config",
