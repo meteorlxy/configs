@@ -12,6 +12,13 @@ module.exports = {
     'airbnb-base',
   ],
 
+  parserOptions: {
+    /**
+     * Allow parsing of modern ECMAScript features
+     */
+    ecmaVersion: 2020,
+  },
+
   // Rules overrides
   rules: {
     /**
