@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/meteorlxy/configs/compare/v2.18.2...v2.19.0) (2022-12-14)
+
+### Features
+
+- **eslint-config:** set ecmaVersion to 2020 ([cadb9d3](https://github.com/meteorlxy/configs/commit/cadb9d3d9f12913638723dd815a0e74d3458a7d1))
+
 # [2.18.0](https://github.com/meteorlxy/configs/compare/v2.17.0...v2.18.0) (2022-09-23)
 
 ### Bug Fixes

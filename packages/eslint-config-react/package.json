@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-react",
-  "version": "2.18.2",
+  "version": "2.19.0",
   "description": "meteorlxy eslint config for React.js",
   "keywords": [
     "config",
