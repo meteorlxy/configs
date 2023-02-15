@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/meteorlxy/configs/compare/v2.19.0...v2.20.0) (2023-02-15)
+
+### Features
+
+- **eslint-config:** allow void operator as statement ([ff26654](https://github.com/meteorlxy/configs/commit/ff26654619eb74f87d0c1ebb6f3a8ccf30f3f5ac))
+
 # [2.19.0](https://github.com/meteorlxy/configs/compare/v2.18.2...v2.19.0) (2022-12-14)
 
 ### Features
