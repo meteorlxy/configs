@@ -88,6 +88,18 @@ module.exports = {
     ],
 
     /**
+     * Override airbnb-base rules to allow void operator as statement
+     *
+     * @see https://eslint.org/docs/rules/no-void
+     */
+    'no-void': [
+      'error',
+      {
+        allowAsStatement: true,
+      },
+    ],
+
+    /**
      * Override airbnb-base rules to ensure import order
      *
      * @see https://eslint.org/docs/rules/sort-imports
