@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "description": "meteorlxy eslint config with Prettier",
   "keywords": [
     "config",
