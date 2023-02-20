@@ -197,6 +197,23 @@ module.exports = {
           order: 'asc',
           caseInsensitive: false,
         },
+        'pathGroups': [
+          // Handle subpath imports
+          // @see https://nodejs.org/api/packages.html#subpath-imports
+          {
+            pattern: '#*',
+            group: 'internal',
+          },
+          {
+            pattern: '#*/**',
+            group: 'internal',
+          },
+          // Handle some common aliases
+          {
+            pattern: '@/**',
+            group: 'internal',
+          },
+        ],
       },
     ],
   },
