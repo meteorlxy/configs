@@ -49,14 +49,14 @@ module.exports = {
     /**
      * Use type-only imports as possible
      *
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-imports.md
+     * @see https://typescript-eslint.io/rules/consistent-type-imports/
      */
     '@typescript-eslint/consistent-type-imports': 'error',
 
     /**
      * Allow functions in expressions not to be checked
      *
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
+     * @see https://typescript-eslint.io/rules/explicit-function-return-type/
      */
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
@@ -64,6 +64,22 @@ module.exports = {
         allowExpressions: true,
         allowTypedFunctionExpressions: true,
         allowHigherOrderFunctions: true,
+      },
+    ],
+
+    /**
+     * Allow some types of expressions in template strings
+     *
+     * @see https://typescript-eslint.io/rules/restrict-template-expressions/
+     */
+    '@typescript-eslint/restrict-template-expressions': [
+      'warn',
+      {
+        allowNumber: true,
+        allowBoolean: true,
+        allowAny: true,
+        allowNullish: true,
+        allowRegExp: true,
       },
     ],
 

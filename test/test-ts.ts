@@ -12,6 +12,7 @@ import c from '@/c'
 import aa from '@/a/a'
 
 let foo = 'foo'
+let bar = `${true}${1345}${null}${{}}${[]}${undefined}`
 
 export type TestTs = string
 
