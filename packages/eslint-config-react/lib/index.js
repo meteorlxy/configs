@@ -30,5 +30,12 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+
+    /**
+     * Enforce using `key` prop for array elements
+     *
+     * @see https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
+     */
+    'react/jsx-key': ['error', { checkFragmentShorthand: true }],
   },
 };
