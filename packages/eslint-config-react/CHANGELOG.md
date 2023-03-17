@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/meteorlxy/configs/compare/v2.22.0...v2.23.0) (2023-03-17)
+
+### Features
+
+- **eslint-config-react:** enable jsx-key rule ([df05919](https://github.com/meteorlxy/configs/commit/df059192a54c4898a13b3f8f225011c21df53d07))
+
 # [2.21.0](https://github.com/meteorlxy/configs/compare/v2.20.0...v2.21.0) (2023-02-20)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-react

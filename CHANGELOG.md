@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/meteorlxy/configs/compare/v2.22.0...v2.23.0) (2023-03-17)
+
+### Features
+
+- bump to typescript 5 ([5eba55d](https://github.com/meteorlxy/configs/commit/5eba55dc030e7feabafc0006b5f129e36353dd13))
+- **eslint-config-react:** enable jsx-key rule ([df05919](https://github.com/meteorlxy/configs/commit/df059192a54c4898a13b3f8f225011c21df53d07))
+
 # [2.22.0](https://github.com/meteorlxy/configs/compare/v2.21.0...v2.22.0) (2023-02-21)
 
 ### Features

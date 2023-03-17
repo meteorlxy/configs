@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.23.0](https://github.com/meteorlxy/configs/compare/v2.22.0...v2.23.0) (2023-03-17)
+
+### Features
+
+- bump to typescript 5 ([5eba55d](https://github.com/meteorlxy/configs/commit/5eba55dc030e7feabafc0006b5f129e36353dd13))
+
 # [2.21.0](https://github.com/meteorlxy/configs/compare/v2.20.0...v2.21.0) (2023-02-20)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-prettier
