@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1"
   },
   "publishConfig": {
