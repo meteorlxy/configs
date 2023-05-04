@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/meteorlxy/configs/compare/v2.23.1...v2.24.0) (2023-05-04)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config-react
+
 # [2.23.0](https://github.com/meteorlxy/configs/compare/v2.22.0...v2.23.0) (2023-03-17)
 
 ### Features

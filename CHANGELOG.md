@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/meteorlxy/configs/compare/v2.23.1...v2.24.0) (2023-05-04)
+
+### Features
+
+- **eslint-config:** set orderImportKind in import/order ([28a299e](https://github.com/meteorlxy/configs/commit/28a299e967ac48a2b1549655c4436d338f916e5b))
+
 ## [2.23.1](https://github.com/meteorlxy/configs/compare/v2.23.0...v2.23.1) (2023-03-17)
 
 ### Bug Fixes
