@@ -195,6 +195,7 @@ module.exports = {
         'newlines-between': 'ignore',
         'alphabetize': {
           order: 'asc',
+          orderImportKind: 'asc',
           caseInsensitive: false,
         },
         'pathGroups': [
