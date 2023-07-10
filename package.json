@@ -33,16 +33,5 @@
     "sort-package-json": "^2.5.1",
     "typescript": "^5.1.6"
   },
-  "packageManager": "pnpm@8.6.7",
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@types/node",
-        "eslint",
-        "eslint-plugin-import",
-        "prettier",
-        "typescript"
-      ]
-    }
-  }
+  "packageManager": "pnpm@8.6.7"
 }
