@@ -2,13 +2,13 @@
   "name": "@meteorlxy/configs",
   "private": true,
   "scripts": {
-    "lint": "eslint packages",
-    "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue test",
+    "lint": "prettier --write packages && eslint packages",
+    "lint:test": "prettier --write vue && eslint --ext .js,.jsx,.ts,.tsx,.vue test",
     "prepare": "husky install",
     "release": "pnpm lint && lerna publish"
   },
   "lint-staged": {
-    "*.{json,md}": "prettier --write",
+    "**/*": "prettier --write --ignore-unknown",
     "!(test)/**/*.js": "eslint --fix",
     ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
@@ -29,10 +29,10 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
-    "sort-package-json": "^2.5.0",
+    "sort-package-json": "^2.5.1",
     "typescript": "^5.1.6"
   },
-  "packageManager": "pnpm@8.6.6",
+  "packageManager": "pnpm@8.6.7",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [

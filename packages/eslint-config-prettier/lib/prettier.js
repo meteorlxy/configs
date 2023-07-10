@@ -1,8 +1,8 @@
 /**
- * Integrate Prettier to ESLint
+ * Disable style rules that conflict with Prettier.
  *
- * @see https://github.com/prettier/eslint-plugin-prettier
+ * @see https://github.com/prettier/eslint-config-prettier
  */
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
+  extends: ['eslint-config-prettier'],
 };
