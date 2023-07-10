@@ -2,8 +2,9 @@
   "name": "@meteorlxy/configs",
   "private": true,
   "scripts": {
-    "lint": "prettier --write packages && eslint packages",
-    "lint:test": "prettier --write vue && eslint --ext .js,.jsx,.ts,.tsx,.vue test",
+    "format": "prettier --write packages",
+    "lint": "prettier --check packages && eslint packages",
+    "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue test",
     "prepare": "husky install",
     "release": "pnpm lint && lerna publish"
   },
