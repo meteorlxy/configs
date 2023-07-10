@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-react",
-  "version": "2.24.0",
+  "version": "2.25.0",
   "description": "meteorlxy eslint config for React.js with Prettier",
   "keywords": [
     "config",

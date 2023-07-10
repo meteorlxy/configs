@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.25.0](https://github.com/meteorlxy/configs/compare/v2.24.0...v2.25.0) (2023-07-10)
+
+### Features
+
+- **eslint-config-prettier:** remove eslint-plugin-prettier integration ([bb6c962](https://github.com/meteorlxy/configs/commit/bb6c962314067b62f2e91daaf764ef228970114e))
+
 # [2.24.0](https://github.com/meteorlxy/configs/compare/v2.23.1...v2.24.0) (2023-05-04)
 
 ### Features
