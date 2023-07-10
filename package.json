@@ -9,7 +9,7 @@
     "release": "pnpm lint && lerna publish"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
+    "!(test)/**/*": "prettier --write --ignore-unknown",
     "!(test)/**/*.js": "eslint --fix",
     ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
