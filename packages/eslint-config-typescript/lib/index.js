@@ -68,6 +68,20 @@ module.exports = {
     ],
 
     /**
+     * Require a consistent member declaration order.
+     *
+     * @see https://typescript-eslint.io/rules/member-ordering/
+     */
+    '@typescript-eslint/member-ordering': [
+      'warn',
+      {
+        default: {
+          order: 'natural',
+        },
+      },
+    ],
+
+    /**
      * Allow some types of expressions in template strings
      *
      * @see https://typescript-eslint.io/rules/restrict-template-expressions/

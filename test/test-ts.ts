@@ -25,3 +25,26 @@ for (const item of []) {
 for (const key in {}) {
   console.log(key)
 }
+
+interface TestMemberOrderingInterface {
+  foo: string;
+  bar: number;
+  baz: boolean;
+}
+
+const testMemberOrderingObject = {
+  foo: 'foo',
+  bar: 123,
+  baz: true,
+  a: 'a',
+  i18n: 'i18n',
+  i2n: 'i2n',
+};
+
+class TestMemberOrderingClass {
+  getFoo(): string {
+    return this.foo;
+  }
+
+  foo = 'foo';
+}
