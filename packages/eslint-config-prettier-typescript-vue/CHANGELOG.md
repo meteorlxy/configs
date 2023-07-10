@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/meteorlxy/configs/compare/v2.25.0...v2.26.0) (2023-07-10)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config-prettier-typescript-vue
+
 # [2.25.0](https://github.com/meteorlxy/configs/compare/v2.24.0...v2.25.0) (2023-07-10)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-prettier-typescript-vue

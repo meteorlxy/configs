@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-typescript-react",
-  "version": "2.25.0",
+  "version": "2.26.0",
   "description": "meteorlxy eslint config for TypeScript + React.js",
   "keywords": [
     "config",
