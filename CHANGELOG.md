@@ -7,13 +7,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **eslint-config-typescript:** bump typescript-eslint to v6 ([ffcb5d3](https://github.com/meteorlxy/configs/commit/ffcb5d37387a055ce7a3b8c2527f55613307566c))
+- **eslint-config-typescript:** bump typescript-eslint to v6 ([ffcb5d3](https://github.com/meteorlxy/configs/commit/ffcb5d37387a055ce7a3b8c2527f55613307566c))
 
 # [2.26.0](https://github.com/meteorlxy/configs/compare/v2.25.0...v2.26.0) (2023-07-10)
 
 ### Features
 
-* **eslint-config-typescript:** enable member-ordering rule ([ee55b4b](https://github.com/meteorlxy/configs/commit/ee55b4bc56b3396dbb417ee6cff8b3aaf68d7a7f))
+- **eslint-config-typescript:** enable member-ordering rule ([ee55b4b](https://github.com/meteorlxy/configs/commit/ee55b4bc56b3396dbb417ee6cff8b3aaf68d7a7f))
 
 # [2.25.0](https://github.com/meteorlxy/configs/compare/v2.24.0...v2.25.0) (2023-07-10)
 
