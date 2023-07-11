@@ -13,8 +13,8 @@ module.exports = {
   extends: [
     '@meteorlxy',
     // Enable all the recommended rules for @typescript-eslint/eslint-plugin
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     // Add typescript settings for `eslint-plugin-import`
     'plugin:import/typescript',
   ],

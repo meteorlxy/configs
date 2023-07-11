@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "format": "prettier --write packages",
-    "lint": "prettier --check packages && eslint packages",
+    "lint": "eslint packages && prettier --check packages",
     "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue test",
     "prepare": "husky install",
     "release": "pnpm lint && lerna publish"
