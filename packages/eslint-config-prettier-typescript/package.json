@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config-prettier-typescript",
-  "version": "2.27.1",
+  "version": "2.27.2",
   "description": "meteorlxy eslint config for TypeScript with Prettier",
   "keywords": [
     "config",
