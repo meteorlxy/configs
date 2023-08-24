@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.28.0](https://github.com/meteorlxy/configs/compare/v2.27.3...v2.28.0) (2023-08-24)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config-prettier-typescript
+
 ## [2.27.3](https://github.com/meteorlxy/configs/compare/v2.27.2...v2.27.3) (2023-08-24)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config-prettier-typescript
