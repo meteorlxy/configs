@@ -82,6 +82,13 @@ module.exports = {
     ],
 
     /**
+     * Enforce the use of top-level import type qualifier when an import only has specifiers with inline type qualifiers.
+     *
+     * @see https://typescript-eslint.io/rules/no-import-type-side-effects/
+     */
+    '@typescript-eslint/no-import-type-side-effects': 'error',
+
+    /**
      * Allow some types of expressions in template strings
      *
      * @see https://typescript-eslint.io/rules/restrict-template-expressions/
@@ -96,6 +103,13 @@ module.exports = {
         allowRegExp: true,
       },
     ],
+
+    /**
+     * Enforce top-level type imports
+     *
+     * @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
+     */
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 
     /**
      * Override airbnb-base rules to enforce .mjs extension
