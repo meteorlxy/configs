@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.29.0](https://github.com/meteorlxy/configs/compare/v2.28.1...v2.29.0) (2023-08-29)
+
+### Features
+
+* **tsconfig:** enable isolatedModules and verbatimModuleSyntax by default ([ee01162](https://github.com/meteorlxy/configs/commit/ee01162e6e2742e4180f0381b95d31275af19c5a))
+
 ## [2.23.1](https://github.com/meteorlxy/configs/compare/v2.23.0...v2.23.1) (2023-03-17)
 
 ### Bug Fixes
