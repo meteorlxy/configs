@@ -21,8 +21,8 @@
   ],
   "dependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.2",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
     "eslint-config-airbnb-typescript": "^17.1.0"
   },
   "publishConfig": {
