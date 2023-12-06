@@ -16,22 +16,22 @@
   },
   "prettier": "@meteorlxy/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "^18.2.0",
-    "@commitlint/config-conventional": "^18.1.0",
-    "@lerna-lite/cli": "^2.6.0",
-    "@lerna-lite/publish": "^2.6.0",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@lerna-lite/cli": "^3.0.0",
+    "@lerna-lite/publish": "^3.0.0",
     "@meteorlxy/eslint-config-prettier": "workspace:*",
     "@meteorlxy/eslint-config-prettier-react": "workspace:*",
     "@meteorlxy/eslint-config-prettier-typescript-react": "workspace:*",
     "@meteorlxy/eslint-config-prettier-typescript-vue": "workspace:*",
     "@meteorlxy/prettier-config": "workspace:*",
     "@meteorlxy/tsconfig": "workspace:*",
-    "eslint": "^8.52.0",
+    "eslint": "^8.55.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
-    "prettier": "^3.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.0",
     "sort-package-json": "^2.6.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2"
   },
-  "packageManager": "pnpm@8.10.2"
+  "packageManager": "pnpm@8.11.0"
 }
