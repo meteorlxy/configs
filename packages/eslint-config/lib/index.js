@@ -19,6 +19,13 @@ module.exports = {
     ecmaVersion: 2020,
   },
 
+  /**
+   * Report unused eslint-disable comments
+   *
+   * @see https://eslint.org/docs/latest/use/configure/rules#report-unused-eslint-disable-comments
+   */
+  reportUnusedDisableDirectives: true,
+
   // Rules overrides
   rules: {
     /**
