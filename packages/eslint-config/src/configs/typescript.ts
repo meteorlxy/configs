@@ -6,7 +6,7 @@ import { typescriptRules, typescriptShimRules } from '../rules';
 export interface EslintTypescriptOptions {
   files?: FlatConfig.Config['files'];
   overrides?: FlatConfig.Config['rules'];
-  tsconfigPath?: string;
+  tsconfigPath?: string[] | string;
 }
 
 /**
