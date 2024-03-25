@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/meteorlxy/configs/compare/v3.0.1...v3.1.0) (2024-03-25)
+
+### Bug Fixes
+
+* **eslint-config:** disable type-checking parser options for markdown ([d1b3ad6](https://github.com/meteorlxy/configs/commit/d1b3ad6f2d07d0875dc83e85fe07985f4747e852))
+
+### Features
+
+* **eslint-config:** support array for tsconfigPath ([e4d462b](https://github.com/meteorlxy/configs/commit/e4d462bbc6abd998e78aa8c65de1e2cf06d603c2))
+
 ## [3.0.1](https://github.com/meteorlxy/configs/compare/v3.0.0...v3.0.1) (2024-03-25)
 
 ### Bug Fixes
