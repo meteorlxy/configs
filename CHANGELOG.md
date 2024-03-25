@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/meteorlxy/configs/compare/v2.29.0...v3.0.0) (2024-03-25)
+
+### Features
+
+* **eslint-config:** enable reportUnusedDisableDirectives ([ed4f4fd](https://github.com/meteorlxy/configs/commit/ed4f4fd71efe019b49f084d98413844ae8f90c85))
+* migrate to eslint flat config ([1e8ae76](https://github.com/meteorlxy/configs/commit/1e8ae7631ba28dc1255f3b5413a81cabd2f894b2))
+
+### BREAKING CHANGES
+
+* migrate to eslint flat config
+
 # [2.29.0](https://github.com/meteorlxy/configs/compare/v2.28.1...v2.29.0) (2023-08-29)
 
 ### Features

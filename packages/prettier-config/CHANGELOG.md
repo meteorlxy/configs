@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/meteorlxy/configs/compare/v2.29.0...v3.0.0) (2024-03-25)
+
+### Features
+
+* migrate to eslint flat config ([1e8ae76](https://github.com/meteorlxy/configs/commit/1e8ae7631ba28dc1255f3b5413a81cabd2f894b2))
+
+### BREAKING CHANGES
+
+* migrate to eslint flat config
+
 # [2.11.0](https://github.com/meteorlxy/configs/compare/v2.10.0...v2.11.0) (2022-06-02)
 
 **Note:** Version bump only for package @meteorlxy/prettier-config
