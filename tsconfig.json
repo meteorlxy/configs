@@ -7,6 +7,11 @@
     "moduleResolution": "Bundler",
     "target": "ES2022"
   },
-  "include": ["./packages/**/*", "./test/**/*", "commitlint.config.ts"],
+  "include": [
+    "./packages/**/*",
+    "./test/**/*",
+    "./test/**/*.vue",
+    "commitlint.config.ts"
+  ],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }
