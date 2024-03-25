@@ -8,13 +8,31 @@ npm i -D @meteorlxy/eslint-config
 
 ## Usage
 
-Create `.eslintrc.cjs`:
+Create `eslint.config.js`:
 
-```cjs
-module.exports = {
-  extends: ['@meteorlxy'],
-  rules: {
-    // override rules
+```js
+import { meteorlxy } from '@meteorlxy/eslint-config';
+
+export default meteorlxy({
+  react: true,
+  typescript: {
+    tsconfigPath: './tsconfig.json',
   },
-};
+  vue: true,
+});
+```
+
+Configure `.vscode/settings.json`:
+
+```jsonc
+{
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+  ],
+}
 ```

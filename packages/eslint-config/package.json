@@ -14,13 +14,67 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
-  "main": "lib/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "lib"
+    "./dist"
   ],
+  "scripts": {
+    "build": "unbuild",
+    "check-rules": "tsx ./scripts/check-rules-coverage.ts",
+    "clean": "rimraf ./dist"
+  },
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "@typescript-eslint/utils": "^7.3.1",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-i": "^2.29.1",
+    "eslint-plugin-markdown": "^4.0.1",
+    "globals": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/confusing-browser-globals": "^1.0.3",
+    "@types/eslint": "^8.56.6",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "eslint-plugin-vue": "^9.24.0",
+    "vue-eslint-parser": "^9.4.2"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "eslint-plugin-vue": "^9.23.0",
+    "vue-eslint-parser": "^9.4.2"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-react-refresh": {
+      "optional": true
+    },
+    "eslint-plugin-vue": {
+      "optional": true
+    },
+    "vue-eslint-parser": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

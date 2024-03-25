@@ -1,7 +1,12 @@
 {
   "extends": "@meteorlxy/tsconfig/base.json",
   "compilerOptions": {
-    "jsx": "react"
+    "jsx": "react",
+    "lib": ["ES2022"],
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "target": "ES2022"
   },
-  "include": ["./test/**/*.ts", "./test/**/*.tsx", "./test/**/*.vue"]
+  "include": ["./packages/**/*", "./test/**/*", "commitlint.config.ts"],
+  "exclude": ["**/node_modules/**", "**/dist/**"]
 }

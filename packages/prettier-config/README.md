@@ -15,3 +15,14 @@ In `package.json`:
   "prettier": "@meteorlxy/prettier-config"
 }
 ```
+
+In `prettier.config.js`:
+
+```js
+import meteorlxy from '@meteorlxy/prettier-config';
+
+export default {
+  ...meteorlxy,
+  // overrides
+};
+```
