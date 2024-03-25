@@ -19,6 +19,5 @@
     "typescript",
     "typescriptreact",
     "vue"
-  ],
-  "cSpell.words": ["commitlintrc"]
+  ]
 }
