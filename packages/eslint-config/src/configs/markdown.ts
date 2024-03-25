@@ -34,6 +34,10 @@ export const markdown = async ({
           ecmaFeatures: {
             impliedStrict: true,
           },
+          // disable type-checking rules
+          program: null, // used in typescript-eslint's disable-type-checking config, might be a typo program -> programs
+          programs: null,
+          project: false,
         },
       },
       rules: {

@@ -15,16 +15,10 @@ export const markdownShimRules: FlatConfig.Rules = {
   'strict': 'off',
   'unicode-bom': 'off',
 
-  // typescript-eslint rules
+  // typescript-eslint rules, should disable type checking
+  ...tsPlugin.configs['disable-type-checked'].rules,
   '@typescript-eslint/no-unused-expressions': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
-
-  // typescript-eslint type-checking rules
-  ...Object.fromEntries(
-    Object.entries(tsPlugin.rules)
-      .filter(([, rule]) => rule.meta.docs?.requiresTypeChecking)
-      .map(([name]) => [`@typescript-eslint/${name}`, 'off']),
-  ),
 
   // import rules
   'import/no-extraneous-dependencies': 'off',
