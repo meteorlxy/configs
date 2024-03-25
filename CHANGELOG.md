@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/meteorlxy/configs/compare/v3.0.0...v3.0.1) (2024-03-25)
+
+### Bug Fixes
+
+* **eslint-config:** disable type-checking rules for markdown ([e5213c9](https://github.com/meteorlxy/configs/commit/e5213c9b89ce6d51d8273a6239bbc2b31ab61114))
+
 # [3.0.0](https://github.com/meteorlxy/configs/compare/v2.29.0...v3.0.0) (2024-03-25)
 
 ### Features
