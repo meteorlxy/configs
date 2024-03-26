@@ -30,6 +30,7 @@ Configure `.vscode/settings.json`:
   "eslint.validate": [
     "javascript",
     "javascriptreact",
+    "markdown",
     "typescript",
     "typescriptreact",
     "vue",
