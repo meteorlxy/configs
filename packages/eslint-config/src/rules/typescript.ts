@@ -40,7 +40,7 @@ export const typescriptRules: FlatConfig.Rules = {
     },
   ],
   '@typescript-eslint/no-shadow': 'error',
-  '@typescript-eslint/no-throw-literal': 'error',
+  '@typescript-eslint/no-throw-literal': 'off', // deprecated
   '@typescript-eslint/no-unused-expressions': [
     'error',
     {
@@ -112,6 +112,7 @@ export const typescriptRules: FlatConfig.Rules = {
   '@typescript-eslint/no-unsafe-unary-minus': 'error',
   '@typescript-eslint/no-useless-empty-export': 'off',
   '@typescript-eslint/no-var-requires': ['error', { allow: [] }],
+  '@typescript-eslint/only-throw-error': 'error',
   '@typescript-eslint/padding-line-between-statements': 'off',
   '@typescript-eslint/parameter-properties': [
     'off',
