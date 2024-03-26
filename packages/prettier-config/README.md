@@ -23,6 +23,11 @@ import meteorlxy from '@meteorlxy/prettier-config';
 
 export default {
   ...meteorlxy,
-  // overrides
+  // options
+
+  overrides: [
+    ...meteorlxy.overrides,
+    // overrides
+  ],
 };
 ```

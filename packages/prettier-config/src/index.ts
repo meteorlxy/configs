@@ -1,7 +1,10 @@
+import type { Config } from 'prettier';
+
 /**
  * Prettier Config
  *
- * @see https://prettier.io/docs/en/configuration.html
+ * @see https://prettier.io/docs/en/options
+ * @see https://prettier.io/docs/en/configuration
  */
 export default {
   // Maximum line length
@@ -70,4 +73,17 @@ export default {
 
   // Enforce single attribute per line in HTML, Vue and JSX
   singleAttributePerLine: false,
-};
+
+  overrides: [
+    {
+      files: [
+        '.vscode/extensions.json',
+        '.vscode/launch.json',
+        '.vscode/settings.json',
+      ],
+      options: {
+        parser: 'jsonc',
+      },
+    },
+  ],
+} satisfies Config;

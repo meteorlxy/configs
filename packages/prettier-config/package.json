@@ -30,6 +30,9 @@
     "build": "unbuild",
     "clean": "rimraf ./dist"
   },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
   "publishConfig": {
     "access": "public"
   }
