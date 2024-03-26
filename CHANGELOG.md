@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/meteorlxy/configs/compare/v3.1.0...v3.1.1) (2024-03-26)
+
+### Bug Fixes
+
+* **eslint-config:** turn off deprecated @typescript-eslint/no-throw-literal ([3bf4f4a](https://github.com/meteorlxy/configs/commit/3bf4f4adbc457b8b0dd16bda877ace30272c38ea))
+
 # [3.1.0](https://github.com/meteorlxy/configs/compare/v3.0.1...v3.1.0) (2024-03-25)
 
 ### Bug Fixes
