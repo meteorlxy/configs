@@ -1,7 +1,7 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const typescriptRules: FlatConfig.Rules = {
+export const typescriptRules = {
   ...tsPlugin.configs['strict-type-checked'].rules,
   ...tsPlugin.configs['stylistic-type-checked'].rules,
 
@@ -223,4 +223,4 @@ export const typescriptRules: FlatConfig.Rules = {
       variableDeclarationIgnoreFunction: false,
     },
   ],
-};
+} satisfies FlatConfig.Rules;

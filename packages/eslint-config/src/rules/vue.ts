@@ -1,6 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const vueRules: FlatConfig.Rules = {
+export const vueRules = {
   'vue/block-order': [
     'error',
     {
@@ -39,4 +39,4 @@ export const vueRules: FlatConfig.Rules = {
   'vue/no-sparse-arrays': 'error',
   'vue/no-unused-refs': 'error',
   'vue/no-useless-v-bind': 'error',
-};
+} satisfies FlatConfig.Rules;

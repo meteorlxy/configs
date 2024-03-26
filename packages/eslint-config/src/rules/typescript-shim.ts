@@ -1,6 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const typescriptShimRules: FlatConfig.Rules = {
+export const typescriptShimRules = {
   /**
    * Rules that have equivalents in typescript-eslint plugin.
    */
@@ -87,4 +87,4 @@ export const typescriptShimRules: FlatConfig.Rules = {
   'import/no-deprecated': 'off',
   'import/no-named-as-default': 'off',
   'import/no-unused-modules': 'off',
-};
+} satisfies FlatConfig.Rules;

@@ -1,7 +1,7 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const markdownShimRules: FlatConfig.Rules = {
+export const markdownShimRules = {
   // builtin rules
   'no-alert': 'off',
   'no-console': 'off',
@@ -23,4 +23,4 @@ export const markdownShimRules: FlatConfig.Rules = {
   // import rules
   'import/no-extraneous-dependencies': 'off',
   'import/no-unresolved': 'off',
-};
+} satisfies FlatConfig.Rules;

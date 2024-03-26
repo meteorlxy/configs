@@ -1,6 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const importsRules: FlatConfig.Rules = {
+export const importsRules = {
   'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
   'import/default': 'off',
   'import/export': 'error',
@@ -146,4 +146,4 @@ export const importsRules: FlatConfig.Rules = {
     },
   ],
   'import/no-relative-packages': 'error',
-};
+} satisfies FlatConfig.Rules;

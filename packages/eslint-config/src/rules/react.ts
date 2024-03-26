@@ -1,6 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
-export const reactRules: FlatConfig.Rules = {
+export const reactRules = {
   'react/boolean-prop-naming': [
     'off',
     {
@@ -237,4 +237,4 @@ export const reactRules: FlatConfig.Rules = {
   'react/static-property-placement': ['error', 'property assignment'],
   'react/style-prop-object': 'error',
   'react/void-dom-elements-no-children': 'error',
-};
+} satisfies FlatConfig.Rules;
