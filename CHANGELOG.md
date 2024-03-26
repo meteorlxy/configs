@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/meteorlxy/configs/compare/v3.1.1...v3.2.0) (2024-03-26)
+
+### Features
+
+* **prettier-config:** set parser of vscode config files to jsonc ([5ad7ff3](https://github.com/meteorlxy/configs/commit/5ad7ff3de0b0e2a988fb20276661e914f252dda0))
+
 ## [3.1.1](https://github.com/meteorlxy/configs/compare/v3.1.0...v3.1.1) (2024-03-26)
 
 ### Bug Fixes
