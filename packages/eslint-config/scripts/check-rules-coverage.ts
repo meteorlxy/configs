@@ -5,32 +5,32 @@ import importPlugin from 'eslint-plugin-i';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import vuePlugin from 'eslint-plugin-vue';
-import * as current from '../src/rules';
+import { rules } from '../src';
 
 const CONFIGS = [
   {
     allRules: new Set(eslint.builtinRules.keys()),
-    currentRules: new Set(Object.keys(current.builtinRules)),
+    currentRules: new Set(Object.keys(rules.builtinRules)),
   },
   {
     scope: '@typescript-eslint',
     allRules: new Set(Object.keys(typescriptPlugin.rules)),
-    currentRules: new Set(Object.keys(current.typescriptRules)),
+    currentRules: new Set(Object.keys(rules.typescriptRules)),
   },
   {
     scope: 'import',
     allRules: new Set(Object.keys(importPlugin.rules)),
-    currentRules: new Set(Object.keys(current.importsRules)),
+    currentRules: new Set(Object.keys(rules.importsRules)),
   },
   {
     scope: 'react',
     allRules: new Set(Object.keys(reactPlugin.rules)),
-    currentRules: new Set(Object.keys(current.reactRules)),
+    currentRules: new Set(Object.keys(rules.reactRules)),
   },
   {
     scope: 'react-hooks',
     allRules: new Set(Object.keys(reactHooksPlugin.rules)),
-    currentRules: new Set(Object.keys(current.reactHooksRules)),
+    currentRules: new Set(Object.keys(rules.reactHooksRules)),
   },
   {
     scope: 'vue',
@@ -42,7 +42,7 @@ const CONFIGS = [
         ...vuePlugin.configs!['vue3-strongly-recommended'].rules,
         ...vuePlugin.configs!['vue3-recommended'].rules,
         ...vuePlugin.configs!['no-layout-rules'].rules,
-        ...current.vueRules,
+        ...rules.vueRules,
       }),
     ),
   },
@@ -50,10 +50,10 @@ const CONFIGS = [
 
 const prettierRules = new Set(Object.keys(prettierConfig.rules!));
 
-const addRulesScope = (rules: Set<string>, scope: string): Set<string> =>
+const addRulesScope = (rawRules: Set<string>, scope: string): Set<string> =>
   new Set(
-    [...rules].map((rule) =>
-      rule.startsWith(`${scope}/`) ? rule : `${scope}/${rule}`,
+    [...rawRules].map((item) =>
+      item.startsWith(`${scope}/`) ? item : `${scope}/${item}`,
     ),
   );
 
