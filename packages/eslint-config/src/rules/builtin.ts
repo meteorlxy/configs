@@ -229,18 +229,6 @@ export const builtinRules = {
   'no-extra-bind': 'error',
   'no-extra-boolean-cast': 'error',
   'no-extra-label': 'error',
-  'no-extra-parens': [
-    'off',
-    'all',
-    {
-      conditionalAssign: true,
-      nestedBinaryExpressions: false,
-      returnAssign: false,
-      ignoreJSX: 'all',
-      enforceForArrowConditionals: false,
-    },
-  ],
-  'no-extra-semi': 'error',
   'no-fallthrough': 'error',
   'no-floating-decimal': 'error',
   'no-func-assign': 'error',
@@ -537,7 +525,7 @@ export const builtinRules = {
   ],
   'one-var': ['error', 'never'],
   'operator-assignment': ['error', 'always'],
-  'padding-line-between-statements': 'off',
+  'padding-line-between-statements': 'off', // deprecated
   'prefer-arrow-callback': [
     'error',
     {
