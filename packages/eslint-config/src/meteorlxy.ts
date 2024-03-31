@@ -30,18 +30,18 @@ export const meteorlxy = async (
   options: EslintOptions,
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> => [
-  // .eslintignore is not supported by flat config
+  // global ignores
   ...ignores(options.ignores),
 
   // javascript core rules
   ...javascript(options.javascript),
 
-  // react rules
+  // react rules - should be placed before typescript rules
   ...(options.react
     ? await react(options.react === true ? {} : options.react)
     : []),
 
-  // typescript rules - should be placed after react rules
+  // typescript rules
   ...typescript(options.typescript),
 
   // vue rules - should be placed after typescript rules
