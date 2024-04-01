@@ -7,7 +7,7 @@ export const vueRules = {
       order: ['script', 'template', 'style'],
     },
   ],
-  'vue/camelcase': 'off', // typescript
+  'vue/camelcase': 'off', // builtin extension - checked by typescript
   'vue/component-api-style': ['error', ['script-setup', 'composition']],
   'vue/component-name-in-template-casing': [
     'error',
@@ -34,12 +34,24 @@ export const vueRules = {
     },
   ],
   'vue/define-props-declaration': ['error', 'type-based'],
-  'vue/dot-notation': 'off', // typescript
+  'vue/dot-notation': 'off', // builtin extension - checked by typescript
+  'vue/enforce-style-attribute': [
+    'off',
+    { allow: ['scoped', 'module', 'plain'] },
+  ],
   'vue/eqeqeq': [
     'error',
     'always',
     {
       null: 'ignore',
+    },
+  ], // builtin extension
+  'vue/html-button-has-type': [
+    'error',
+    {
+      button: true,
+      submit: true,
+      reset: true,
     },
   ],
   'vue/match-component-file-name': [
@@ -50,18 +62,96 @@ export const vueRules = {
     },
   ],
   'vue/match-component-import-name': 'error',
+  'vue/max-lines-per-block': [
+    'off',
+    {
+      script: 0,
+      template: 0,
+      style: 0,
+      skipBlankLines: true,
+    },
+  ],
+  'vue/next-tick-style': ['error', 'promise'],
+  'vue/no-bare-strings-in-template': ['off'],
+  'vue/no-boolean-default': ['off', 'no-default'],
+  'vue/no-console': 'error', // builtin extension
+  'vue/no-constant-condition': 'warn', // builtin extension
+  'vue/no-custom-modifiers-on-v-model': 'off', // vue2?
+  'vue/no-deprecated-model-definition': 'error',
+  'vue/no-empty-component-block': 'warn',
+  'vue/no-empty-pattern': 'error', // builtin extension
   'vue/no-invalid-model-keys': 'off', // deprecated
+  'vue/no-irregular-whitespace': 'error', // builtin extension
+  'vue/no-multiple-objects-in-class': 'error',
+  'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
+  'vue/no-potential-component-option-typo': 'off', // options api
   'vue/no-ref-object-destructure': 'off', // deprecated
+  'vue/no-ref-object-reactivity-loss': 'warn',
+  'vue/no-required-prop-with-default': ['warn', { autofix: false }],
+  'vue/no-restricted-block': ['off'],
+  'vue/no-restricted-call-after-await': ['off'],
+  'vue/no-restricted-class': ['off'],
+  'vue/no-restricted-component-names': ['off'],
+  'vue/no-restricted-component-options': ['off'],
+  'vue/no-restricted-custom-event': ['off'],
+  'vue/no-restricted-html-elements': ['off'],
+  'vue/no-restricted-props': ['off'],
+  'vue/no-restricted-static-attribute': ['off'],
   'vue/no-restricted-syntax': [
     'error',
     'DebuggerStatement',
     'LabeledStatement',
     'WithStatement',
-  ],
+  ], // builtin extension
+  'vue/no-restricted-v-bind': ['off'],
+  'vue/no-restricted-v-on': ['off'],
+  'vue/no-root-v-if': 'error',
   'vue/no-setup-props-destructure': 'off', // deprecated
-  'vue/no-sparse-arrays': 'error',
+  'vue/no-setup-props-reactivity-loss': 'error',
+  'vue/no-sparse-arrays': 'error', // builtin extension
+  'vue/no-static-inline-styles': [
+    'error',
+    {
+      allowBinding: false,
+    },
+  ],
+  'vue/no-template-target-blank': [
+    'error',
+    {
+      allowReferrer: false,
+      enforceDynamicLinks: 'always',
+    },
+  ],
+  'vue/no-this-in-before-route-enter': 'off', // options api & vue-router
+  'vue/no-undef-components': 'off',
+  'vue/no-undef-properties': 'error',
+  'vue/no-unsupported-features': 'off',
+  'vue/no-unused-emit-declarations': 'error',
+  'vue/no-unused-properties': [
+    'error',
+    {
+      groups: ['props'],
+      deepData: false,
+      ignorePublicMembers: false,
+      unreferencedOptions: [],
+    },
+  ],
   'vue/no-unused-refs': 'error',
+  'vue/no-use-v-else-with-v-for': 'error',
+  'vue/no-use-v-if-with-v-for': 'error',
+  'vue/no-useless-concat': 'error', // builtin extension
+  'vue/no-useless-mustaches': [
+    'off',
+    {
+      ignoreIncludesComment: false,
+      ignoreStringEscape: true,
+    },
+  ],
   'vue/no-useless-v-bind': 'error',
+  'vue/no-v-for-template-key': 'off', // vue2
+  'vue/no-v-for-template-key-on-child': 'error',
+  'vue/no-v-model-argument': 'off', // vue2
   'vue/script-setup-uses-vars': 'off', // deprecated
   'vue/v-on-function-call': 'off', // deprecated
+  'vue/valid-model-definition': 'off', // vue2
 } satisfies FlatConfig.Rules;

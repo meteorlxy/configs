@@ -20,4 +20,5 @@
     "typescriptreact",
     "vue",
   ],
+  "cSpell.words": ["autofix", "camelcase"],
 }
