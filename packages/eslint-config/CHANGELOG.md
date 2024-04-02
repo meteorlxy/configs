@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.1](https://github.com/meteorlxy/configs/compare/v3.3.0...v3.3.1) (2024-04-02)
+
+### Bug Fixes
+
+* **eslint-config:** turn off vue/require-expose and update markdown-shim for vue ([2ff8ad6](https://github.com/meteorlxy/configs/commit/2ff8ad67f77a0a9e30c9a3b05d879f58988bc160))
+
 # [3.3.0](https://github.com/meteorlxy/configs/compare/v3.2.0...v3.3.0) (2024-04-02)
 
 ### Features
