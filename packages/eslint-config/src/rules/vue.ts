@@ -181,7 +181,7 @@ export const vueRules = {
     },
   ],
   'vue/require-explicit-slots': 'error',
-  'vue/require-expose': 'error',
+  'vue/require-expose': 'off',
   'vue/require-emit-validator': 'off', // enable?
   'vue/require-macro-variable-name': [
     'error',
