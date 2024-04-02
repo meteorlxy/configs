@@ -1,6 +1,13 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
 export const vueRules = {
+  'vue/block-lang': [
+    'off',
+    {
+      script: { lang: 'ts' },
+      style: { allowNoLang: true },
+    },
+  ],
   'vue/block-order': [
     'error',
     {
@@ -34,7 +41,7 @@ export const vueRules = {
     },
   ],
   'vue/define-props-declaration': ['error', 'type-based'],
-  'vue/dot-notation': 'off', // builtin extension - checked by typescript
+  'vue/dot-notation': 'off', // builtin extension - checked by typescript?
   'vue/enforce-style-attribute': [
     'off',
     { allow: ['scoped', 'module', 'plain'] },
@@ -78,10 +85,12 @@ export const vueRules = {
   'vue/no-constant-condition': 'warn', // builtin extension
   'vue/no-custom-modifiers-on-v-model': 'off', // vue2?
   'vue/no-deprecated-model-definition': 'error',
+  'vue/no-duplicate-attr-inheritance': 'error',
   'vue/no-empty-component-block': 'warn',
   'vue/no-empty-pattern': 'error', // builtin extension
   'vue/no-invalid-model-keys': 'off', // deprecated
   'vue/no-irregular-whitespace': 'error', // builtin extension
+  'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?
   'vue/no-multiple-objects-in-class': 'error',
   'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
   'vue/no-potential-component-option-typo': 'off', // options api
@@ -151,7 +160,57 @@ export const vueRules = {
   'vue/no-v-for-template-key': 'off', // vue2
   'vue/no-v-for-template-key-on-child': 'error',
   'vue/no-v-model-argument': 'off', // vue2
+  'vue/no-v-text': 'off',
+  'vue/object-shorthand': [
+    'error',
+    'always',
+    {
+      ignoreConstructors: false,
+      avoidQuotes: true,
+    },
+  ], // builtin extension
+  'vue/prefer-define-options': 'error',
+  'vue/prefer-prop-type-boolean-first': 'error',
+  'vue/prefer-separate-static-class': 'error',
+  'vue/prefer-template': 'error', // builtin extension
+  'vue/prefer-true-attribute-shorthand': 'off',
+  'vue/require-direct-export': [
+    'error',
+    {
+      disallowFunctionalComponentFunction: false,
+    },
+  ],
+  'vue/require-explicit-slots': 'error',
+  'vue/require-expose': 'error',
+  'vue/require-emit-validator': 'off', // enable?
+  'vue/require-macro-variable-name': [
+    'error',
+    {
+      defineProps: 'props',
+      defineEmits: 'emits',
+      defineSlots: 'slots',
+      useSlots: 'slots',
+      useAttrs: 'attrs',
+    },
+  ],
+  'vue/require-name-property': 'error',
+  'vue/require-prop-comment': [
+    'warn',
+    {
+      type: 'JSDoc',
+    },
+  ],
+  'vue/require-typed-object-prop': 'error',
+  'vue/require-typed-ref': 'error',
+  'vue/sort-keys': 'off', // builtin extension
   'vue/script-setup-uses-vars': 'off', // deprecated
+  'vue/static-class-names-order': 'error',
+  'vue/v-if-else-key': 'off', // vue2
+  'vue/v-on-handler-style': 'off',
   'vue/v-on-function-call': 'off', // deprecated
+  'vue/valid-define-emits': 'error',
+  'vue/valid-define-options': 'error',
+  'vue/valid-define-props': 'error',
   'vue/valid-model-definition': 'off', // vue2
+  'vue/valid-v-bind-sync': 'off', // vue2
 } satisfies FlatConfig.Rules;
