@@ -296,7 +296,7 @@ export const builtinRules = {
   'no-new-native-nonconstructor': 'error',
   'no-new-object': 'error',
   'no-new-require': 'error',
-  'no-new-symbol': 'error',
+  'no-new-symbol': 'off', // deprecated
   'no-new-wrappers': 'error',
   'no-nonoctal-decimal-escape': 'error',
   'no-obj-calls': 'error',
