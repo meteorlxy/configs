@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/meteorlxy/configs/compare/v3.3.1...v3.4.0) (2024-04-09)
+
+### Features
+
+* **eslint-config:** add name for flat config item ([11995f0](https://github.com/meteorlxy/configs/commit/11995f0b4bb4eb8d30e15f7bef07c38b7b62472e))
+* **eslint-config:** turn off consistent-return for typescript ([781fc23](https://github.com/meteorlxy/configs/commit/781fc23bfa702282403bc9f051ecf291eaa81f12))
+* **eslint-config:** turn off deprecated no-new-symbol ([86545c6](https://github.com/meteorlxy/configs/commit/86545c66d94f217bac625ed7555148044127311a))
+
 ## [3.3.1](https://github.com/meteorlxy/configs/compare/v3.3.0...v3.3.1) (2024-04-02)
 
 ### Bug Fixes
