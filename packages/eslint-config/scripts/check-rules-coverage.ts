@@ -7,9 +7,12 @@ import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import vuePlugin from 'eslint-plugin-vue';
 import { rules } from '../src';
 
+const builtinRules = new Set(eslint.builtinRules.keys());
+const prettierRules = new Set(Object.keys(prettierConfig.rules!));
+
 const CONFIGS = [
   {
-    allRules: new Set(eslint.builtinRules.keys()),
+    allRules: builtinRules,
     currentRules: new Set(Object.keys(rules.builtinRules)),
   },
   {
@@ -48,8 +51,6 @@ const CONFIGS = [
   },
 ];
 
-const prettierRules = new Set(Object.keys(prettierConfig.rules!));
-
 const addRulesScope = (rawRules: Set<string>, scope: string): Set<string> =>
   new Set(
     [...rawRules].map((item) =>
@@ -76,7 +77,7 @@ const checkRulesCoverage = ({
   }
 
   for (const rule of currentRules) {
-    if (!allRules.has(rule)) {
+    if (!allRules.has(rule) && !builtinRules.has(rule)) {
       redundantRules.push(rule);
     }
   }
