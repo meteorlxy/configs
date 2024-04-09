@@ -12,7 +12,7 @@ export const typescriptRules = {
       exceptMethods: [],
     },
   ],
-  '@typescript-eslint/consistent-return': 'error',
+  '@typescript-eslint/consistent-return': 'off', // use noImplicitReturns instead
   '@typescript-eslint/default-param-last': 'error',
   '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
   '@typescript-eslint/lines-between-class-members': [
