@@ -15,12 +15,14 @@ export const javascript = ({
   overrides,
 }: EslintJavascriptOptions = {}): FlatConfig.Config[] => [
   {
+    name: 'meteorlxy/javascript/plugins',
     plugins: {
       'eslint-comments': eslintCommentsPlugin,
       'import': importPlugin,
     },
   },
   {
+    name: 'meteorlxy/javascript/rules',
     languageOptions: {
       ecmaVersion: 2022,
       globals: {
@@ -48,6 +50,7 @@ export const javascript = ({
     },
   },
   {
+    name: 'meteorlxy/javascript/overrides/scripts',
     files: ['**/scripts/**'],
     rules: {
       'no-console': 'off',

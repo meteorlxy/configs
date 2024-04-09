@@ -6,6 +6,7 @@ import prettierConfig from 'eslint-config-prettier';
  */
 export const prettier = (): FlatConfig.Config[] => [
   {
+    name: 'meteorlxy/prettier',
     rules: prettierConfig.rules,
   },
 ];

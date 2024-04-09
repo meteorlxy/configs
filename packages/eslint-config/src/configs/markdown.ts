@@ -18,16 +18,19 @@ export const markdown = async ({
 
   return [
     {
+      name: 'meteorlxy/markdown/plugins',
       plugins: {
         markdown: markdownPlugin,
       },
     },
     {
+      name: 'meteorlxy/markdown/processor',
       files,
       ignores: ['**/*.md/*.md'],
       processor: markdownPlugin.processors!.markdown,
     },
     {
+      name: 'meteorlxy/markdown/rules',
       files: ['**/*.md/**'],
       languageOptions: {
         parserOptions: {

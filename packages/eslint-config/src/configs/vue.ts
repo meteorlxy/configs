@@ -23,11 +23,13 @@ export const vue = async ({
 
   return [
     {
+      name: 'meteorlxy/vue/plugins',
       plugins: {
         vue: vuePlugin,
       },
     },
     {
+      name: 'meteorlxy/vue/rules',
       files,
       languageOptions: {
         ecmaVersion: 2022,

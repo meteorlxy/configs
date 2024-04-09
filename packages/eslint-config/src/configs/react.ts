@@ -25,6 +25,7 @@ export const react = async ({
 
   return [
     {
+      name: 'meteorlxy/react/plugins',
       plugins: {
         'react': reactPlugin,
         'react-hooks': reactHooksPlugin,
@@ -37,6 +38,7 @@ export const react = async ({
       },
     },
     {
+      name: 'meteorlxy/react/rules',
       files,
       rules: {
         ...reactRules,

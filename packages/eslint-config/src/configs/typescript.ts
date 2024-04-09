@@ -18,11 +18,13 @@ export const typescript = ({
   tsconfigPath,
 }: EslintTypescriptOptions = {}): FlatConfig.Config[] => [
   {
+    name: 'meteorlxy/typescript/plugins',
     plugins: {
       '@typescript-eslint': tsPlugin as FlatConfig.Plugin,
     },
   },
   {
+    name: 'meteorlxy/typescript/rules',
     files,
     languageOptions: {
       ecmaVersion: 2022,
