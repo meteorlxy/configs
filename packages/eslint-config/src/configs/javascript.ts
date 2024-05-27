@@ -1,6 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
-import importPlugin from 'eslint-plugin-i';
+import importPlugin from 'eslint-plugin-import-x';
 import globals from 'globals';
 import { builtinRules, eslintCommentsRules, importsRules } from '../rules';
 
