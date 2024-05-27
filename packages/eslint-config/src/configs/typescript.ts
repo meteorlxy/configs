@@ -41,14 +41,14 @@ export const typescript = ({
       ...overrides,
     },
     settings: {
-      'import/parsers': {
-        '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
-      },
-      'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
+      'import/extensions': ['.js', '.jsx', '.mjs', '.mts', '.ts', '.tsx'],
       'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+      'import/parsers': {
+        '@typescript-eslint/parser': ['.mts', '.ts', '.tsx'],
+      },
       'import/resolver': {
         node: {
-          extensions: ['.mjs', '.js', '.json', '.ts', '.d.ts'],
+          extensions: ['.js', '.json', '.jsx', '.mjs', '.mts', '.ts', '.tsx'],
         },
       },
     },
