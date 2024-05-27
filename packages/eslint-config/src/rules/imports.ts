@@ -31,8 +31,10 @@ export const importsRules = {
         ...[
           'build',
           'commitlint',
+          'cypress',
           'eslint',
           'jest',
+          'playwright',
           'postcss',
           'prettier',
           'rollup',
