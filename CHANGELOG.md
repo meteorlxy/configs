@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/meteorlxy/configs/compare/v3.4.0...v3.5.0) (2024-05-27)
+
+### Features
+
+* **eslint-config:** add cypress and playwright config file name ([6f35ed2](https://github.com/meteorlxy/configs/commit/6f35ed2a52f3f515c777fa40740ee7d9f47715d9))
+* **eslint-config:** migrate to eslint-plugin-import-x ([a0521ef](https://github.com/meteorlxy/configs/commit/a0521efbf0f002377a6d396d8c624e7fad4ba8b8))
+
 # [3.4.0](https://github.com/meteorlxy/configs/compare/v3.3.1...v3.4.0) (2024-04-09)
 
 ### Features
