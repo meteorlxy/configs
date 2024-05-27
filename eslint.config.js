@@ -2,7 +2,7 @@ import { env, meteorlxy } from '@meteorlxy/eslint-config';
 
 export default meteorlxy({
   ignores: env.IS_EDITOR ? [] : ['test/**'],
-  react: true,
+  react: env.IS_EDITOR,
   typescript: {
     tsconfigPath: './tsconfig.json',
     overrides: {
