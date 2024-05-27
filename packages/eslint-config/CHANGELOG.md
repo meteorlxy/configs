@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.7.0](https://github.com/meteorlxy/configs/compare/v3.6.0...v3.7.0) (2024-05-27)
+
+### Features
+
+* **eslint-config:** eslint-plugin-import-x ([0eeaf6c](https://github.com/meteorlxy/configs/commit/0eeaf6cdbafb2c04f3da96229dd764f5b8d7d3c3))
+
 # [3.6.0](https://github.com/meteorlxy/configs/compare/v3.5.0...v3.6.0) (2024-05-27)
 
 ### Features
