@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.8.0](https://github.com/meteorlxy/configs/compare/v3.7.0...v3.8.0) (2024-07-15)
+
+### Features
+
+* **eslint-config:** add monorepo tools dir to ignores ([9343c7a](https://github.com/meteorlxy/configs/commit/9343c7adcffb65e28ae4f05057849f7fc511da97))
+
 # [3.7.0](https://github.com/meteorlxy/configs/compare/v3.6.0...v3.7.0) (2024-05-27)
 
 ### Features

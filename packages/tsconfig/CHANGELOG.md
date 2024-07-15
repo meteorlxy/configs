@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.8.0](https://github.com/meteorlxy/configs/compare/v3.7.0...v3.8.0) (2024-07-15)
+
+### Features
+
+* **tsconfig:** remove ts 5.5 disabled compiler options ([0e41c82](https://github.com/meteorlxy/configs/commit/0e41c829e40153601436f3b70c8c58afeecdbe72))
+
 # [3.0.0](https://github.com/meteorlxy/configs/compare/v2.29.0...v3.0.0) (2024-03-25)
 
 **Note:** Version bump only for package @meteorlxy/tsconfig
