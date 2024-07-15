@@ -31,7 +31,7 @@
     "clean": "rimraf ./dist"
   },
   "devDependencies": {
-    "prettier": "^3.3.2"
+    "prettier": "^3.3.3"
   },
   "publishConfig": {
     "access": "public"
