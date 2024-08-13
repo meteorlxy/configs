@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/meteorlxy/configs/compare/v3.8.0...v4.0.0) (2024-08-13)
+
+### Features
+
+* **eslint-config:** add taze config file ([38f97b3](https://github.com/meteorlxy/configs/commit/38f97b36a92798cc02e26d6a826717fe34e1b847))
+* **eslint-config:** upgrade typescript-eslint to v8 ([f49fa56](https://github.com/meteorlxy/configs/commit/f49fa56943cc5bd31c141b65b8ab06df771f5ba6))
+
 # [3.8.0](https://github.com/meteorlxy/configs/compare/v3.7.0...v3.8.0) (2024-07-15)
 
 ### Features
