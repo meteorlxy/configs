@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/meteorlxy/configs/compare/v4.0.0...v4.0.1) (2024-08-13)
+
+### Bug Fixes
+
+* **eslint-config:** disable projectService for markdown files ([987aa0f](https://github.com/meteorlxy/configs/commit/987aa0f89eeda644164673fa4507d51424ce10cf))
+
 # [4.0.0](https://github.com/meteorlxy/configs/compare/v3.8.0...v4.0.0) (2024-08-13)
 
 ### Features
