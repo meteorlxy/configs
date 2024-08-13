@@ -484,6 +484,7 @@ export const builtinRules = {
     'error',
     { functions: true, classes: true, variables: true },
   ],
+  'no-useless-assignment': 'error',
   'no-useless-backreference': 'error',
   'no-useless-call': 'off',
   'no-useless-catch': 'error',
@@ -580,7 +581,6 @@ export const builtinRules = {
   'radix': 'error',
   'require-atomic-updates': 'off',
   'require-await': 'off',
-  'require-jsdoc': 'off',
   'require-unicode-regexp': 'off',
   'require-yield': 'error',
   'rest-spread-spacing': ['error', 'never'],
@@ -615,7 +615,6 @@ export const builtinRules = {
   'template-curly-spacing': 'error',
   'unicode-bom': ['error', 'never'],
   'use-isnan': 'error',
-  'valid-jsdoc': 'off',
   'valid-typeof': [
     'error',
     {

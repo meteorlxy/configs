@@ -6,7 +6,6 @@ import { typescriptRules, typescriptShimRules } from '../rules';
 export interface EslintTypescriptOptions {
   files?: FlatConfig.Config['files'];
   overrides?: FlatConfig.Config['rules'];
-  tsconfigPath?: string[] | string;
 }
 
 /**
@@ -15,12 +14,11 @@ export interface EslintTypescriptOptions {
 export const typescript = ({
   files = ['**/*.ts', '**/*.tsx', '**/*.vue'],
   overrides,
-  tsconfigPath,
 }: EslintTypescriptOptions = {}): FlatConfig.Config[] => [
   {
     name: 'meteorlxy/typescript/plugins',
     plugins: {
-      '@typescript-eslint': tsPlugin as FlatConfig.Plugin,
+      '@typescript-eslint': tsPlugin,
     },
   },
   {
@@ -30,7 +28,7 @@ export const typescript = ({
       ecmaVersion: 2022,
       parser: tsParser,
       parserOptions: {
-        project: tsconfigPath,
+        projectService: true,
         sourceType: 'module',
       },
       sourceType: 'module',

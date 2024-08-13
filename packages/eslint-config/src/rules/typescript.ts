@@ -15,11 +15,6 @@ export const typescriptRules = {
   '@typescript-eslint/consistent-return': 'off', // use noImplicitReturns instead
   '@typescript-eslint/default-param-last': 'error',
   '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
-  '@typescript-eslint/lines-between-class-members': [
-    'error',
-    'always',
-    { exceptAfterSingleLine: false },
-  ],
   '@typescript-eslint/no-array-constructor': 'error',
   '@typescript-eslint/no-empty-function': [
     'error',
@@ -40,7 +35,6 @@ export const typescriptRules = {
     },
   ],
   '@typescript-eslint/no-shadow': 'error',
-  '@typescript-eslint/no-throw-literal': 'off', // deprecated
   '@typescript-eslint/no-unused-expressions': [
     'error',
     {
@@ -99,6 +93,7 @@ export const typescriptRules = {
     },
   ],
   '@typescript-eslint/no-dupe-class-members': 'off', // checked by typescript
+  '@typescript-eslint/no-empty-interface': 'off', // deprecated
   '@typescript-eslint/no-import-type-side-effects': 'error',
   '@typescript-eslint/no-invalid-this': 'off', // checked by typescript
   '@typescript-eslint/no-redeclare': 'off', // checked by typescript
@@ -107,13 +102,29 @@ export const typescriptRules = {
     'off',
     { paths: [], patterns: [] },
   ],
+  '@typescript-eslint/no-restricted-types': [
+    'off',
+    {
+      types: {
+        OldType: "Don't use OldType because it is unsafe",
+        OldAPI: {
+          message: 'Use NewAPI instead',
+          fixWith: 'NewAPI',
+        },
+        SoonToBeOldAPI: {
+          message: 'Use NewAPI instead',
+          suggest: ['NewAPIOne', 'NewAPITwo'],
+        },
+      },
+    },
+  ],
   '@typescript-eslint/no-type-alias': 'off', // deprecated
+  '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
   '@typescript-eslint/no-unnecessary-qualifier': 'off',
   '@typescript-eslint/no-unsafe-unary-minus': 'error',
   '@typescript-eslint/no-useless-empty-export': 'off',
   '@typescript-eslint/no-var-requires': ['error', { allow: [] }],
   '@typescript-eslint/only-throw-error': 'error',
-  '@typescript-eslint/padding-line-between-statements': 'off',
   '@typescript-eslint/parameter-properties': [
     'off',
     { allow: [], prefer: 'class-property' },
@@ -152,6 +163,7 @@ export const typescriptRules = {
     },
   ],
   '@typescript-eslint/prefer-regexp-exec': 'off',
+  '@typescript-eslint/prefer-ts-expect-error': 'off', // deprecated
   '@typescript-eslint/promise-function-async': 'error',
   '@typescript-eslint/require-array-sort-compare': [
     'error',
