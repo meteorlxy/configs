@@ -154,6 +154,21 @@ export const typescriptRules = {
   ],
   '@typescript-eslint/prefer-enum-initializers': 'error',
   '@typescript-eslint/prefer-find': 'error',
+  '@typescript-eslint/prefer-nullish-coalescing': [
+    'error',
+    {
+      allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+      ignoreConditionalTests: true,
+      ignoreTernaryTests: false,
+      ignoreMixedLogicalExpressions: false,
+      ignorePrimitives: {
+        bigint: false,
+        boolean: false,
+        number: false,
+        string: true,
+      },
+    },
+  ],
   '@typescript-eslint/prefer-promise-reject-errors': [
     'error',
     { allowEmptyReject: true },
