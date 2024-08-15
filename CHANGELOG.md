@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/meteorlxy/configs/compare/v4.1.0...v4.2.0) (2024-08-15)
+
+### Features
+
+* **eslint-config:** add name for ignores config ([95f8ff6](https://github.com/meteorlxy/configs/commit/95f8ff626ad70a51b4fb77e7a2d6d8af286e4b63))
+* **eslint-config:** enforce UPPER_CASE for global constants ([dbdab5e](https://github.com/meteorlxy/configs/commit/dbdab5e0ae1b8805078282b4587342a9f010d918))
+
 # [4.1.0](https://github.com/meteorlxy/configs/compare/v4.0.1...v4.1.0) (2024-08-15)
 
 ### Features
