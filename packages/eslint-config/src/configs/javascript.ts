@@ -1,8 +1,7 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
-import importPlugin from 'eslint-plugin-import-x';
 import globals from 'globals';
-import { builtinRules, eslintCommentsRules, importsRules } from '../rules';
+import { builtinRules, eslintCommentsRules } from '../rules';
 
 export interface EslintJavascriptOptions {
   overrides?: FlatConfig.Config['rules'];
@@ -18,7 +17,6 @@ export const javascript = ({
     name: 'meteorlxy/javascript/plugins',
     plugins: {
       'eslint-comments': eslintCommentsPlugin,
-      'import': importPlugin,
     },
   },
   {
@@ -45,7 +43,6 @@ export const javascript = ({
     rules: {
       ...builtinRules,
       ...eslintCommentsRules,
-      ...importsRules,
       ...overrides,
     },
   },

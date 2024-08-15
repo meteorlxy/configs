@@ -1,6 +1,7 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import type {
   EslintIgnoresOptions,
+  EslintImportsOptions,
   EslintJavascriptOptions,
   EslintMarkdownOptions,
   EslintReactOptions,
@@ -9,6 +10,7 @@ import type {
 } from './configs';
 import {
   ignores,
+  imports,
   javascript,
   markdown,
   prettier,
@@ -19,6 +21,7 @@ import {
 
 export interface EslintOptions {
   ignores?: EslintIgnoresOptions;
+  imports?: EslintImportsOptions;
   javascript?: EslintJavascriptOptions;
   markdown?: EslintMarkdownOptions | boolean;
   react?: EslintReactOptions | boolean;
@@ -35,6 +38,9 @@ export const meteorlxy = async (
 
   // javascript core rules
   ...javascript(options.javascript),
+
+  // imports rules
+  ...imports(options.imports),
 
   // react rules - should be placed before typescript rules
   ...(options.react
