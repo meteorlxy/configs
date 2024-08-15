@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.1](https://github.com/meteorlxy/configs/compare/v4.2.0...v4.2.1) (2024-08-15)
+
+### Bug Fixes
+
+* **eslint-config:** ignore strings for prefer-nullish-coalescing ([be995c4](https://github.com/meteorlxy/configs/commit/be995c4ff0f8d19b9859eba3e897cb2ba41ff7e8))
+
 # [4.2.0](https://github.com/meteorlxy/configs/compare/v4.1.0...v4.2.0) (2024-08-15)
 
 ### Features
