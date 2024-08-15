@@ -9,8 +9,7 @@ export const ignores = (
   options: EslintIgnoresOptions = [],
 ): FlatConfig.Config[] => [
   {
-    // TODO: uncomment after upgrading to eslint v9
-    // name: 'meteorlxy/ignores',
+    name: 'meteorlxy/ignores',
     ignores: [
       // node_modules & lock files
       '**/node_modules',
