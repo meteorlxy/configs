@@ -32,7 +32,7 @@
     "@meteorlxy/eslint-config": "workspace:*",
     "@meteorlxy/prettier-config": "workspace:*",
     "@meteorlxy/tsconfig": "workspace:*",
-    "@types/node": "^22.2.0",
+    "@types/node": "^22.3.0",
     "eslint": "^9.9.0",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.9",
@@ -43,5 +43,5 @@
     "typescript": "^5.5.4",
     "unbuild": "^2.0.0"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.7.1"
 }
