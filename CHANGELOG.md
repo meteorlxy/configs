@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.2](https://github.com/meteorlxy/configs/compare/v4.2.1...v4.2.2) (2024-08-16)
+
+### Bug Fixes
+
+* **eslint-config:** turn off no-invalid-void-type ([a297717](https://github.com/meteorlxy/configs/commit/a29771787139b208a5a13153ee7dae874b15fe24))
+
 ## [4.2.1](https://github.com/meteorlxy/configs/compare/v4.2.0...v4.2.1) (2024-08-15)
 
 ### Bug Fixes
