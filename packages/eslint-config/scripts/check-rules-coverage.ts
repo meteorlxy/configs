@@ -10,7 +10,7 @@ import { rules } from '../src';
 const builtinRules = new Set(eslint.builtinRules.keys());
 const prettierRules = new Set(Object.keys(prettierConfig.rules!));
 
-const CONFIGS = [
+const configs = [
   {
     allRules: builtinRules,
     currentRules: new Set(Object.keys(rules.builtinRules)),
@@ -93,7 +93,7 @@ const checkRulesCoverage = ({
   console.log('===========================');
 };
 
-for (const { scope, allRules, currentRules } of CONFIGS) {
+for (const { scope, allRules, currentRules } of configs) {
   checkRulesCoverage({
     scope,
     allRules: scope ? addRulesScope(allRules, scope) : allRules,
