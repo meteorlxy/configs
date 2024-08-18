@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.3](https://github.com/meteorlxy/configs/compare/v4.2.2...v4.2.3) (2024-08-18)
+
+### Bug Fixes
+
+* **eslint-config:** only enforce UPPER_CASE for exported constants ([208fca8](https://github.com/meteorlxy/configs/commit/208fca81267cb2a824f5d5c32ca805648c141813))
+
 ## [4.2.2](https://github.com/meteorlxy/configs/compare/v4.2.1...v4.2.2) (2024-08-16)
 
 ### Bug Fixes
