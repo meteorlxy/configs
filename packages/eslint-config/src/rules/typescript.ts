@@ -81,7 +81,7 @@ export const typescriptRules = {
     'error',
     {
       selector: 'variable',
-      modifiers: ['const', 'global'],
+      modifiers: ['const', 'exported'],
       types: ['array', 'boolean', 'number', 'string'],
       format: ['UPPER_CASE'],
     },
