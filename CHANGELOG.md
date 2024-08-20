@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.4](https://github.com/meteorlxy/configs/compare/v4.2.3...v4.2.4) (2024-08-20)
+
+### Bug Fixes
+
+* **eslint-config:** add more markdown shim rules ([391d452](https://github.com/meteorlxy/configs/commit/391d452597a739910be32a35d5e083d468dc1e42))
+
 ## [4.2.3](https://github.com/meteorlxy/configs/compare/v4.2.2...v4.2.3) (2024-08-18)
 
 ### Bug Fixes
