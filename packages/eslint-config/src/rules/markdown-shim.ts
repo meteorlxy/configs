@@ -16,14 +16,17 @@ export const markdownShimRules = {
   'unicode-bom': 'off',
 
   // import rules
+  'import/no-absolute-path': 'off',
   'import/no-extraneous-dependencies': 'off',
   'import/no-unresolved': 'off',
 
   // typescript-eslint rules, should disable type checking
   ...tsPlugin.configs['disable-type-checked'].rules,
+  '@typescript-eslint/no-explicit-any': 'off',
   '@typescript-eslint/no-unused-expressions': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
 
   // vue rules
+  'vue/no-v-html': 'off',
   'vue/require-name-property': 'off',
 } satisfies FlatConfig.Rules;
