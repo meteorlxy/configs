@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/meteorlxy/configs/compare/v4.2.4...v4.3.0) (2024-08-28)
+
+### Features
+
+* **eslint-config:** add import/no-rename-default rule ([45845e8](https://github.com/meteorlxy/configs/commit/45845e8f6d6c8b52c61b406e186b856a791be0bb))
+
 ## [4.2.4](https://github.com/meteorlxy/configs/compare/v4.2.3...v4.2.4) (2024-08-20)
 
 ### Bug Fixes
