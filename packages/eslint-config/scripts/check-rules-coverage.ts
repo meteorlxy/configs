@@ -7,6 +7,7 @@ import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import vuePlugin from 'eslint-plugin-vue';
 import { rules } from '../src';
 
+// eslint-disable-next-line @typescript-eslint/no-deprecated
 const builtinRules = new Set(eslint.builtinRules.keys());
 const prettierRules = new Set(Object.keys(prettierConfig.rules!));
 
