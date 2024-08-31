@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.3.2](https://github.com/meteorlxy/configs/compare/v4.3.1...v4.3.2) (2024-08-31)
+
+### Bug Fixes
+
+* **eslint-config:** disable no-underscore-dangle for markdown ([345f0f9](https://github.com/meteorlxy/configs/commit/345f0f96efe2e97157806b5f5bf7cbc219a57da3))
+
 ## [4.3.1](https://github.com/meteorlxy/configs/compare/v4.3.0...v4.3.1) (2024-08-31)
 
 ### Bug Fixes
