@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.3.1](https://github.com/meteorlxy/configs/compare/v4.3.0...v4.3.1) (2024-08-31)
+
+### Bug Fixes
+
+* **eslint-config:** disable func type rules for markdown ([ceba5bf](https://github.com/meteorlxy/configs/commit/ceba5bf70e6aa8f1a2ced54dcc5a81d48fd6ddfd))
+
 # [4.3.0](https://github.com/meteorlxy/configs/compare/v4.2.4...v4.3.0) (2024-08-28)
 
 ### Features
