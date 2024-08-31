@@ -22,6 +22,8 @@ export const markdownShimRules = {
 
   // typescript-eslint rules, should disable type checking
   ...tsPlugin.configs['disable-type-checked'].rules,
+  '@typescript-eslint/explicit-function-return-type': 'off',
+  '@typescript-eslint/explicit-module-boundary-types': 'off',
   '@typescript-eslint/no-explicit-any': 'off',
   '@typescript-eslint/no-unused-expressions': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
