@@ -9,6 +9,7 @@ export const markdownShimRules = {
   'no-lone-blocks': 'off',
   'no-restricted-syntax': 'off',
   'no-undef': 'off',
+  'no-underscore-dangle': 'off',
   'no-unused-expressions': 'off',
   'no-unused-labels': 'off',
   'no-unused-vars': 'off',
