@@ -78,6 +78,8 @@ export const vueRules = {
       skipBlankLines: true,
     },
   ],
+  'vue/max-props': ['off', { maxProps: 1 }],
+  'vue/max-template-depth': ['off', { maxDepth: 3 }],
   'vue/next-tick-style': ['error', 'promise'],
   'vue/no-bare-strings-in-template': ['off'],
   'vue/no-boolean-default': ['off', 'no-default'],
@@ -96,6 +98,7 @@ export const vueRules = {
   'vue/no-potential-component-option-typo': 'off', // options api
   'vue/no-ref-object-destructure': 'off', // deprecated
   'vue/no-ref-object-reactivity-loss': 'warn',
+  'vue/require-default-export': 'warn',
   'vue/no-required-prop-with-default': ['warn', { autofix: false }],
   'vue/no-restricted-block': ['off'],
   'vue/no-restricted-call-after-await': ['off'],
