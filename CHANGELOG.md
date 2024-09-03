@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/meteorlxy/configs/compare/v4.3.2...v4.4.0) (2024-09-03)
+
+### Bug Fixes
+
+* **eslint-config:** turn off arrow-body-style ([9fcddcd](https://github.com/meteorlxy/configs/commit/9fcddcda24ec4521f9252d4bb8b6f4762b934109))
+* **eslint-config:** update peer eslint-plugin-react-hooks to v5 ([42bb9fd](https://github.com/meteorlxy/configs/commit/42bb9fd3cbf1a56b09909a36586e0811eae276fc))
+
+### Features
+
+* **eslint-config:** add new rules of vue plugin ([2bac59f](https://github.com/meteorlxy/configs/commit/2bac59f432068b7593deaed41895bbf415e8427b))
+
 ## [4.3.2](https://github.com/meteorlxy/configs/compare/v4.3.1...v4.3.2) (2024-08-31)
 
 ### Bug Fixes
