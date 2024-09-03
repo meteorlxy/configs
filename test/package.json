@@ -11,7 +11,11 @@
   },
   "devDependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
-    "@types/react": "^18.3.5"
+    "@types/react": "^18.3.5",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc-7771d3a7-20240827",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "eslint-plugin-vue": "^9.27.0"
   },
   "packageManager": "pnpm@9.9.0"
 }
