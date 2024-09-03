@@ -10,7 +10,7 @@ export const builtinRules = {
     },
   ],
   'arrow-body-style': [
-    'error',
+    'off',
     'as-needed',
     {
       requireReturnForObjectLiteral: false,
