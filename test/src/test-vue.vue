@@ -3,13 +3,11 @@
 </template>
 
 <script lang="ts">
-let foo = 'foo'
+let foo = 'foo';
 
 export default {
   name: 'Foo',
-}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
