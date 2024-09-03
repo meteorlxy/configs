@@ -1,0 +1,17 @@
+{
+  "name": "@meteorlxy/configs-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@meteorlxy/eslint-config": "workspace:*",
+    "@types/react": "^18.3.5"
+  },
+  "packageManager": "pnpm@9.9.0"
+}

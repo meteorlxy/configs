@@ -8,7 +8,6 @@
     "clean": "pnpm -r run clean",
     "format": "prettier --write .",
     "lint": "eslint . && prettier --check .",
-    "lint:test": "eslint ./test",
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:publish",
     "release:check": "pnpm clean && pnpm build && pnpm lint",
