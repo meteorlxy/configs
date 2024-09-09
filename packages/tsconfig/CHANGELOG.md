@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/meteorlxy/configs/compare/v4.4.0...v4.5.0) (2024-09-09)
+
+### Features
+
+* **tsconfig:** upgrade typescript to 5.6 and enable new compiler options ([e32f217](https://github.com/meteorlxy/configs/commit/e32f2175d9bb42a73b5c7df606af9a77e9f24151))
+
 # [4.0.0](https://github.com/meteorlxy/configs/compare/v3.8.0...v4.0.0) (2024-08-13)
 
 **Note:** Version bump only for package @meteorlxy/tsconfig
