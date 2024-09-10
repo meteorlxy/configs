@@ -16,6 +16,8 @@ import aa from '@/a/a';
 let foo = 'foo';
 let bar = `${true}${1345}${null}${{}}${[]}${undefined}`;
 
+const baz: boolean = false;
+
 export type TestTs = string;
 
 for (const item of []) {

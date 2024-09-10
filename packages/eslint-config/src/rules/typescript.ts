@@ -102,6 +102,10 @@ export const typescriptRules = {
   '@typescript-eslint/no-duplicate-type-constituents': 'error',
   '@typescript-eslint/no-empty-interface': 'off', // deprecated
   '@typescript-eslint/no-import-type-side-effects': 'error',
+  '@typescript-eslint/no-inferrable-types': [
+    'off',
+    { ignoreParameters: false, ignoreProperties: false },
+  ],
   '@typescript-eslint/no-invalid-this': 'off', // checked by typescript
   '@typescript-eslint/no-invalid-void-type': 'off', // @see https://github.com/typescript-eslint/typescript-eslint/issues/8113
   '@typescript-eslint/no-redeclare': 'off', // checked by typescript
