@@ -112,6 +112,7 @@ export const typescriptRules = {
   '@typescript-eslint/no-invalid-this': 'off', // checked by typescript
   '@typescript-eslint/no-invalid-void-type': 'off', // @see https://github.com/typescript-eslint/typescript-eslint/issues/8113
   '@typescript-eslint/no-redeclare': 'off', // checked by typescript
+  '@typescript-eslint/no-redundant-type-constituents': 'error',
   '@typescript-eslint/no-require-imports': ['error', { allow: [] }],
   '@typescript-eslint/no-restricted-imports': [
     'off',
