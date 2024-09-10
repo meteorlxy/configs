@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.1](https://github.com/meteorlxy/configs/compare/v4.5.0...v4.5.1) (2024-09-10)
+
+### Bug Fixes
+
+* **eslint-config:** turn off no-inferrable-types ([6189441](https://github.com/meteorlxy/configs/commit/61894410776f6941ae18b1afefaa84e74a9cc093))
+
 # [4.5.0](https://github.com/meteorlxy/configs/compare/v4.4.0...v4.5.0) (2024-09-09)
 
 ### Features
