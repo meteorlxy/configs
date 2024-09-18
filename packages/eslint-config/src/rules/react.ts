@@ -42,6 +42,7 @@ export const reactRules = {
       checkChildContextTypes: true,
     },
   ],
+  'react/forward-ref-uses-ref': 'error',
   'react/function-component-definition': [
     'error',
     {
