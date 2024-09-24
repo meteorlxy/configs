@@ -9,14 +9,14 @@ import type {
   EslintVueOptions,
 } from './configs';
 import {
-  ignores,
-  imports,
-  javascript,
-  markdown,
-  prettier,
-  react,
-  typescript,
-  vue,
+  ignores as ignoresConfig,
+  imports as importsConfig,
+  javascript as javascriptConfig,
+  markdown as markdownConfig,
+  prettier as prettierConfig,
+  react as reactConfig,
+  typescript as typescriptConfig,
+  vue as vueConfig,
 } from './configs';
 
 export interface EslintOptions {
@@ -30,37 +30,41 @@ export interface EslintOptions {
 }
 
 export const meteorlxy = async (
-  options: EslintOptions = {},
+  {
+    ignores = [],
+    imports = {},
+    javascript = {},
+    markdown = true,
+    react = false,
+    typescript = {},
+    vue = false,
+  }: EslintOptions = {},
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> => [
   // global ignores
-  ...ignores(options.ignores),
+  ...ignoresConfig(ignores),
 
   // javascript core rules
-  ...javascript(options.javascript),
+  ...javascriptConfig(javascript),
 
   // imports rules
-  ...imports(options.imports),
+  ...importsConfig(imports),
 
   // react rules - should be placed before typescript rules
-  ...(options.react
-    ? await react(options.react === true ? {} : options.react)
-    : []),
+  ...(react ? await reactConfig(react === true ? {} : react) : []),
 
   // typescript rules
-  ...typescript(options.typescript),
+  ...typescriptConfig(typescript),
 
   // vue rules - should be placed after typescript rules
-  ...(options.vue ? await vue(options.vue === true ? {} : options.vue) : []),
+  ...(vue ? await vueConfig(vue === true ? {} : vue) : []),
 
   // markdown rules
-  ...(options.markdown !== false
-    ? await markdown(options.markdown === true ? {} : options.markdown)
-    : []),
+  ...(markdown ? await markdownConfig(markdown === true ? {} : markdown) : []),
 
   // allow custom configs
   ...customConfigs,
 
   // prettier rules - should be the last one
-  ...prettier(),
+  ...prettierConfig(),
 ];
