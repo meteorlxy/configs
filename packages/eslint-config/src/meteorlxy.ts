@@ -30,7 +30,7 @@ export interface EslintOptions {
 }
 
 export const meteorlxy = async (
-  options: EslintOptions,
+  options: EslintOptions = {},
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> => [
   // global ignores
