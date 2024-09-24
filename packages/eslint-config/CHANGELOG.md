@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.6.0](https://github.com/meteorlxy/configs/compare/v4.5.1...v4.6.0) (2024-09-24)
+
+### Bug Fixes
+
+* **eslint-config:** make the options optional ([86706b0](https://github.com/meteorlxy/configs/commit/86706b02919ef0f47a1b544a86c26d4e616eed12))
+
+### Features
+
+* **eslint-config:** add react/forward-ref-uses-ref rule ([da20602](https://github.com/meteorlxy/configs/commit/da20602c4c035cf536cfc240fe817a238511e581))
+
 ## [4.5.1](https://github.com/meteorlxy/configs/compare/v4.5.0...v4.5.1) (2024-09-10)
 
 ### Bug Fixes
