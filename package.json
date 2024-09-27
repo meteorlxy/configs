@@ -31,7 +31,7 @@
     "@meteorlxy/eslint-config": "workspace:*",
     "@meteorlxy/prettier-config": "workspace:*",
     "@meteorlxy/tsconfig": "workspace:*",
-    "@types/node": "^22.6.1",
+    "@types/node": "^22.7.3",
     "eslint": "^9.11.1",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
