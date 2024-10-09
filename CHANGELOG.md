@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.6.1](https://github.com/meteorlxy/configs/compare/v4.6.0...v4.6.1) (2024-10-09)
+
+### Bug Fixes
+
+* **eslint-config:** downgrade no-unsafe-assignment to warn ([95ef48e](https://github.com/meteorlxy/configs/commit/95ef48ecf6155b7cd6c36274e8b434147e9403aa))
+
 # [4.6.0](https://github.com/meteorlxy/configs/compare/v4.5.1...v4.6.0) (2024-09-24)
 
 ### Bug Fixes
