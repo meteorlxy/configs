@@ -86,6 +86,7 @@ export const vueRules = {
   'vue/no-console': 'error', // builtin extension
   'vue/no-constant-condition': 'warn', // builtin extension
   'vue/no-custom-modifiers-on-v-model': 'off', // vue2?
+  'vue/no-deprecated-delete-set': 'error',
   'vue/no-deprecated-model-definition': 'error',
   'vue/no-duplicate-attr-inheritance': 'error',
   'vue/no-empty-component-block': 'warn',
@@ -98,7 +99,6 @@ export const vueRules = {
   'vue/no-potential-component-option-typo': 'off', // options api
   'vue/no-ref-object-destructure': 'off', // deprecated
   'vue/no-ref-object-reactivity-loss': 'warn',
-  'vue/require-default-export': 'warn',
   'vue/no-required-prop-with-default': ['warn', { autofix: false }],
   'vue/no-restricted-block': ['off'],
   'vue/no-restricted-call-after-await': ['off'],
@@ -177,6 +177,7 @@ export const vueRules = {
   'vue/prefer-separate-static-class': 'error',
   'vue/prefer-template': 'error', // builtin extension
   'vue/prefer-true-attribute-shorthand': 'off',
+  'vue/require-default-export': 'warn',
   'vue/require-direct-export': [
     'error',
     {
