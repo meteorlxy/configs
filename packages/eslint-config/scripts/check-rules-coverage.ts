@@ -42,11 +42,11 @@ const configs = [
     allRules: new Set(Object.keys(vuePlugin.rules)),
     currentRules: new Set(
       Object.keys({
-        ...vuePlugin.configs!.base.rules,
-        ...vuePlugin.configs!['vue3-essential'].rules,
-        ...vuePlugin.configs!['vue3-strongly-recommended'].rules,
-        ...vuePlugin.configs!['vue3-recommended'].rules,
-        ...vuePlugin.configs!['no-layout-rules'].rules,
+        ...vuePlugin.configs.base.rules,
+        ...vuePlugin.configs['vue3-essential'].rules,
+        ...vuePlugin.configs['vue3-strongly-recommended'].rules,
+        ...vuePlugin.configs['vue3-recommended'].rules,
+        ...vuePlugin.configs['no-layout-rules'].rules,
         ...rules.vueRules,
       }),
     ),
