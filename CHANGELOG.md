@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.7.0](https://github.com/meteorlxy/configs/compare/v4.6.1...v4.7.0) (2024-10-16)
+
+### Features
+
+* **eslint-config:** add new vue/no-deprecated-delete-set rule ([50d1fb4](https://github.com/meteorlxy/configs/commit/50d1fb4311cf3b1e0070b052769127fedae7e582))
+* **eslint-config:** downgrade `@typescript-eslint/no-unnecessary-type-assertion` to warn ([95b3213](https://github.com/meteorlxy/configs/commit/95b32138d8c7f313d258e3bcff4ddd699eafa2f4))
+* **eslint-config:** downgrade `@typescript-eslint/no-unsafe-argument` to warn ([8dddee3](https://github.com/meteorlxy/configs/commit/8dddee3600a0d7df1062cd30f8cd1da8ba35d2f0))
+* **eslint-config:** downgrade `@typescript-eslint/no-unsafe-member-access` to warn ([5f2b226](https://github.com/meteorlxy/configs/commit/5f2b22676d50cc6f8aa4ef7182aff9901f9f8498))
+
 ## [4.6.1](https://github.com/meteorlxy/configs/compare/v4.6.0...v4.6.1) (2024-10-09)
 
 ### Bug Fixes
