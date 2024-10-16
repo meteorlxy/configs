@@ -137,6 +137,7 @@ export const typescriptRules = {
   '@typescript-eslint/no-type-alias': 'off', // deprecated
   '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
   '@typescript-eslint/no-unnecessary-qualifier': 'off',
+  '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
   '@typescript-eslint/no-unsafe-assignment': 'warn',
   '@typescript-eslint/no-unsafe-unary-minus': 'error',
   '@typescript-eslint/no-useless-empty-export': 'off',
