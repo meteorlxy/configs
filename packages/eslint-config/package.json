@@ -32,9 +32,9 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.8.1",
-    "@typescript-eslint/parser": "^8.8.1",
-    "@typescript-eslint/utils": "^8.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "@typescript-eslint/utils": "^8.9.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -49,7 +49,7 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc-f9ebd85a-20240925",
     "eslint-plugin-react-refresh": "^0.4.12",
-    "eslint-plugin-vue": "^9.28.0",
+    "eslint-plugin-vue": "^9.29.0",
     "vue-eslint-parser": "^9.4.3"
   },
   "peerDependencies": {
