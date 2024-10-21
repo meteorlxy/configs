@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.7.1](https://github.com/meteorlxy/configs/compare/v4.7.0...v4.7.1) (2024-10-21)
+
+**Note:** Version bump only for package @meteorlxy/configs
+
 # [4.7.0](https://github.com/meteorlxy/configs/compare/v4.6.1...v4.7.0) (2024-10-16)
 
 ### Features
