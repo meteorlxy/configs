@@ -213,6 +213,7 @@ export const reactRules = {
   'react/require-default-props': [
     'error',
     {
+      functions: 'ignore',
       forbidDefaultForRequired: true,
     },
   ],
