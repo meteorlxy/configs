@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.7.2](https://github.com/meteorlxy/configs/compare/v4.7.1...v4.7.2) (2024-10-30)
+
+### Bug Fixes
+
+* **eslint-config:** fix types ([1d2a109](https://github.com/meteorlxy/configs/commit/1d2a1099478a708b165b6db0629c3c0d41b77a3d))
+* **eslint-config:** set functions to ignore in require-default-props ([941ed80](https://github.com/meteorlxy/configs/commit/941ed80b9ddeaaabdef633c2e7d4428e7c8cf08b))
+
 ## [4.7.1](https://github.com/meteorlxy/configs/compare/v4.7.0...v4.7.1) (2024-10-21)
 
 **Note:** Version bump only for package @meteorlxy/configs
