@@ -66,6 +66,7 @@ export const importsRules = {
           'prettier',
           'rollup',
           'stylelint',
+          'tailwind',
           'taze',
           'tsup',
           'vite',
