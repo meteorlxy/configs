@@ -133,7 +133,7 @@ export const reactRules = {
   ],
   'react/jsx-sort-default-props': 'off', // deprecated
   'react/jsx-sort-props': [
-    'error',
+    'warn',
     {
       ignoreCase: false,
       callbacksLast: false,
