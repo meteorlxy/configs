@@ -205,6 +205,7 @@ export const typescriptRules = {
     'error',
     { ignoreStringArrays: true },
   ],
+  '@typescript-eslint/require-await': 'warn',
   '@typescript-eslint/restrict-template-expressions': [
     'warn',
     {
