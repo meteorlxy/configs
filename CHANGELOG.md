@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.7.3](https://github.com/meteorlxy/configs/compare/v4.7.2...v4.7.3) (2024-10-30)
+
+### Bug Fixes
+
+* **eslint-config:** add tailwind to no-extraneous-dependencies ([f785fee](https://github.com/meteorlxy/configs/commit/f785fee337036f2bae282d5f83d561b957f9aad4))
+
 ## [4.7.2](https://github.com/meteorlxy/configs/compare/v4.7.1...v4.7.2) (2024-10-30)
 
 ### Bug Fixes
