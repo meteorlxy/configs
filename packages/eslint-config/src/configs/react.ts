@@ -27,7 +27,7 @@ export const react = async ({
     {
       name: 'meteorlxy/react/plugins',
       plugins: {
-        'react': reactPlugin as FlatConfig.Plugin,
+        'react': reactPlugin as unknown as FlatConfig.Plugin,
         'react-hooks': reactHooksPlugin,
         'react-refresh': reactRefreshPlugin,
       },

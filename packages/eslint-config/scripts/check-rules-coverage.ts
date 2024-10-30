@@ -1,5 +1,4 @@
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import eslint from 'eslint/use-at-your-own-risk';
 import prettierConfig from 'eslint-config-prettier';
 import importPlugin from 'eslint-plugin-import-x';
@@ -29,7 +28,7 @@ const configs = [
   },
   {
     scope: 'react',
-    allRules: new Set(Object.keys((reactPlugin as FlatConfig.Plugin).rules!)),
+    allRules: new Set(Object.keys(reactPlugin.rules)),
     currentRules: new Set(Object.keys(rules.reactRules)),
   },
   {
