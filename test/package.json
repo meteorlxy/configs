@@ -7,15 +7,15 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "vue": "^3.5.12"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
     "@types/react": "^18.3.12",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.1.0-rc-f9ebd85a-20240925",
-    "eslint-plugin-react-refresh": "^0.4.14",
-    "eslint-plugin-vue": "^9.30.0"
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-vue": "^9.32.0"
   },
-  "packageManager": "pnpm@9.12.3"
+  "packageManager": "pnpm@9.14.4"
 }
