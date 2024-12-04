@@ -177,6 +177,7 @@ export const vueRules = {
   'vue/prefer-separate-static-class': 'error',
   'vue/prefer-template': 'error', // builtin extension
   'vue/prefer-true-attribute-shorthand': 'off',
+  'vue/prefer-use-template-ref': 'error',
   'vue/require-default-export': 'warn',
   'vue/require-direct-export': [
     'error',
@@ -206,8 +207,15 @@ export const vueRules = {
   ],
   'vue/require-typed-object-prop': 'error',
   'vue/require-typed-ref': 'error',
+  'vue/restricted-component-names': [
+    'off',
+    {
+      allow: [],
+    },
+  ],
   'vue/sort-keys': 'off', // builtin extension
   'vue/script-setup-uses-vars': 'off', // deprecated
+  'vue/slot-name-casing': ['warn', 'kebab-case'],
   'vue/static-class-names-order': 'error',
   'vue/v-if-else-key': 'off', // vue2
   'vue/v-on-handler-style': 'off',
