@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.8.0](https://github.com/meteorlxy/configs/compare/v4.7.3...v4.8.0) (2024-12-04)
+
+### Features
+
+* **tsconfig:** add nestjs config ([2ef50c5](https://github.com/meteorlxy/configs/commit/2ef50c523c12d2e1f4353d458db9920ba8ed2b4a))
+
 # [4.6.0](https://github.com/meteorlxy/configs/compare/v4.5.1...v4.6.0) (2024-09-24)
 
 **Note:** Version bump only for package @meteorlxy/tsconfig

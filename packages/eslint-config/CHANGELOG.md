@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.8.0](https://github.com/meteorlxy/configs/compare/v4.7.3...v4.8.0) (2024-12-04)
+
+### Bug Fixes
+
+* **eslint-config:** downgrade no-unsafe-return to warn ([835eaac](https://github.com/meteorlxy/configs/commit/835eaac75280ee1897cd2a57130eebcc96fead87))
+* **eslint-config:** downgrade react/jsx-sort-props to warn ([41e28f3](https://github.com/meteorlxy/configs/commit/41e28f3ae480a33ab0d1be98b85f9117c89c8cbf))
+* **eslint-config:** downgrade require-await to warn ([6d127f2](https://github.com/meteorlxy/configs/commit/6d127f20894cfb08c752d380fa1ec2b5b09b06e2))
+
+### Features
+
+* **eslint-config:** add new ts rules ([084fb72](https://github.com/meteorlxy/configs/commit/084fb723f76218a05eba35045553b0213ed3271a))
+* **eslint-config:** add new vue rules ([0105b64](https://github.com/meteorlxy/configs/commit/0105b64e243ebbac0f2184bdd66b0d4ddd435547))
+
 ## [4.7.3](https://github.com/meteorlxy/configs/compare/v4.7.2...v4.7.3) (2024-10-30)
 
 ### Bug Fixes
