@@ -142,6 +142,7 @@ export const typescriptRules = {
   '@typescript-eslint/no-unsafe-assignment': 'warn',
   '@typescript-eslint/no-unsafe-member-access': 'warn',
   '@typescript-eslint/no-unsafe-return': 'warn',
+  '@typescript-eslint/no-unsafe-type-assertion': 'off',
   '@typescript-eslint/no-unsafe-unary-minus': 'error',
   '@typescript-eslint/no-useless-empty-export': 'off',
   '@typescript-eslint/no-var-requires': ['error', { allow: [] }],
