@@ -1,4 +1,5 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import { builtinRules } from './builtin';
 
 export const vueRules = {
   'vue/block-lang': [
@@ -46,13 +47,7 @@ export const vueRules = {
     'off',
     { allow: ['scoped', 'module', 'plain'] },
   ],
-  'vue/eqeqeq': [
-    'error',
-    'always',
-    {
-      null: 'ignore',
-    },
-  ], // builtin extension
+  'vue/eqeqeq': builtinRules.eqeqeq, // builtin extension
   'vue/html-button-has-type': [
     'error',
     {
@@ -83,26 +78,17 @@ export const vueRules = {
   'vue/next-tick-style': ['error', 'promise'],
   'vue/no-bare-strings-in-template': ['off'],
   'vue/no-boolean-default': ['off', 'no-default'],
-  'vue/no-console': 'error', // builtin extension
-  'vue/no-constant-condition': 'warn', // builtin extension
+  'vue/no-console': builtinRules['no-console'], // builtin extension
+  'vue/no-constant-condition': builtinRules['no-constant-condition'], // builtin extension
   'vue/no-custom-modifiers-on-v-model': 'off', // vue2?
   'vue/no-deprecated-delete-set': 'error',
   'vue/no-deprecated-model-definition': 'error',
   'vue/no-duplicate-attr-inheritance': 'error',
   'vue/no-empty-component-block': 'warn',
-  'vue/no-empty-pattern': 'error', // builtin extension
-  'vue/no-implicit-coercion': [
-    'warn',
-    {
-      boolean: false,
-      number: true,
-      string: true,
-      disallowTemplateShorthand: false,
-      allow: [],
-    },
-  ], // builtin extension
+  'vue/no-empty-pattern': builtinRules['no-empty-pattern'], // builtin extension
+  'vue/no-implicit-coercion': builtinRules['no-implicit-coercion'], // builtin extension
   'vue/no-invalid-model-keys': 'off', // deprecated
-  'vue/no-irregular-whitespace': 'error', // builtin extension
+  'vue/no-irregular-whitespace': builtinRules['no-irregular-whitespace'], // builtin extension
   'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?
   'vue/no-multiple-objects-in-class': 'error',
   'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
@@ -119,18 +105,13 @@ export const vueRules = {
   'vue/no-restricted-html-elements': ['off'],
   'vue/no-restricted-props': ['off'],
   'vue/no-restricted-static-attribute': ['off'],
-  'vue/no-restricted-syntax': [
-    'error',
-    'DebuggerStatement',
-    'LabeledStatement',
-    'WithStatement',
-  ], // builtin extension
+  'vue/no-restricted-syntax': builtinRules['no-restricted-syntax'], // builtin extension
   'vue/no-restricted-v-bind': ['off'],
   'vue/no-restricted-v-on': ['off'],
   'vue/no-root-v-if': 'error',
   'vue/no-setup-props-destructure': 'off', // deprecated
   'vue/no-setup-props-reactivity-loss': 'error',
-  'vue/no-sparse-arrays': 'error', // builtin extension
+  'vue/no-sparse-arrays': builtinRules['no-sparse-arrays'], // builtin extension
   'vue/no-static-inline-styles': [
     'error',
     {
@@ -161,7 +142,7 @@ export const vueRules = {
   'vue/no-unused-refs': 'error',
   'vue/no-use-v-else-with-v-for': 'error',
   'vue/no-use-v-if-with-v-for': 'error',
-  'vue/no-useless-concat': 'error', // builtin extension
+  'vue/no-useless-concat': builtinRules['no-useless-concat'], // builtin extension
   'vue/no-useless-mustaches': [
     'off',
     {
@@ -174,18 +155,11 @@ export const vueRules = {
   'vue/no-v-for-template-key-on-child': 'error',
   'vue/no-v-model-argument': 'off', // vue2
   'vue/no-v-text': 'off',
-  'vue/object-shorthand': [
-    'error',
-    'always',
-    {
-      ignoreConstructors: false,
-      avoidQuotes: true,
-    },
-  ], // builtin extension
+  'vue/object-shorthand': builtinRules['object-shorthand'], // builtin extension
   'vue/prefer-define-options': 'error',
   'vue/prefer-prop-type-boolean-first': 'error',
   'vue/prefer-separate-static-class': 'error',
-  'vue/prefer-template': 'error', // builtin extension
+  'vue/prefer-template': builtinRules['prefer-template'], // builtin extension
   'vue/prefer-true-attribute-shorthand': 'off',
   'vue/prefer-use-template-ref': 'error',
   'vue/require-default-export': 'warn',
@@ -223,7 +197,7 @@ export const vueRules = {
       allow: [],
     },
   ],
-  'vue/sort-keys': 'off', // builtin extension
+  'vue/sort-keys': builtinRules['sort-keys'], // builtin extension
   'vue/script-setup-uses-vars': 'off', // deprecated
   'vue/slot-name-casing': ['warn', 'kebab-case'],
   'vue/static-class-names-order': 'error',
