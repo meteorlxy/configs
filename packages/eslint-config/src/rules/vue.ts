@@ -91,6 +91,16 @@ export const vueRules = {
   'vue/no-duplicate-attr-inheritance': 'error',
   'vue/no-empty-component-block': 'warn',
   'vue/no-empty-pattern': 'error', // builtin extension
+  'vue/no-implicit-coercion': [
+    'warn',
+    {
+      boolean: false,
+      number: true,
+      string: true,
+      disallowTemplateShorthand: false,
+      allow: [],
+    },
+  ], // builtin extension
   'vue/no-invalid-model-keys': 'off', // deprecated
   'vue/no-irregular-whitespace': 'error', // builtin extension
   'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?

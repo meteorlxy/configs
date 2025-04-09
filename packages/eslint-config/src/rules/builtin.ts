@@ -239,11 +239,12 @@ export const builtinRules = {
     },
   ],
   'no-implicit-coercion': [
-    'off',
+    'warn',
     {
       boolean: false,
       number: true,
       string: true,
+      disallowTemplateShorthand: false,
       allow: [],
     },
   ],
