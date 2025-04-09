@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0](https://github.com/meteorlxy/configs/compare/v4.8.2...v4.9.0) (2025-04-09)
+
+### Features
+
+* enable no-implicit-coercion rule ([cafdfda](https://github.com/meteorlxy/configs/commit/cafdfdab8510ef04066a4d4fa9222f844e7c4605))
+* upgrade eslint-plugin-vue to v10 ([29ae779](https://github.com/meteorlxy/configs/commit/29ae779fae014afb94b950570e7ca72ada243604))
+
 ## [4.8.2](https://github.com/meteorlxy/configs/compare/v4.8.1...v4.8.2) (2025-01-15)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config
