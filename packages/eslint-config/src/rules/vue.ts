@@ -26,7 +26,6 @@ export const vueRules = {
     },
   ],
   'vue/component-options-name-casing': ['error', 'PascalCase'],
-  'vue/component-tags-order': 'off', // deprecated
   'vue/custom-event-name-casing': [
     'error',
     'camelCase',
@@ -87,13 +86,12 @@ export const vueRules = {
   'vue/no-empty-component-block': 'warn',
   'vue/no-empty-pattern': builtinRules['no-empty-pattern'], // builtin extension
   'vue/no-implicit-coercion': builtinRules['no-implicit-coercion'], // builtin extension
-  'vue/no-invalid-model-keys': 'off', // deprecated
+  'vue/no-import-compiler-macros': 'error',
   'vue/no-irregular-whitespace': builtinRules['no-irregular-whitespace'], // builtin extension
   'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?
   'vue/no-multiple-objects-in-class': 'error',
   'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
   'vue/no-potential-component-option-typo': 'off', // options api
-  'vue/no-ref-object-destructure': 'off', // deprecated
   'vue/no-ref-object-reactivity-loss': 'warn',
   'vue/no-required-prop-with-default': ['warn', { autofix: false }],
   'vue/no-restricted-block': ['off'],
@@ -109,7 +107,6 @@ export const vueRules = {
   'vue/no-restricted-v-bind': ['off'],
   'vue/no-restricted-v-on': ['off'],
   'vue/no-root-v-if': 'error',
-  'vue/no-setup-props-destructure': 'off', // deprecated
   'vue/no-setup-props-reactivity-loss': 'error',
   'vue/no-sparse-arrays': builtinRules['no-sparse-arrays'], // builtin extension
   'vue/no-static-inline-styles': [
@@ -198,12 +195,10 @@ export const vueRules = {
     },
   ],
   'vue/sort-keys': builtinRules['sort-keys'], // builtin extension
-  'vue/script-setup-uses-vars': 'off', // deprecated
   'vue/slot-name-casing': ['warn', 'kebab-case'],
   'vue/static-class-names-order': 'error',
   'vue/v-if-else-key': 'off', // vue2
   'vue/v-on-handler-style': 'off',
-  'vue/v-on-function-call': 'off', // deprecated
   'vue/valid-define-emits': 'error',
   'vue/valid-define-options': 'error',
   'vue/valid-define-props': 'error',

@@ -44,15 +44,20 @@ export const vue = async ({
         },
       },
       processor: vuePlugin.processors['.vue'] as FlatConfig.Processor,
+      /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
       rules: {
         ...vuePlugin.configs.base.rules,
-        ...vuePlugin.configs['vue3-essential'].rules,
-        ...vuePlugin.configs['vue3-strongly-recommended'].rules,
-        ...vuePlugin.configs['vue3-recommended'].rules,
+        // @ts-expect-error - types are not correct
+        ...vuePlugin.configs.essential.rules,
+        // @ts-expect-error - types are not correct
+        ...vuePlugin.configs['strongly-recommended'].rules,
+        // @ts-expect-error - types are not correct
+        ...vuePlugin.configs.recommended.rules,
         ...vuePlugin.configs['no-layout-rules'].rules,
         ...vueRules,
         ...overrides,
       },
+      /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
     },
   ];
 };
