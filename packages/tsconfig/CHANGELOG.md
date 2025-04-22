@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/meteorlxy/configs/compare/v4.9.1...v5.0.0) (2025-04-22)
+
+**Note:** Version bump only for package @meteorlxy/tsconfig
+
 # [4.8.0](https://github.com/meteorlxy/configs/compare/v4.7.3...v4.8.0) (2024-12-04)
 
 ### Features

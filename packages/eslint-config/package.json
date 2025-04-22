@@ -1,6 +1,6 @@
 {
   "name": "@meteorlxy/eslint-config",
-  "version": "4.9.1",
+  "version": "5.0.0",
   "description": "meteorlxy eslint config",
   "keywords": [
     "config",

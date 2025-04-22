@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/meteorlxy/configs/compare/v4.9.1...v5.0.0) (2025-04-22)
+
+### Features
+
+* **eslint-config:** support gitignore plugin ([fe96883](https://github.com/meteorlxy/configs/commit/fe9688344fa9aca48f0e99f9530336796d9450c5))
+
+### BREAKING CHANGES
+
+* **eslint-config:** the `ignores` option has been moved to `ignores.files`
+
 ## [4.9.1](https://github.com/meteorlxy/configs/compare/v4.9.0...v4.9.1) (2025-04-09)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config
