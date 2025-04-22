@@ -1,7 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import type { FlatGitignoreOptions } from 'eslint-config-flat-gitignore';
-// eslint-disable-next-line import/no-rename-default
-import gitignorePlugin from 'eslint-config-flat-gitignore';
+import { interopDefault } from '../utils';
 
 export interface EslintIgnoresOptions {
   files?: FlatConfig.Config['ignores'];
@@ -11,59 +10,65 @@ export interface EslintIgnoresOptions {
 /**
  * Ignores configuration for eslint.
  */
-export const ignores = ({
+export const ignores = async ({
   files = [],
   gitignore = {},
-}: EslintIgnoresOptions = {}): FlatConfig.Config[] => [
-  gitignorePlugin({
-    name: 'meteorlxy/gitignore',
-    ...gitignore,
-  }),
-  {
-    name: 'meteorlxy/ignores',
-    ignores: [
-      // node_modules & lock files
-      '**/node_modules',
-      '**/package-lock.json',
-      '**/yarn.lock',
-      '**/pnpm-lock.yaml',
-      '**/bun.lockb',
+}: EslintIgnoresOptions = {}): Promise<FlatConfig.Config[]> => {
+  const gitignorePlugin = await interopDefault(
+    import('eslint-config-flat-gitignore'),
+  );
 
-      // dist & output
-      '**/*.min.*',
-      '**/.output',
-      '**/dist',
-      '**/output',
+  return [
+    gitignorePlugin({
+      name: 'meteorlxy/gitignore',
+      ...gitignore,
+    }),
+    {
+      name: 'meteorlxy/ignores',
+      ignores: [
+        // node_modules & lock files
+        '**/node_modules',
+        '**/package-lock.json',
+        '**/yarn.lock',
+        '**/pnpm-lock.yaml',
+        '**/bun.lockb',
 
-      // temp & cache
-      '**/.cache',
-      '**/.temp',
-      '**/.tmp',
-      '**/temp',
-      '**/tmp',
+        // dist & output
+        '**/*.min.*',
+        '**/.output',
+        '**/dist',
+        '**/output',
 
-      // framework & tools
-      '**/.changeset',
-      '**/.expo',
-      '**/.history',
-      '**/.idea',
-      '**/.next',
-      '**/.nx',
-      '**/.nyc_output',
-      '**/.turbo',
-      '**/.vercel',
-      '**/.vite-inspect',
-      '**/.vitepress/cache',
+        // temp & cache
+        '**/.cache',
+        '**/.temp',
+        '**/.tmp',
+        '**/temp',
+        '**/tmp',
 
-      // test & coverage
-      '**/__snapshots__',
-      '**/coverage',
+        // framework & tools
+        '**/.changeset',
+        '**/.expo',
+        '**/.history',
+        '**/.idea',
+        '**/.next',
+        '**/.nx',
+        '**/.nyc_output',
+        '**/.turbo',
+        '**/.vercel',
+        '**/.vite-inspect',
+        '**/.vitepress/cache',
 
-      // docs
-      '**/CHANGELOG*.md',
-      '**/LICENSE*',
+        // test & coverage
+        '**/__snapshots__',
+        '**/coverage',
 
-      ...files,
-    ],
-  },
-];
+        // docs
+        '**/CHANGELOG*.md',
+        '**/LICENSE*',
+
+        ...files,
+      ],
+    },
+  ];
+};

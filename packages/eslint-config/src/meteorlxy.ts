@@ -42,7 +42,7 @@ export const meteorlxy = async (
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> => [
   // global ignores
-  ...ignoresConfig(ignores),
+  ...(await ignoresConfig(ignores)),
 
   // javascript core rules
   ...javascriptConfig(javascript),
