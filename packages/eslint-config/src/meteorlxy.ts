@@ -31,7 +31,7 @@ export interface EslintOptions {
 
 export const meteorlxy = async (
   {
-    ignores = [],
+    ignores = {},
     imports = {},
     javascript = {},
     markdown = true,

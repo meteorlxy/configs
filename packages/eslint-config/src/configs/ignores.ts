@@ -1,13 +1,24 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { FlatGitignoreOptions } from 'eslint-config-flat-gitignore';
+// eslint-disable-next-line import/no-rename-default
+import gitignorePlugin from 'eslint-config-flat-gitignore';
 
-export type EslintIgnoresOptions = FlatConfig.Config['ignores'];
+export interface EslintIgnoresOptions {
+  files?: FlatConfig.Config['ignores'];
+  gitignore?: FlatGitignoreOptions;
+}
 
 /**
  * Ignores configuration for eslint.
  */
-export const ignores = (
-  options: EslintIgnoresOptions = [],
-): FlatConfig.Config[] => [
+export const ignores = ({
+  files = [],
+  gitignore = {},
+}: EslintIgnoresOptions = {}): FlatConfig.Config[] => [
+  gitignorePlugin({
+    name: 'meteorlxy/gitignore',
+    ...gitignore,
+  }),
   {
     name: 'meteorlxy/ignores',
     ignores: [
@@ -52,7 +63,7 @@ export const ignores = (
       '**/CHANGELOG*.md',
       '**/LICENSE*',
 
-      ...options,
+      ...files,
     ],
   },
 ];
