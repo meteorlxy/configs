@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.1](https://github.com/meteorlxy/configs/compare/v5.0.0...v5.0.1) (2025-04-22)
+
+### Bug Fixes
+
+* **eslint-config:** async import gitignore plugin ([125a811](https://github.com/meteorlxy/configs/commit/125a811a7e788d45f3f0fffd61233b3a935a620a))
+
 # [5.0.0](https://github.com/meteorlxy/configs/compare/v4.9.1...v5.0.0) (2025-04-22)
 
 ### Features
