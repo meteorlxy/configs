@@ -41,6 +41,12 @@ export const vueRules = {
     },
   ],
   'vue/define-props-declaration': ['error', 'type-based'],
+  'vue/define-props-destructuring': [
+    'error',
+    {
+      destructure: 'always',
+    },
+  ],
   'vue/dot-notation': 'off', // builtin extension - checked by typescript?
   'vue/enforce-style-attribute': [
     'off',
