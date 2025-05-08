@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/meteorlxy/configs/compare/v5.0.1...v6.0.0) (2025-05-08)
+
+### Build System
+
+* update tsconfig lib and target to ES2023 ([e0972f1](https://github.com/meteorlxy/configs/commit/e0972f14115486c3881597c397dcf7f65f11d23f))
+
+### Features
+
+* **eslint-config:** enable no-unnecessary-type-conversion rule ([b94b141](https://github.com/meteorlxy/configs/commit/b94b14116647781b903ed6027c4b13096187cb5d))
+* **eslint-config:** enable vue/define-props-destructuring rule ([29358c1](https://github.com/meteorlxy/configs/commit/29358c1344e7080f6b864025da395b680f01d0f5))
+
+### BREAKING CHANGES
+
+* drop node 18
+
 ## [5.0.1](https://github.com/meteorlxy/configs/compare/v5.0.0...v5.0.1) (2025-04-22)
 
 ### Bug Fixes
