@@ -40,19 +40,14 @@ const configs = [
     scope: 'vue',
     allRules: new Set(Object.keys(vuePlugin.rules)),
     currentRules: new Set(
-      /* eslint-disable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access */
       Object.keys({
         ...vuePlugin.configs.base.rules,
-        // @ts-expect-error - types are not correct
         ...vuePlugin.configs.essential.rules,
-        // @ts-expect-error - types are not correct
         ...vuePlugin.configs['strongly-recommended'].rules,
-        // @ts-expect-error - types are not correct
         ...vuePlugin.configs.recommended.rules,
         ...vuePlugin.configs['no-layout-rules'].rules,
         ...rules.vueRules,
       }),
-      /* eslint-enable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access */
     ),
   },
 ];
