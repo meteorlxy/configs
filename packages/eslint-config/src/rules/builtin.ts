@@ -432,6 +432,7 @@ export const builtinRules = {
   'no-ternary': 'off',
   'no-this-before-super': 'error',
   'no-throw-literal': 'error',
+  'no-unassigned-vars': 'error',
   'no-undef': 'error',
   'no-undef-init': 'error',
   'no-undefined': 'off',
