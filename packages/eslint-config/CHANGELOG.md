@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/meteorlxy/configs/compare/v6.0.0...v6.1.0) (2025-06-09)
+
+### Features
+
+* disable import/no-rename-default ([66aab69](https://github.com/meteorlxy/configs/commit/66aab69493d590c7c708e2d292125729492534a1))
+* enable no-unassigned-vars rule ([2551641](https://github.com/meteorlxy/configs/commit/2551641c3726768cd0974422b6b9f9514b5cbd6b))
+
 # [6.0.0](https://github.com/meteorlxy/configs/compare/v5.0.1...v6.0.0) (2025-05-08)
 
 ### Features
