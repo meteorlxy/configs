@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/meteorlxy/configs/compare/v6.1.0...v6.2.0) (2025-06-30)
+
+### Features
+
+* **eslint-config:** add import/prefer-namespace-import rule ([9de1284](https://github.com/meteorlxy/configs/commit/9de128438f3c3baa1253fa724530ccb319fcf5e5))
+
 # [6.1.0](https://github.com/meteorlxy/configs/compare/v6.0.0...v6.1.0) (2025-06-09)
 
 ### Features
