@@ -150,5 +150,6 @@ export const importsRules = {
     },
   ],
   'import/prefer-default-export': 'off',
+  'import/prefer-namespace-import': 'off',
   'import/unambiguous': 'off',
 } satisfies FlatConfig.Rules;
