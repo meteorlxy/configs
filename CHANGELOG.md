@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/meteorlxy/configs/compare/v6.2.0...v6.3.0) (2025-07-07)
+
+### Features
+
+* **eslint-config:** add more markdown-shim rules from eslint-plugin-markdown ([5792591](https://github.com/meteorlxy/configs/commit/57925918b6a4aab80f56c5e49d756001c60b8593))
+
 # [6.2.0](https://github.com/meteorlxy/configs/compare/v6.1.0...v6.2.0) (2025-06-30)
 
 ### Features
