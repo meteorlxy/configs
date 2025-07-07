@@ -3,6 +3,7 @@ import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
 export const markdownShimRules = {
   // builtin rules
+  'eol-last': 'off',
   'no-alert': 'off',
   'no-console': 'off',
   'no-labels': 'off',
@@ -13,6 +14,7 @@ export const markdownShimRules = {
   'no-unused-expressions': 'off',
   'no-unused-labels': 'off',
   'no-unused-vars': 'off',
+  'padded-blocks': 'off',
   'strict': 'off',
   'unicode-bom': 'off',
 
