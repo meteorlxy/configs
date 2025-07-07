@@ -1,6 +1,6 @@
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from 'eslint/use-at-your-own-risk';
-import prettierConfig from 'eslint-config-prettier';
+import prettierConfig from 'eslint-config-prettier/flat';
 import importPlugin from 'eslint-plugin-import-x';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
@@ -9,7 +9,7 @@ import { rules } from '../src';
 
 // eslint-disable-next-line @typescript-eslint/no-deprecated
 const builtinRules = new Set(eslint.builtinRules.keys());
-const prettierRules = new Set(Object.keys(prettierConfig.rules!));
+const prettierRules = new Set(Object.keys(prettierConfig.rules));
 
 const configs = [
   {

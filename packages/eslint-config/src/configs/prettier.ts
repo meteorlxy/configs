@@ -1,5 +1,5 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
-import prettierConfig from 'eslint-config-prettier';
+import prettierConfig from 'eslint-config-prettier/flat';
 
 /**
  * Prettier configuration for eslint.
