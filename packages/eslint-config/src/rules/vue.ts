@@ -97,6 +97,8 @@ export const vueRules = {
   'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?
   'vue/no-multiple-objects-in-class': 'error',
   'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
+  'vue/no-negated-condition': builtinRules['no-negated-condition'], // builtin extension
+  'vue/no-negated-v-if-condition': 'off',
   'vue/no-potential-component-option-typo': 'off', // options api
   'vue/no-ref-object-reactivity-loss': 'warn',
   'vue/no-required-prop-with-default': ['warn', { autofix: false }],
