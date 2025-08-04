@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.4.0](https://github.com/meteorlxy/configs/compare/v6.3.0...v6.4.0) (2025-08-04)
+
+### Features
+
+* **eslint-config:** set vue/no-negated-condition and vue/no-negated-v-if-condition explicitly ([43f6e22](https://github.com/meteorlxy/configs/commit/43f6e22cf0f1fd6f718049e2077f4647be5122be))
+* **eslint-config:** support jsonc plugin ([f1af72a](https://github.com/meteorlxy/configs/commit/f1af72ac330317aed352e5a9ed4e1361ddbef768))
+
 # [6.3.0](https://github.com/meteorlxy/configs/compare/v6.2.0...v6.3.0) (2025-07-07)
 
 ### Features
