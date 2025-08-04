@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/meteorlxy/configs/compare/v6.4.0...v6.5.0) (2025-08-04)
+
+### Features
+
+* **eslint-config:** load jsonc plugin and parser dynamically ([ab71a3c](https://github.com/meteorlxy/configs/commit/ab71a3c08339e00b453a3b799793327a2871c889))
+
 # [6.4.0](https://github.com/meteorlxy/configs/compare/v6.3.0...v6.4.0) (2025-08-04)
 
 ### Features
