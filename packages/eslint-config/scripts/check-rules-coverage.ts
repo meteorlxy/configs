@@ -2,6 +2,7 @@ import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from 'eslint/use-at-your-own-risk';
 import prettierConfig from 'eslint-config-prettier/flat';
 import importPlugin from 'eslint-plugin-import-x';
+import jsoncPlugin from 'eslint-plugin-jsonc';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import vuePlugin from 'eslint-plugin-vue';
@@ -25,6 +26,11 @@ const configs = [
     scope: 'import',
     allRules: new Set(Object.keys(importPlugin.rules)),
     currentRules: new Set(Object.keys(rules.importsRules)),
+  },
+  {
+    scope: 'jsonc',
+    allRules: new Set(Object.keys(jsoncPlugin.rules)),
+    currentRules: new Set(Object.keys(rules.jsoncRules)),
   },
   {
     scope: 'react',

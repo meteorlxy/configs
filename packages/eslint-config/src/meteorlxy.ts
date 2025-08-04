@@ -3,6 +3,7 @@ import type {
   EslintIgnoresOptions,
   EslintImportsOptions,
   EslintJavascriptOptions,
+  EslintJsoncOptions,
   EslintMarkdownOptions,
   EslintReactOptions,
   EslintTypescriptOptions,
@@ -12,6 +13,7 @@ import {
   ignores as ignoresConfig,
   imports as importsConfig,
   javascript as javascriptConfig,
+  jsonc as jsoncConfig,
   markdown as markdownConfig,
   prettier as prettierConfig,
   react as reactConfig,
@@ -23,6 +25,7 @@ export interface EslintOptions {
   ignores?: EslintIgnoresOptions;
   imports?: EslintImportsOptions;
   javascript?: EslintJavascriptOptions;
+  jsonc?: EslintJsoncOptions | boolean;
   markdown?: EslintMarkdownOptions | boolean;
   react?: EslintReactOptions | boolean;
   typescript?: EslintTypescriptOptions;
@@ -34,6 +37,7 @@ export const meteorlxy = async (
     ignores = {},
     imports = {},
     javascript = {},
+    jsonc = true,
     markdown = true,
     react = false,
     typescript = {},
@@ -58,6 +62,9 @@ export const meteorlxy = async (
 
   // vue rules - should be placed after typescript rules
   ...(vue ? await vueConfig(vue === true ? {} : vue) : []),
+
+  // jsonc rules
+  ...(jsonc ? jsoncConfig(jsonc === true ? {} : jsonc) : []),
 
   // markdown rules
   ...(markdown ? await markdownConfig(markdown === true ? {} : markdown) : []),
