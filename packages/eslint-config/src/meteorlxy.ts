@@ -64,7 +64,7 @@ export const meteorlxy = async (
   ...(vue ? await vueConfig(vue === true ? {} : vue) : []),
 
   // jsonc rules
-  ...(jsonc ? jsoncConfig(jsonc === true ? {} : jsonc) : []),
+  ...(jsonc ? await jsoncConfig(jsonc === true ? {} : jsonc) : []),
 
   // markdown rules
   ...(markdown ? await markdownConfig(markdown === true ? {} : markdown) : []),

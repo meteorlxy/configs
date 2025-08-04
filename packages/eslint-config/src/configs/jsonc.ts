@@ -1,7 +1,6 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
-import jsoncPlugin from 'eslint-plugin-jsonc';
-import jsoncParser from 'jsonc-eslint-parser';
 import { jsoncRules } from '../rules';
+import { interopDefault } from '../utils';
 
 export interface EslintJsoncOptions {
   files?: FlatConfig.Config['files'];
@@ -11,25 +10,32 @@ export interface EslintJsoncOptions {
 /**
  * JSONC configuration for eslint.
  */
-export const jsonc = ({
+export const jsonc = async ({
   files = ['**/*.json', '**/*.json5', '**/*.jsonc'],
   overrides,
-}: EslintJsoncOptions = {}): FlatConfig.Config[] => [
-  {
-    name: 'meteorlxy/jsonc/plugins',
-    plugins: {
-      jsonc: jsoncPlugin,
+}: EslintJsoncOptions = {}): Promise<FlatConfig.Config[]> => {
+  const [jsoncPlugin, jsoncParser] = await Promise.all([
+    interopDefault(import('eslint-plugin-jsonc')),
+    interopDefault(import('jsonc-eslint-parser')),
+  ]);
+
+  return [
+    {
+      name: 'meteorlxy/jsonc/plugins',
+      plugins: {
+        jsonc: jsoncPlugin,
+      },
     },
-  },
-  {
-    name: 'meteorlxy/jsonc/rules',
-    files,
-    languageOptions: {
-      parser: jsoncParser,
+    {
+      name: 'meteorlxy/jsonc/rules',
+      files,
+      languageOptions: {
+        parser: jsoncParser,
+      },
+      rules: {
+        ...jsoncRules,
+        ...overrides,
+      },
     },
-    rules: {
-      ...jsoncRules,
-      ...overrides,
-    },
-  },
-];
+  ];
+};
