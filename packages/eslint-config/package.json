@@ -32,9 +32,9 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.38.0",
-    "@typescript-eslint/parser": "^8.38.0",
-    "@typescript-eslint/utils": "^8.38.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "@typescript-eslint/utils": "^8.39.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-config-prettier": "^10.1.8",
