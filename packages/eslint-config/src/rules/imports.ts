@@ -68,6 +68,7 @@ export const importsRules = {
           'stylelint',
           'tailwind',
           'taze',
+          'tsdown',
           'tsup',
           'vite',
           'vitest',
