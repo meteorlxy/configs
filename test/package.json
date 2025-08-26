@@ -16,6 +16,5 @@
     "eslint-plugin-react-hooks": "catalog:peer",
     "eslint-plugin-react-refresh": "catalog:peer",
     "eslint-plugin-vue": "catalog:peer"
-  },
-  "packageManager": "pnpm@10.14.0"
+  }
 }
