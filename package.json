@@ -42,11 +42,5 @@
     "tsx": "catalog:dev",
     "typescript": "catalog:dev"
   },
-  "packageManager": "pnpm@10.15.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ]
-  }
+  "packageManager": "pnpm@10.15.0"
 }
