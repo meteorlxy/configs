@@ -39,8 +39,9 @@
     "prettier": "catalog:dev",
     "rimraf": "catalog:dev",
     "sort-package-json": "catalog:dev",
+    "taze": "catalog:dev",
     "tsx": "catalog:dev",
     "typescript": "catalog:dev"
   },
-  "packageManager": "pnpm@10.17.1"
+  "packageManager": "pnpm@10.18.3"
 }
