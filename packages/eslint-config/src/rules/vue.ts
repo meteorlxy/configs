@@ -1,6 +1,11 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import { builtinRules } from './builtin';
 
+/**
+ * Vue rules
+ *
+ * @see https://eslint.vuejs.org/rules/
+ */
 export const vueRules = {
   'vue/block-lang': [
     'off',

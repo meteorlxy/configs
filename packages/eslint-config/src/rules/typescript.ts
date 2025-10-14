@@ -1,6 +1,11 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
+/**
+ * TypeScript rules
+ *
+ * @see https://typescript-eslint.io/rules/
+ */
 export const typescriptRules = {
   ...tsPlugin.configs['strict-type-checked'].rules,
   ...tsPlugin.configs['stylistic-type-checked'].rules,

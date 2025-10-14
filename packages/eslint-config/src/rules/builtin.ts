@@ -1,6 +1,11 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import confusingBrowserGlobals from 'confusing-browser-globals';
 
+/**
+ * ESLint built-in rules
+ *
+ * @see https://eslint.org/docs/latest/rules/
+ */
 export const builtinRules = {
   'accessor-pairs': 'off',
   'array-callback-return': [

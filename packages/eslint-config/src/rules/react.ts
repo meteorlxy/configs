@@ -1,5 +1,10 @@
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 
+/**
+ * React rules
+ *
+ * @see https://github.com/jsx-eslint/eslint-plugin-react?tab=readme-ov-file#list-of-supported-rules
+ */
 export const reactRules = {
   'react/boolean-prop-naming': [
     'off',
