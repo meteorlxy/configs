@@ -43,5 +43,5 @@
     "tsx": "catalog:dev",
     "typescript": "catalog:dev"
   },
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.20.0"
 }
