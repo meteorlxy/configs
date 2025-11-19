@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.8.0](https://github.com/meteorlxy/configs/compare/v6.7.0...v6.8.0) (2025-11-19)
+
+### Features
+
+* **eslint-config:** enable @typescript-eslint/no-unused-private-class-members ([15c715e](https://github.com/meteorlxy/configs/commit/15c715e3e68a9a084eadbd270063bf4871edf742))
+
 # [6.7.0](https://github.com/meteorlxy/configs/compare/v6.6.2...v6.7.0) (2025-10-14)
 
 ### Features
