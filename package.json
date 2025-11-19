@@ -12,7 +12,6 @@
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
-    "release:publish": "pnpm build && pnpm -r publish",
     "release:version": "lerna version"
   },
   "lint-staged": {

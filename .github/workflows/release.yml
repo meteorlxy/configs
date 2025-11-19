@@ -32,8 +32,11 @@ jobs:
           npm install -g npm@latest
           npm --version
 
-      - name: Publish to npm
-        run: pnpm release:publish
+      - name: Build
+        run: pnpm run build
+
+      - name: Publish
+        run: pnpm -r publish --no-git-checks
 
       - name: Create release changelog
         run: npx changelogithub
