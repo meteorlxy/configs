@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.8.3](https://github.com/meteorlxy/configs/compare/v6.8.2...v6.8.3) (2025-11-19)
+
+**Note:** Version bump only for package @meteorlxy/prettier-config
+
 ## [6.8.2](https://github.com/meteorlxy/configs/compare/v6.8.1...v6.8.2) (2025-11-19)
 
 **Note:** Version bump only for package @meteorlxy/prettier-config
