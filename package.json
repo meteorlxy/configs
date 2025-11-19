@@ -12,7 +12,7 @@
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:publish",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
-    "release:publish": "lerna version && git push --follow-tags"
+    "release:publish": "lerna version"
   },
   "lint-staged": {
     "!(test)/**/*.(js|ts)": [
