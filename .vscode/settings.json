@@ -7,6 +7,9 @@
   "files.eol": "\n",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
   },
