@@ -27,8 +27,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Ensure latest npm is installed
-        run: npm install -g npm@latest
+      - name: Ensure latest npm
+        run: |
+          npm install -g npm@latest
+          npm --version
 
       - name: Publish to npm
         run: pnpm release:publish
