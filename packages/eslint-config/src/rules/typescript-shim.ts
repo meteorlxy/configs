@@ -73,6 +73,7 @@ export const typescriptShimRules = {
   'no-shadow': 'off',
   'no-throw-literal': 'off',
   'no-unused-expressions': 'off',
+  'no-unused-private-class-members': 'off',
   'no-unused-vars': 'off',
   'no-use-before-define': 'off',
   'no-useless-constructor': 'off',

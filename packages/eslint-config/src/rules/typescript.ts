@@ -48,6 +48,7 @@ export const typescriptRules = {
       allowTaggedTemplates: false,
     },
   ],
+  '@typescript-eslint/no-unused-private-class-members': 'error',
   '@typescript-eslint/no-unused-vars': [
     'error',
     { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
