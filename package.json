@@ -10,9 +10,10 @@
     "format": "prettier --write .",
     "lint": "eslint . && prettier --check .",
     "prepare": "husky",
-    "release": "pnpm release:check && pnpm release:publish",
+    "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
-    "release:publish": "lerna version"
+    "release:publish": "pnpm build && lerna publish from-package --yes",
+    "release:version": "lerna version"
   },
   "lint-staged": {
     "!(test)/**/*.(js|ts)": [

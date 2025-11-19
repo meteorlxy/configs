@@ -14,8 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,11 +24,14 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Ensure latest npm is installed
-        run: npm install -g npm
+        run: npm install -g npm@latest
 
       - name: Publish to npm
-        run: pnpm lerna publish from-package --yes
+        run: pnpm release:publish
 
       - name: Create release changelog
         run: npx changelogithub
