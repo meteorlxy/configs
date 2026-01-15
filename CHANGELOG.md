@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.9.1](https://github.com/meteorlxy/configs/compare/v6.9.0...v6.9.1) (2026-01-15)
+
+### Bug Fixes
+
+* **eslint-config:** disable @typescript-eslint/strict-void-return ([4b855e4](https://github.com/meteorlxy/configs/commit/4b855e46afa0614f176afc4af3911b6386bef41f))
+
 # [6.9.0](https://github.com/meteorlxy/configs/compare/v6.8.5...v6.9.0) (2026-01-15)
 
 ### Features
