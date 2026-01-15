@@ -266,6 +266,12 @@ export const typescriptRules = {
       allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
     },
   ],
+  '@typescript-eslint/strict-void-return': [
+    'error',
+    {
+      allowReturnAny: false,
+    },
+  ],
   '@typescript-eslint/switch-exhaustiveness-check': [
     'error',
     {
