@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.9.0](https://github.com/meteorlxy/configs/compare/v6.8.5...v6.9.0) (2026-01-15)
+
+### Features
+
+* **eslint-config:** enable @typescript-eslint/strict-void-return ([85538be](https://github.com/meteorlxy/configs/commit/85538be22e12a8bb69798de02132960fd5393f5e))
+* **eslint-config:** enable vue/no-duplicate-class-names ([dcf9d63](https://github.com/meteorlxy/configs/commit/dcf9d63091664d7d02b0a7305441dd38f0c5ac4a))
+* **eslint-config:** migrate markdown plugin to @eslint/markdown ([3a61b7f](https://github.com/meteorlxy/configs/commit/3a61b7f6dbd482f59076c6ff73bf9d522d20ae6e))
+
 ## [6.8.5](https://github.com/meteorlxy/configs/compare/v6.8.4...v6.8.5) (2025-11-19)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config
