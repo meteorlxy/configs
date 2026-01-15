@@ -94,6 +94,7 @@ export const vueRules = {
   'vue/no-deprecated-delete-set': 'error',
   'vue/no-deprecated-model-definition': 'error',
   'vue/no-duplicate-attr-inheritance': 'error',
+  'vue/no-duplicate-class-names': 'error',
   'vue/no-empty-component-block': 'warn',
   'vue/no-empty-pattern': builtinRules['no-empty-pattern'], // builtin extension
   'vue/no-implicit-coercion': builtinRules['no-implicit-coercion'], // builtin extension
