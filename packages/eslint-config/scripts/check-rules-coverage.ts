@@ -1,3 +1,4 @@
+import markdownPlugin from '@eslint/markdown';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from 'eslint/use-at-your-own-risk';
 import prettierConfig from 'eslint-config-prettier/flat';
@@ -31,6 +32,11 @@ const configs = [
     scope: 'jsonc',
     allRules: new Set(Object.keys(jsoncPlugin.rules)),
     currentRules: new Set(Object.keys(rules.jsoncRules)),
+  },
+  {
+    scope: 'markdown',
+    allRules: new Set(Object.keys(markdownPlugin.rules)),
+    currentRules: new Set(Object.keys(rules.markdownRules)),
   },
   {
     scope: 'react',

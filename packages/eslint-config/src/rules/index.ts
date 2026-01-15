@@ -3,6 +3,7 @@ export * from './eslint-comments';
 export * from './imports';
 export * from './jsonc';
 export * from './markdown-shim';
+export * from './markdown';
 export * from './react-hooks';
 export * from './react-refresh';
 export * from './react';

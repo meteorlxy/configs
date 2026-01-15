@@ -34,16 +34,17 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
+    "@eslint/markdown": "catalog:prod",
     "@typescript-eslint/eslint-plugin": "catalog:prod",
     "@typescript-eslint/parser": "catalog:prod",
     "@typescript-eslint/utils": "catalog:prod",
     "confusing-browser-globals": "catalog:prod",
     "eslint-config-flat-gitignore": "catalog:prod",
     "eslint-config-prettier": "catalog:prod",
+    "eslint-merge-processors": "catalog:prod",
     "eslint-plugin-eslint-comments": "catalog:prod",
     "eslint-plugin-import-x": "catalog:prod",
     "eslint-plugin-jsonc": "catalog:prod",
-    "eslint-plugin-markdown": "catalog:prod",
     "globals": "catalog:prod",
     "jsonc-eslint-parser": "catalog:prod"
   },

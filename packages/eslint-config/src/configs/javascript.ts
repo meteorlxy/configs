@@ -21,6 +21,7 @@ export const javascript = ({
   },
   {
     name: 'meteorlxy/javascript/rules',
+    ignores: ['**/*.md'],
     languageOptions: {
       ecmaVersion: 2022,
       globals: {
