@@ -267,7 +267,7 @@ export const typescriptRules = {
     },
   ],
   '@typescript-eslint/strict-void-return': [
-    'error',
+    'off',
     {
       allowReturnAny: false,
     },
