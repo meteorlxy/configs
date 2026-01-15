@@ -4,34 +4,34 @@ packages:
 
 catalogs:
   dev:
-    '@commitlint/cli': ^20.1.0
-    '@commitlint/config-conventional': ^20.0.0
-    '@commitlint/types': ^20.0.0
-    '@lerna-lite/cli': ^4.9.2
-    '@lerna-lite/publish': ^4.9.2
+    '@commitlint/cli': ^20.3.1
+    '@commitlint/config-conventional': ^20.3.1
+    '@commitlint/types': ^20.3.1
+    '@lerna-lite/cli': ^4.10.5
+    '@lerna-lite/publish': ^4.10.5
     '@types/confusing-browser-globals': ^1.0.3
     '@types/eslint': ^9.6.1
-    '@types/node': ^24.10.1
-    eslint: ^9.39.1
+    '@types/node': ^25.0.8
+    eslint: ^9.39.2
     husky: ^9.1.7
-    lint-staged: ^16.2.6
-    prettier: ^3.6.2
-    rimraf: ^6.1.0
-    sort-package-json: ^3.4.0
-    taze: ^19.9.0
-    tsdown: ^0.16.5
-    tsx: ^4.20.6
+    lint-staged: ^16.2.7
+    prettier: ^3.8.0
+    rimraf: ^6.1.2
+    sort-package-json: ^3.6.0
+    taze: ^19.9.2
+    tsdown: ^0.20.0-beta.3
+    tsx: ^4.21.0
     typescript: ^5.9.3
   peer:
     eslint-plugin-react: ^7.37.5
     eslint-plugin-react-hooks: ^7.0.1
-    eslint-plugin-react-refresh: ^0.4.24
-    eslint-plugin-vue: ^10.5.1
+    eslint-plugin-react-refresh: ^0.4.26
+    eslint-plugin-vue: ^10.6.2
     vue-eslint-parser: ^10.2.0
   prod:
-    '@typescript-eslint/eslint-plugin': ^8.47.0
-    '@typescript-eslint/parser': ^8.47.0
-    '@typescript-eslint/utils': ^8.47.0
+    '@typescript-eslint/eslint-plugin': ^8.53.0
+    '@typescript-eslint/parser': ^8.53.0
+    '@typescript-eslint/utils': ^8.53.0
     confusing-browser-globals: ^1.0.11
     eslint-config-flat-gitignore: ^2.1.0
     eslint-config-prettier: ^10.1.8
@@ -39,12 +39,12 @@ catalogs:
     eslint-plugin-import-x: ^4.16.1
     eslint-plugin-jsonc: ^2.21.0
     eslint-plugin-markdown: ^5.1.0
-    globals: ^16.5.0
-    jsonc-eslint-parser: ^2.4.1
+    globals: ^17.0.0
+    jsonc-eslint-parser: ^2.4.2
   test:
-    '@types/react': ^19.2.6
-    react: ^19.2.0
-    vue: ^3.5.24
+    '@types/react': ^19.2.8
+    react: ^19.2.3
+    vue: ^3.5.26
 
 onlyBuiltDependencies:
   - esbuild
