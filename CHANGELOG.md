@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.10.0](https://github.com/meteorlxy/configs/compare/v6.9.1...v6.10.0) (2026-02-09)
+
+### Features
+
+* **eslint-config:** enable vue/no-literals-in-template and vue/no-undef-directives ([b35cc26](https://github.com/meteorlxy/configs/commit/b35cc26bce362d51f1ebe814dcd6ee5c16389c85))
+
 ## [6.9.1](https://github.com/meteorlxy/configs/compare/v6.9.0...v6.9.1) (2026-01-15)
 
 ### Bug Fixes
