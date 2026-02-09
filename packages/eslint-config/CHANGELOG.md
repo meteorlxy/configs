@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.11.0](https://github.com/meteorlxy/configs/compare/v6.10.0...v6.11.0) (2026-02-09)
+
+### Features
+
+* **eslint-config:** turn off @typescript-eslint/promise-function-async ([ec547ef](https://github.com/meteorlxy/configs/commit/ec547efb84c7b9958d4eeb40b6709cd4f44642de))
+
 # [6.10.0](https://github.com/meteorlxy/configs/compare/v6.9.1...v6.10.0) (2026-02-09)
 
 ### Features
