@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.12.0](https://github.com/meteorlxy/configs/compare/v6.11.0...v6.12.0) (2026-02-09)
+
+### Features
+
+* **eslint-config:** allow cjs and mjs as config file extension ([9174e81](https://github.com/meteorlxy/configs/commit/9174e81fadb1200a9d53586c246a05c82d0287d8))
+
 # [6.11.0](https://github.com/meteorlxy/configs/compare/v6.10.0...v6.11.0) (2026-02-09)
 
 ### Features
