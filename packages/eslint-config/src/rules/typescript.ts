@@ -214,7 +214,7 @@ export const typescriptRules = {
   ],
   '@typescript-eslint/prefer-regexp-exec': 'off',
   '@typescript-eslint/prefer-ts-expect-error': 'off', // deprecated
-  '@typescript-eslint/promise-function-async': 'error',
+  '@typescript-eslint/promise-function-async': 'off',
   '@typescript-eslint/require-array-sort-compare': [
     'error',
     { ignoreStringArrays: true },
