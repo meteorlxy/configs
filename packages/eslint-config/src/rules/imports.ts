@@ -75,7 +75,7 @@ export const importsRules = {
           'vue',
           'vuepress',
           'webpack',
-        ].map((tool) => `**/${tool}.config.{js,ts}`),
+        ].map((tool) => `**/${tool}.config.{cjs,js,mjs,ts}`),
       ],
       optionalDependencies: false,
     },
