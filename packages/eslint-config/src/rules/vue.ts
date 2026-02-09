@@ -100,6 +100,7 @@ export const vueRules = {
   'vue/no-implicit-coercion': builtinRules['no-implicit-coercion'], // builtin extension
   'vue/no-import-compiler-macros': 'error',
   'vue/no-irregular-whitespace': builtinRules['no-irregular-whitespace'], // builtin extension
+  'vue/no-literals-in-template': 'error',
   'vue/no-loss-of-precision': 'off', // builtin extension - checked by typescript?
   'vue/no-multiple-objects-in-class': 'error',
   'vue/no-multiple-template-root': 'off', // vue2 - better to have in vue3, too?
@@ -138,6 +139,12 @@ export const vueRules = {
   ],
   'vue/no-this-in-before-route-enter': 'off', // options api & vue-router
   'vue/no-undef-components': 'off',
+  'vue/no-undef-directives': [
+    'error',
+    {
+      ignore: [],
+    },
+  ],
   'vue/no-undef-properties': 'error',
   'vue/no-unsupported-features': 'off',
   'vue/no-unused-emit-declarations': 'error',
