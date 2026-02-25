@@ -1,5 +1,5 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 /**
  * TypeScript rules
@@ -292,4 +292,4 @@ export const typescriptRules = {
       variableDeclarationIgnoreFunction: false,
     },
   ],
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const typescriptShimRules = {
   /**
@@ -87,4 +87,4 @@ export const typescriptShimRules = {
   'space-before-blocks': 'off',
   'space-before-function-paren': 'off',
   'space-infix-ops': 'off',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

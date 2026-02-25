@@ -1,8 +1,8 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const reactRefreshRules = {
   'react-refresh/only-export-components': [
     'warn',
     { allowConstantExport: true },
   ],
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

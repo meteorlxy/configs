@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const importsRules = {
   'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
@@ -153,4 +153,4 @@ export const importsRules = {
   'import/prefer-default-export': 'off',
   'import/prefer-namespace-import': 'off',
   'import/unambiguous': 'off',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

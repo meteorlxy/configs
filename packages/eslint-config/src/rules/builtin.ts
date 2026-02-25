@@ -1,5 +1,5 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
 import confusingBrowserGlobals from 'confusing-browser-globals';
+import type { Config } from 'eslint/config';
 
 /**
  * ESLint built-in rules
@@ -639,4 +639,4 @@ export const builtinRules = {
   ],
   'yield-star-spacing': ['error', 'after'],
   'yoda': ['error', 'never'],
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

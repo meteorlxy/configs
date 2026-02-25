@@ -1,10 +1,11 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Plugin } from '@eslint/core';
+import type { Config } from 'eslint/config';
 import { reactHooksRules, reactRefreshRules, reactRules } from '../rules';
 import { interopDefault } from '../utils';
 
 export interface EslintReactOptions {
-  files?: FlatConfig.Config['files'];
-  overrides?: FlatConfig.Config['rules'];
+  files?: Config['files'];
+  overrides?: Config['rules'];
 }
 
 /**
@@ -13,8 +14,7 @@ export interface EslintReactOptions {
 export const react = async ({
   files = ['**/*.ts', '**/*.tsx'],
   overrides,
-}: EslintReactOptions = {}): Promise<FlatConfig.Config[]> => {
-  // TODO: ensure deps
+}: EslintReactOptions = {}): Promise<Config[]> => {
   const [reactPlugin, reactHooksPlugin, reactRefreshPlugin] = await Promise.all(
     [
       interopDefault(import('eslint-plugin-react')),
@@ -27,8 +27,8 @@ export const react = async ({
     {
       name: 'meteorlxy/react/plugins',
       plugins: {
-        'react': reactPlugin as unknown as FlatConfig.Plugin,
-        'react-hooks': reactHooksPlugin,
+        'react': reactPlugin,
+        'react-hooks': reactHooksPlugin as unknown as Plugin,
         'react-refresh': reactRefreshPlugin,
       },
       settings: {

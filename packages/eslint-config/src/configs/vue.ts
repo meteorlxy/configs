@@ -1,11 +1,11 @@
 import tsParser from '@typescript-eslint/parser';
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import { vueRules } from '../rules';
 import { interopDefault } from '../utils';
 
 export interface EslintVueOptions {
-  files?: FlatConfig.Config['files'];
-  overrides?: FlatConfig.Config['rules'];
+  files?: Config['files'];
+  overrides?: Config['rules'];
 }
 
 /**
@@ -14,8 +14,7 @@ export interface EslintVueOptions {
 export const vue = async ({
   files = ['**/*.vue'],
   overrides,
-}: EslintVueOptions = {}): Promise<FlatConfig.Config[]> => {
-  // TODO: ensure deps
+}: EslintVueOptions = {}): Promise<Config[]> => {
   const [vuePlugin, vueParser] = await Promise.all([
     interopDefault(import('eslint-plugin-vue')),
     interopDefault(import('vue-eslint-parser')),
@@ -43,7 +42,7 @@ export const vue = async ({
           sourceType: 'module',
         },
       },
-      processor: vuePlugin.processors['.vue'] as FlatConfig.Processor,
+      processor: vuePlugin.processors['.vue'] as Config['processor'],
       rules: {
         ...vuePlugin.configs.base.rules,
         ...vuePlugin.configs.essential.rules,

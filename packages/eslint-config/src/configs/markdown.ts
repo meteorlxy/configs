@@ -1,12 +1,13 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Plugin } from '@eslint/core';
+import type { Config } from 'eslint/config';
 import { mergeProcessors, processorPassThrough } from 'eslint-merge-processors';
 import { markdownRules, markdownShimRules } from '../rules';
 import { interopDefault } from '../utils';
 
 export interface EslintMarkdownOptions {
-  files?: FlatConfig.Config['files'];
-  overrides?: FlatConfig.Config['rules'];
-  overridesCodeBlocks?: FlatConfig.Config['rules'];
+  files?: Config['files'];
+  overrides?: Config['rules'];
+  overridesCodeBlocks?: Config['rules'];
 }
 
 /**
@@ -16,14 +17,14 @@ export const markdown = async ({
   files = ['**/*.md'],
   overrides,
   overridesCodeBlocks,
-}: EslintMarkdownOptions = {}): Promise<FlatConfig.Config[]> => {
+}: EslintMarkdownOptions = {}): Promise<Config[]> => {
   const markdownPlugin = await interopDefault(import('@eslint/markdown'));
 
   return [
     {
       name: 'meteorlxy/markdown/plugins',
       plugins: {
-        markdown: markdownPlugin,
+        markdown: markdownPlugin as unknown as Plugin,
       },
     },
     {

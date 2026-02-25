@@ -1,9 +1,9 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import type { FlatGitignoreOptions } from 'eslint-config-flat-gitignore';
 import { interopDefault } from '../utils';
 
 export interface EslintIgnoresOptions {
-  files?: FlatConfig.Config['ignores'];
+  files?: Config['ignores'];
   gitignore?: FlatGitignoreOptions;
 }
 
@@ -13,7 +13,7 @@ export interface EslintIgnoresOptions {
 export const ignores = async ({
   files = [],
   gitignore = {},
-}: EslintIgnoresOptions = {}): Promise<FlatConfig.Config[]> => {
+}: EslintIgnoresOptions = {}): Promise<Config[]> => {
   const gitignorePlugin = await interopDefault(
     import('eslint-config-flat-gitignore'),
   );

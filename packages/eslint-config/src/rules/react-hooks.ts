@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 /**
  * React hooks rules
@@ -37,4 +37,4 @@ export const reactHooksRules = {
   'react-hooks/syntax': 'off',
   'react-hooks/todo': 'off',
   'react-hooks/void-use-memo': 'off',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

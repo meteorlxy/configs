@@ -77,6 +77,9 @@ catalogs:
       specifier: ^10.2.0
       version: 10.2.0
   prod:
+    '@eslint/core':
+      specifier: ^0.17.0
+      version: 0.17.0
     '@eslint/markdown':
       specifier: ^7.5.1
       version: 7.5.1
@@ -188,6 +191,9 @@ importers:
 
   packages/eslint-config:
     dependencies:
+      '@eslint/core':
+        specifier: catalog:prod
+        version: 0.17.0
       '@eslint/markdown':
         specifier: catalog:prod
         version: 7.5.1

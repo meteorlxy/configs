@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import { builtinRules } from './builtin';
 
 /**
@@ -225,4 +225,4 @@ export const vueRules = {
   'vue/valid-define-props': 'error',
   'vue/valid-model-definition': 'off', // vue2
   'vue/valid-v-bind-sync': 'off', // vue2
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

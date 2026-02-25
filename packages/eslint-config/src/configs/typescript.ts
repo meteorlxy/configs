@@ -1,11 +1,12 @@
+import type { Plugin } from '@eslint/core';
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import { typescriptRules, typescriptShimRules } from '../rules';
 
 export interface EslintTypescriptOptions {
-  files?: FlatConfig.Config['files'];
-  overrides?: FlatConfig.Config['rules'];
+  files?: Config['files'];
+  overrides?: Config['rules'];
 }
 
 /**
@@ -14,11 +15,11 @@ export interface EslintTypescriptOptions {
 export const typescript = ({
   files = ['**/*.ts', '**/*.tsx', '**/*.vue'],
   overrides,
-}: EslintTypescriptOptions = {}): FlatConfig.Config[] => [
+}: EslintTypescriptOptions = {}): Config[] => [
   {
     name: 'meteorlxy/typescript/plugins',
     plugins: {
-      '@typescript-eslint': tsPlugin,
+      '@typescript-eslint': tsPlugin as unknown as Plugin,
     },
   },
   {

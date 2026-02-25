@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import type {
   EslintIgnoresOptions,
   EslintImportsOptions,
@@ -43,8 +43,8 @@ export const meteorlxy = async (
     typescript = {},
     vue = false,
   }: EslintOptions = {},
-  ...customConfigs: FlatConfig.Config[]
-): Promise<FlatConfig.Config[]> => [
+  ...customConfigs: Config[]
+): Promise<Config[]> => [
   // global ignores
   ...(await ignoresConfig(ignores)),
 

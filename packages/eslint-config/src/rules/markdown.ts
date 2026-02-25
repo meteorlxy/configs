@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const markdownRules = {
   'markdown/fenced-code-language': 'error',
@@ -21,4 +21,4 @@ export const markdownRules = {
   'markdown/no-unused-definitions': 'error',
   'markdown/require-alt-text': 'error',
   'markdown/table-column-count': 'error',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

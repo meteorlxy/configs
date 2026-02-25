@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const jsoncRules = {
   'jsonc/no-bigint-literals': 'error',
@@ -49,4 +49,4 @@ export const jsoncRules = {
 
   // other rules
   'jsonc/auto': 'off',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

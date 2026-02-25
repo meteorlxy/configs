@@ -1,10 +1,10 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 import { jsoncRules } from '../rules';
 import { interopDefault } from '../utils';
 
 export interface EslintJsoncOptions {
-  files?: FlatConfig.Config['files'];
-  overrides?: FlatConfig.Config['rules'];
+  files?: Config['files'];
+  overrides?: Config['rules'];
 }
 
 /**
@@ -13,7 +13,7 @@ export interface EslintJsoncOptions {
 export const jsonc = async ({
   files = ['**/*.json', '**/*.json5', '**/*.jsonc'],
   overrides,
-}: EslintJsoncOptions = {}): Promise<FlatConfig.Config[]> => {
+}: EslintJsoncOptions = {}): Promise<Config[]> => {
   const [jsoncPlugin, jsoncParser] = await Promise.all([
     interopDefault(import('eslint-plugin-jsonc')),
     interopDefault(import('jsonc-eslint-parser')),

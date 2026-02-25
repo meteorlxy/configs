@@ -34,6 +34,7 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
+    "@eslint/core": "catalog:prod",
     "@eslint/markdown": "catalog:prod",
     "@typescript-eslint/eslint-plugin": "catalog:prod",
     "@typescript-eslint/parser": "catalog:prod",
@@ -60,6 +61,7 @@
     "vue-eslint-parser": "catalog:peer"
   },
   "peerDependencies": {
+    "eslint": "^9.39.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",

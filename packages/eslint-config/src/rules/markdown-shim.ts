@@ -1,5 +1,5 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 export const markdownShimRules = {
   // builtin rules
@@ -34,4 +34,4 @@ export const markdownShimRules = {
   // vue rules
   'vue/no-v-html': 'off',
   'vue/require-name-property': 'off',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];

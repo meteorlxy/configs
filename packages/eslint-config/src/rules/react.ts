@@ -1,4 +1,4 @@
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint';
+import type { Config } from 'eslint/config';
 
 /**
  * React rules
@@ -245,4 +245,4 @@ export const reactRules = {
   'react/static-property-placement': ['error', 'property assignment'],
   'react/style-prop-object': 'error',
   'react/void-dom-elements-no-children': 'error',
-} satisfies FlatConfig.Rules;
+} satisfies Config['rules'];
