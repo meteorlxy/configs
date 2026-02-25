@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.13.0](https://github.com/meteorlxy/configs/compare/v6.12.0...v6.13.0) (2026-02-25)
+
+### Features
+
+* upgrade jsonc plugin and parser ([6f4ac6a](https://github.com/meteorlxy/configs/commit/6f4ac6aed1a42eb9a16e2e038926f21d0567a23c))
+
 # [6.12.0](https://github.com/meteorlxy/configs/compare/v6.11.0...v6.12.0) (2026-02-09)
 
 ### Features
