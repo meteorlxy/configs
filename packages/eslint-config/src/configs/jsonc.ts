@@ -1,3 +1,4 @@
+import type { Plugin } from '@eslint/core';
 import type { Config } from 'eslint/config';
 import { jsoncRules } from '../rules';
 import { interopDefault } from '../utils';
@@ -23,7 +24,7 @@ export const jsonc = async ({
     {
       name: 'meteorlxy/jsonc/plugins',
       plugins: {
-        jsonc: jsoncPlugin,
+        jsonc: jsoncPlugin as unknown as Plugin,
       },
     },
     {
