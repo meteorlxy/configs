@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.14.0](https://github.com/meteorlxy/configs/compare/v6.13.0...v6.14.0) (2026-03-13)
+
+### Features
+
+* **eslint-config:** support oxfmt and rolldown config file ([1088088](https://github.com/meteorlxy/configs/commit/10880889caccf494489cf722b5bc298684810199))
+* **oxfmt-config:** add oxfmt-config package ([70f3d66](https://github.com/meteorlxy/configs/commit/70f3d66ba770be5abe1e39f5751e219e04293acd))
+
 # [6.13.0](https://github.com/meteorlxy/configs/compare/v6.12.0...v6.13.0) (2026-02-25)
 
 ### Features
