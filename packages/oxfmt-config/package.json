@@ -1,10 +1,10 @@
 {
-  "name": "@meteorlxy/prettier-config",
-  "version": "6.10.0",
-  "description": "meteorlxy prettier config",
+  "name": "@meteorlxy/oxfmt-config",
+  "version": "6.13.0",
+  "description": "meteorlxy oxfmt config",
   "keywords": [
     "config",
-    "prettier",
+    "oxfmt",
     "meteorlxy"
   ],
   "homepage": "https://github.com/meteorlxy/configs",
@@ -33,7 +33,7 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "prettier": "catalog:prettier"
+    "oxfmt": "catalog:oxfmt"
   },
   "devDependencies": {
     "tsdown": "catalog:dev"

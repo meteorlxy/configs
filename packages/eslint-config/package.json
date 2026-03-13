@@ -34,39 +34,39 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@eslint/core": "catalog:prod",
-    "@eslint/markdown": "catalog:prod",
-    "@typescript-eslint/eslint-plugin": "catalog:prod",
-    "@typescript-eslint/parser": "catalog:prod",
-    "@typescript-eslint/utils": "catalog:prod",
-    "confusing-browser-globals": "catalog:prod",
-    "eslint-config-flat-gitignore": "catalog:prod",
-    "eslint-config-prettier": "catalog:prod",
-    "eslint-merge-processors": "catalog:prod",
-    "eslint-plugin-eslint-comments": "catalog:prod",
-    "eslint-plugin-import-x": "catalog:prod",
-    "eslint-plugin-jsonc": "catalog:prod",
-    "globals": "catalog:prod",
-    "jsonc-eslint-parser": "catalog:prod"
+    "@eslint/core": "catalog:eslint",
+    "@eslint/markdown": "catalog:eslint",
+    "@typescript-eslint/eslint-plugin": "catalog:eslint",
+    "@typescript-eslint/parser": "catalog:eslint",
+    "@typescript-eslint/utils": "catalog:eslint",
+    "confusing-browser-globals": "catalog:eslint",
+    "eslint-config-flat-gitignore": "catalog:eslint",
+    "eslint-config-prettier": "catalog:eslint",
+    "eslint-merge-processors": "catalog:eslint",
+    "eslint-plugin-eslint-comments": "catalog:eslint",
+    "eslint-plugin-import-x": "catalog:eslint",
+    "eslint-plugin-jsonc": "catalog:eslint",
+    "globals": "catalog:eslint",
+    "jsonc-eslint-parser": "catalog:eslint"
   },
   "devDependencies": {
-    "@types/confusing-browser-globals": "catalog:dev",
-    "@types/eslint": "catalog:dev",
-    "eslint": "catalog:dev",
-    "eslint-plugin-react": "catalog:peer",
-    "eslint-plugin-react-hooks": "catalog:peer",
-    "eslint-plugin-react-refresh": "catalog:peer",
-    "eslint-plugin-vue": "catalog:peer",
+    "@types/confusing-browser-globals": "catalog:eslint",
+    "@types/eslint": "catalog:eslint",
+    "eslint": "catalog:eslint",
+    "eslint-plugin-react": "catalog:eslint",
+    "eslint-plugin-react-hooks": "catalog:eslint",
+    "eslint-plugin-react-refresh": "catalog:eslint",
+    "eslint-plugin-vue": "catalog:eslint",
     "tsdown": "catalog:dev",
-    "vue-eslint-parser": "catalog:peer"
+    "vue-eslint-parser": "catalog:eslint"
   },
   "peerDependencies": {
-    "eslint": "^9.39.2",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "eslint-plugin-vue": "^10.0.0",
-    "vue-eslint-parser": "^10.1.3"
+    "eslint": "catalog:eslint",
+    "eslint-plugin-react": "catalog:eslint",
+    "eslint-plugin-react-hooks": "catalog:eslint",
+    "eslint-plugin-react-refresh": "catalog:eslint",
+    "eslint-plugin-vue": "catalog:eslint",
+    "vue-eslint-parser": "catalog:eslint"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-react": {
