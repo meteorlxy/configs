@@ -3,6 +3,6 @@ import { defineConfig } from 'oxfmt';
 
 export default defineConfig(
   meteorlxy({
-    ignorePatterns: ['lerna.json', 'pnpm-lock.yaml', '**/CHANGELOG.md'],
+    ignorePatterns: ['**/CHANGELOG.md'],
   }),
 );
