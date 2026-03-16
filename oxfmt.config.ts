@@ -1,8 +1,5 @@
 import { meteorlxy } from '@meteorlxy/oxfmt-config';
-import { defineConfig } from 'oxfmt';
 
-export default defineConfig(
-  meteorlxy({
-    ignorePatterns: ['CHANGELOG.md', 'lerna.json'],
-  }),
-);
+export default meteorlxy({
+  ignorePatterns: ['CHANGELOG.md', 'lerna.json'],
+});
