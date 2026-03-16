@@ -122,7 +122,14 @@ export const importsRules = {
   'import/order': [
     'off',
     {
-      'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      'groups': [
+        'builtin',
+        'external',
+        'internal',
+        'parent',
+        'sibling',
+        'index',
+      ],
       'newlines-between': 'ignore',
       'alphabetize': {
         order: 'asc',

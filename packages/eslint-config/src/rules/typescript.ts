@@ -120,7 +120,10 @@ export const typescriptRules = {
   '@typescript-eslint/no-redeclare': 'off', // checked by typescript
   '@typescript-eslint/no-redundant-type-constituents': 'error',
   '@typescript-eslint/no-require-imports': ['error', { allow: [] }],
-  '@typescript-eslint/no-restricted-imports': ['off', { paths: [], patterns: [] }],
+  '@typescript-eslint/no-restricted-imports': [
+    'off',
+    { paths: [], patterns: [] },
+  ],
   '@typescript-eslint/no-restricted-types': [
     'off',
     {
@@ -157,7 +160,10 @@ export const typescriptRules = {
   '@typescript-eslint/no-useless-empty-export': 'off',
   '@typescript-eslint/no-var-requires': ['error', { allow: [] }],
   '@typescript-eslint/only-throw-error': 'error',
-  '@typescript-eslint/parameter-properties': ['off', { allow: [], prefer: 'class-property' }],
+  '@typescript-eslint/parameter-properties': [
+    'off',
+    { allow: [], prefer: 'class-property' },
+  ],
   '@typescript-eslint/prefer-destructuring': [
     'error',
     {
@@ -192,7 +198,10 @@ export const typescriptRules = {
       },
     },
   ],
-  '@typescript-eslint/prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+  '@typescript-eslint/prefer-promise-reject-errors': [
+    'error',
+    { allowEmptyReject: true },
+  ],
   '@typescript-eslint/prefer-readonly': ['error', { onlyInlineLambdas: false }],
   '@typescript-eslint/prefer-readonly-parameter-types': [
     'off',
@@ -206,7 +215,10 @@ export const typescriptRules = {
   '@typescript-eslint/prefer-regexp-exec': 'off',
   '@typescript-eslint/prefer-ts-expect-error': 'off', // deprecated
   '@typescript-eslint/promise-function-async': 'off',
-  '@typescript-eslint/require-array-sort-compare': ['error', { ignoreStringArrays: true }],
+  '@typescript-eslint/require-array-sort-compare': [
+    'error',
+    { ignoreStringArrays: true },
+  ],
   '@typescript-eslint/require-await': 'warn',
   '@typescript-eslint/restrict-template-expressions': [
     'warn',

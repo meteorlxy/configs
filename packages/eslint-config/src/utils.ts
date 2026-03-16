@@ -1,4 +1,7 @@
-export const interopDefault = async <T, Default extends T extends { default: infer U } ? U : T>(
+export const interopDefault = async <
+  T,
+  Default extends T extends { default: infer U } ? U : T,
+>(
   m: Promise<T>,
 ): Promise<Default> => {
   const resolved = await m;

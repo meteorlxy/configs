@@ -12,9 +12,10 @@ export interface EslintVueOptions {
 /**
  * Vue configuration for eslint.
  */
-export const vue = async ({ files = ['**/*.vue'], overrides }: EslintVueOptions = {}): Promise<
-  Config[]
-> => {
+export const vue = async ({
+  files = ['**/*.vue'],
+  overrides,
+}: EslintVueOptions = {}): Promise<Config[]> => {
   const [vuePlugin, vueParser] = await Promise.all([
     interopDefault(import('eslint-plugin-vue')),
     interopDefault(import('vue-eslint-parser')),

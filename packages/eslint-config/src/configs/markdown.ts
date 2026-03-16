@@ -32,7 +32,10 @@ export const markdown = async ({
       name: 'meteorlxy/markdown/processor',
       files,
       ignores: ['**/*.md/*.md'],
-      processor: mergeProcessors([markdownPlugin.processors.markdown, processorPassThrough]),
+      processor: mergeProcessors([
+        markdownPlugin.processors.markdown,
+        processorPassThrough,
+      ]),
     },
     {
       name: 'meteorlxy/markdown/rules',

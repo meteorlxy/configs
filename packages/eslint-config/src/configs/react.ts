@@ -16,11 +16,13 @@ export const react = async ({
   files = ['**/*.ts', '**/*.tsx'],
   overrides,
 }: EslintReactOptions = {}): Promise<Config[]> => {
-  const [reactPlugin, reactHooksPlugin, reactRefreshPlugin] = await Promise.all([
-    interopDefault(import('eslint-plugin-react')),
-    interopDefault(import('eslint-plugin-react-hooks')),
-    interopDefault(import('eslint-plugin-react-refresh')),
-  ]);
+  const [reactPlugin, reactHooksPlugin, reactRefreshPlugin] = await Promise.all(
+    [
+      interopDefault(import('eslint-plugin-react')),
+      interopDefault(import('eslint-plugin-react-hooks')),
+      interopDefault(import('eslint-plugin-react-refresh')),
+    ],
+  );
 
   return [
     {
@@ -48,7 +50,15 @@ export const react = async ({
       settings: {
         'import/resolver': {
           node: {
-            extensions: ['.mjs', '.js', '.jsx', '.json', '.ts', '.tsx', '.d.ts'],
+            extensions: [
+              '.mjs',
+              '.js',
+              '.jsx',
+              '.json',
+              '.ts',
+              '.tsx',
+              '.d.ts',
+            ],
           },
         },
       },

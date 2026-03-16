@@ -11,10 +11,13 @@ export interface EslintIgnoresOptions {
 /**
  * Ignores configuration for eslint.
  */
-export const ignores = async ({ files = [], gitignore = {} }: EslintIgnoresOptions = {}): Promise<
-  Config[]
-> => {
-  const gitignorePlugin = await interopDefault(import('eslint-config-flat-gitignore'));
+export const ignores = async ({
+  files = [],
+  gitignore = {},
+}: EslintIgnoresOptions = {}): Promise<Config[]> => {
+  const gitignorePlugin = await interopDefault(
+    import('eslint-config-flat-gitignore'),
+  );
 
   return [
     gitignorePlugin({

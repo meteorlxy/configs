@@ -76,7 +76,11 @@ export default {
 
   overrides: [
     {
-      files: ['.vscode/extensions.json', '.vscode/launch.json', '.vscode/settings.json'],
+      files: [
+        '.vscode/extensions.json',
+        '.vscode/launch.json',
+        '.vscode/settings.json',
+      ],
       options: {
         parser: 'jsonc',
       },

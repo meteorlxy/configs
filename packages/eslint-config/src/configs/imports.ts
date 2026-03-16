@@ -12,7 +12,10 @@ export interface EslintImportsOptions {
 /**
  * Imports configuration for eslint.
  */
-export const imports = ({ overrides, packageDir }: EslintImportsOptions = {}): Config[] => [
+export const imports = ({
+  overrides,
+  packageDir,
+}: EslintImportsOptions = {}): Config[] => [
   {
     name: 'meteorlxy/imports/plugins',
     plugins: {

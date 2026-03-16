@@ -66,7 +66,11 @@ const configs = [
 ];
 
 const addRulesScope = (rawRules: Set<string>, scope: string): Set<string> =>
-  new Set([...rawRules].map((item) => (item.startsWith(`${scope}/`) ? item : `${scope}/${item}`)));
+  new Set(
+    [...rawRules].map((item) =>
+      item.startsWith(`${scope}/`) ? item : `${scope}/${item}`,
+    ),
+  );
 
 const checkRulesCoverage = ({
   allRules,

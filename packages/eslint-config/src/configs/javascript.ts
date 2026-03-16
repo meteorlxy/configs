@@ -11,7 +11,9 @@ export interface EslintJavascriptOptions {
 /**
  * Javascript configuration for eslint.
  */
-export const javascript = ({ overrides }: EslintJavascriptOptions = {}): Config[] => [
+export const javascript = ({
+  overrides,
+}: EslintJavascriptOptions = {}): Config[] => [
   {
     name: 'meteorlxy/javascript/plugins',
     plugins: {
