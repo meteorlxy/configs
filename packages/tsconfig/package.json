@@ -4,16 +4,16 @@
   "description": "meteorlxy tsconfig",
   "keywords": [
     "config",
-    "tsconfig",
-    "meteorlxy"
+    "meteorlxy",
+    "tsconfig"
   ],
   "homepage": "https://github.com/meteorlxy/configs",
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/meteorlxy/configs.git"
   },
-  "license": "MIT",
-  "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "files": [
     "base.json",
     "strict.json"

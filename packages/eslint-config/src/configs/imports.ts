@@ -1,6 +1,7 @@
 import type { Plugin } from '@eslint/core';
-import type { Config } from 'eslint/config';
 import importPlugin from 'eslint-plugin-import-x';
+import type { Config } from 'eslint/config';
+
 import { importsRules } from '../rules';
 
 export interface EslintImportsOptions {
@@ -11,10 +12,7 @@ export interface EslintImportsOptions {
 /**
  * Imports configuration for eslint.
  */
-export const imports = ({
-  overrides,
-  packageDir,
-}: EslintImportsOptions = {}): Config[] => [
+export const imports = ({ overrides, packageDir }: EslintImportsOptions = {}): Config[] => [
   {
     name: 'meteorlxy/imports/plugins',
     plugins: {

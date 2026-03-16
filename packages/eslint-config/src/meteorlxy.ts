@@ -1,4 +1,5 @@
 import type { Config } from 'eslint/config';
+
 import type {
   EslintIgnoresOptions,
   EslintImportsOptions,

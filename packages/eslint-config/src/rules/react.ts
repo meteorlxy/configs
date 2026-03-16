@@ -29,10 +29,7 @@ export const reactRules = {
       ignoreExclusiveCheckedAttribute: false,
     },
   ],
-  'react/default-props-match-prop-types': [
-    'error',
-    { allowRequiredDefaults: false },
-  ],
+  'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
   'react/destructuring-assignment': ['error', 'always'],
   'react/display-name': ['off', { ignoreTranspilerName: false }],
   'react/forbid-component-props': ['off', { forbid: [] }],
@@ -61,10 +58,7 @@ export const reactRules = {
   'react/jsx-child-element-spacing': 'off',
   'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
   'react/jsx-closing-tag-location': 'error',
-  'react/jsx-curly-brace-presence': [
-    'error',
-    { props: 'never', children: 'never' },
-  ],
+  'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
   'react/jsx-curly-newline': [
     'error',
     {

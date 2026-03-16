@@ -2,9 +2,7 @@ import type { FormatOptions } from 'oxfmt';
 
 import { config } from './config';
 
-export const meteorlxy = (
-  userConfig?: Partial<FormatOptions>,
-): FormatOptions => ({
+export const meteorlxy = (userConfig?: Partial<FormatOptions>): FormatOptions => ({
   ...config,
   ...userConfig,
   sortImports: {

@@ -1,17 +1,20 @@
-import bar from './test-tsx';
-import foo from 'foo';
 import * as path from 'path';
-import type { TestTsx } from './test-tsx';
-import type { Test } from 'foo';
+
+import baz from '@foo/bar';
 import { type TestBarType, TestBar } from 'bar';
 import { type TestBazType } from 'baz';
-import baz from '@foo/bar';
+import foo from 'foo';
+import type { Test } from 'foo';
+
 import foobar from '#foobar';
 import foobarbaz from '#foobar/baz';
 import a from '@/a';
+import aa from '@/a/a';
 import b from '@/b';
 import c from '@/c';
-import aa from '@/a/a';
+
+import bar from './test-tsx';
+import type { TestTsx } from './test-tsx';
 
 let foo = 'foo';
 let bar = `${true}${1345}${null}${{}}${[]}${undefined}`;

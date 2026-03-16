@@ -1,12 +1,13 @@
 import markdownPlugin from '@eslint/markdown';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
-import eslint from 'eslint/use-at-your-own-risk';
 import prettierConfig from 'eslint-config-prettier/flat';
 import importPlugin from 'eslint-plugin-import-x';
 import jsoncPlugin from 'eslint-plugin-jsonc';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import vuePlugin from 'eslint-plugin-vue';
+import eslint from 'eslint/use-at-your-own-risk';
+
 import { rules } from '../src';
 
 // eslint-disable-next-line @typescript-eslint/no-deprecated
@@ -65,11 +66,7 @@ const configs = [
 ];
 
 const addRulesScope = (rawRules: Set<string>, scope: string): Set<string> =>
-  new Set(
-    [...rawRules].map((item) =>
-      item.startsWith(`${scope}/`) ? item : `${scope}/${item}`,
-    ),
-  );
+  new Set([...rawRules].map((item) => (item.startsWith(`${scope}/`) ? item : `${scope}/${item}`)));
 
 const checkRulesCoverage = ({
   allRules,

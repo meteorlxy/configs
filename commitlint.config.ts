@@ -1,5 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+
 import type { UserConfig } from '@commitlint/types';
 import { RuleConfigSeverity } from '@commitlint/types';
 

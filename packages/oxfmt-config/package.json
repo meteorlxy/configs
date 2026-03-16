@@ -4,17 +4,23 @@
   "description": "meteorlxy oxfmt config",
   "keywords": [
     "config",
-    "oxfmt",
-    "meteorlxy"
+    "meteorlxy",
+    "oxfmt"
   ],
   "homepage": "https://github.com/meteorlxy/configs",
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meteorlxy/configs.git"
   },
-  "license": "MIT",
-  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "./dist"
+  ],
   "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -22,12 +28,9 @@
     },
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.cts",
-  "files": [
-    "./dist"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsdown",
     "clean": "rimraf ./dist"
@@ -40,8 +43,5 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

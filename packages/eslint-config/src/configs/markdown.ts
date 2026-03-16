@@ -1,6 +1,7 @@
 import type { Plugin } from '@eslint/core';
-import type { Config } from 'eslint/config';
 import { mergeProcessors, processorPassThrough } from 'eslint-merge-processors';
+import type { Config } from 'eslint/config';
+
 import { markdownRules, markdownShimRules } from '../rules';
 import { interopDefault } from '../utils';
 
@@ -31,10 +32,7 @@ export const markdown = async ({
       name: 'meteorlxy/markdown/processor',
       files,
       ignores: ['**/*.md/*.md'],
-      processor: mergeProcessors([
-        markdownPlugin.processors.markdown,
-        processorPassThrough,
-      ]),
+      processor: mergeProcessors([markdownPlugin.processors.markdown, processorPassThrough]),
     },
     {
       name: 'meteorlxy/markdown/rules',

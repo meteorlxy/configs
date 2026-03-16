@@ -1,4 +1,5 @@
 import type { Config } from 'eslint/config';
+
 import { builtinRules } from './builtin';
 
 /**
@@ -53,10 +54,7 @@ export const vueRules = {
     },
   ],
   'vue/dot-notation': 'off', // builtin extension - checked by typescript?
-  'vue/enforce-style-attribute': [
-    'off',
-    { allow: ['scoped', 'module', 'plain'] },
-  ],
+  'vue/enforce-style-attribute': ['off', { allow: ['scoped', 'module', 'plain'] }],
   'vue/eqeqeq': builtinRules.eqeqeq, // builtin extension
   'vue/html-button-has-type': [
     'error',

@@ -1,6 +1,7 @@
-import type { Config } from 'eslint/config';
 import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
+import type { Config } from 'eslint/config';
 import globals from 'globals';
+
 import { builtinRules, eslintCommentsRules } from '../rules';
 
 export interface EslintJavascriptOptions {
@@ -10,9 +11,7 @@ export interface EslintJavascriptOptions {
 /**
  * Javascript configuration for eslint.
  */
-export const javascript = ({
-  overrides,
-}: EslintJavascriptOptions = {}): Config[] => [
+export const javascript = ({ overrides }: EslintJavascriptOptions = {}): Config[] => [
   {
     name: 'meteorlxy/javascript/plugins',
     plugins: {

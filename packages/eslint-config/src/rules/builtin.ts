@@ -483,14 +483,8 @@ export const builtinRules = {
   ],
   'no-unused-labels': 'error',
   'no-unused-private-class-members': 'error',
-  'no-unused-vars': [
-    'error',
-    { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
-  ],
-  'no-use-before-define': [
-    'error',
-    { functions: true, classes: true, variables: true },
-  ],
+  'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+  'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
   'no-useless-assignment': 'error',
   'no-useless-backreference': 'error',
   'no-useless-call': 'off',

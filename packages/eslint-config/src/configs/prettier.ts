@@ -1,5 +1,5 @@
-import type { Config } from 'eslint/config';
 import prettierConfig from 'eslint-config-prettier/flat';
+import type { Config } from 'eslint/config';
 
 /**
  * Prettier configuration for eslint.

@@ -169,17 +169,4 @@ export const config = {
   // Whether or not to indent the code inside <script> and <style> tags in Vue files
   // default: false
   vueIndentScriptAndStyle: false,
-
-  overrides: [
-    {
-      files: [
-        '.vscode/extensions.json',
-        '.vscode/launch.json',
-        '.vscode/settings.json',
-      ],
-      options: {
-        parser: 'jsonc',
-      },
-    },
-  ],
 } satisfies FormatOptions;

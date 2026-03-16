@@ -7,22 +7,13 @@
     "check-rules": "pnpm --filter=eslint-config check-rules",
     "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
-    "format": "prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "format": "oxfmt",
+    "lint": "eslint . && oxfmt --check .",
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
     "release:version": "lerna version"
   },
-  "lint-staged": {
-    "!(test)/**/*.(js|ts)": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "!(test)/**/*.!(js|ts)": "prettier --write --ignore-unknown",
-    "package.json": "sort-package-json"
-  },
-  "prettier": "@meteorlxy/prettier-config",
   "devDependencies": {
     "@commitlint/cli": "catalog:dev",
     "@commitlint/config-conventional": "catalog:dev",
@@ -30,18 +21,24 @@
     "@lerna-lite/cli": "catalog:dev",
     "@lerna-lite/publish": "catalog:dev",
     "@meteorlxy/eslint-config": "workspace:*",
-    "@meteorlxy/prettier-config": "workspace:*",
+    "@meteorlxy/oxfmt-config": "workspace:*",
     "@meteorlxy/tsconfig": "workspace:*",
     "@types/node": "catalog:dev",
     "eslint": "catalog:eslint",
     "husky": "catalog:dev",
     "lint-staged": "catalog:dev",
-    "prettier": "catalog:prettier",
+    "oxfmt": "catalog:oxfmt",
     "rimraf": "catalog:dev",
-    "sort-package-json": "catalog:dev",
     "taze": "catalog:dev",
     "tsx": "catalog:dev",
     "typescript": "catalog:dev"
+  },
+  "lint-staged": {
+    "!(test)/**/*.(js|ts)": [
+      "eslint --fix",
+      "oxfmt"
+    ],
+    "!(test)/**/*.!(js|ts)": "oxfmt"
   },
   "packageManager": "pnpm@10.32.1"
 }
