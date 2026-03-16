@@ -120,7 +120,7 @@ export const importsRules = {
   'import/no-webpack-loader-syntax': 'error',
 
   'import/order': [
-    'error',
+    'off',
     {
       'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       'newlines-between': 'ignore',
