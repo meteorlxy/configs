@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/meteorlxy/configs/compare/v7.0.0...v7.1.0) (2026-03-16)
+
+### Features
+
+* **oxfmt-config:** update default printWidth to 80 ([dcbfe4f](https://github.com/meteorlxy/configs/commit/dcbfe4f76fd020eaf0e6da1af5180e0aeb68b9fb))
+
 # [7.0.0](https://github.com/meteorlxy/configs/compare/v6.14.0...v7.0.0) (2026-03-16)
 
 ### Features

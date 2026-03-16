@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.1.0](https://github.com/meteorlxy/configs/compare/v7.0.0...v7.1.0) (2026-03-16)
+
+**Note:** Version bump only for package @meteorlxy/eslint-config
+
 # [7.0.0](https://github.com/meteorlxy/configs/compare/v6.14.0...v7.0.0) (2026-03-16)
 
 ### Features
