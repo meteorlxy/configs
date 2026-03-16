@@ -49,7 +49,7 @@ export const config = {
 
   // Maximum line length
   // default: 100
-  printWidth: 100,
+  printWidth: 80,
 
   // How to wrap prose in markdown
   // default: 'preserve'
