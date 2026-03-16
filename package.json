@@ -8,7 +8,7 @@
     "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
     "format": "oxfmt",
-    "lint": "eslint . && oxfmt --check .",
+    "lint": "eslint . && oxfmt --check",
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
