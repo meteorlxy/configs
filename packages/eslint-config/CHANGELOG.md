@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/meteorlxy/configs/compare/v6.14.0...v7.0.0) (2026-03-16)
+
+### Features
+
+* **eslint-config:** turn off import/order to use oxfmt instead ([bd5ae49](https://github.com/meteorlxy/configs/commit/bd5ae49c7e9e53d02be46669b85ac33ab61fdb0b))
+
 # [6.14.0](https://github.com/meteorlxy/configs/compare/v6.13.0...v6.14.0) (2026-03-13)
 
 ### Features
