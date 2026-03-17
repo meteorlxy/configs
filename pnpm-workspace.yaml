@@ -24,7 +24,6 @@ catalogs:
     '@types/eslint': ^9.6.1
     '@typescript-eslint/eslint-plugin': ^8.57.0
     '@typescript-eslint/parser': ^8.57.0
-    '@typescript-eslint/utils': ^8.57.0
     confusing-browser-globals: ^1.0.11
     eslint-config-flat-gitignore: ^2.2.1
     eslint-config-prettier: ^10.1.8
