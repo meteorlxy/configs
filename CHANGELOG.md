@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/meteorlxy/configs/compare/v7.1.0...v7.2.0) (2026-03-17)
+
+### Features
+
+* **oxfmt-config:** update default sortImports config ([623b4d9](https://github.com/meteorlxy/configs/commit/623b4d98f28eb5d88d24fc229f74499ddc01f049))
+
+### Reverts
+
+* build: update oxfmt usage in lint-staged ([274e0da](https://github.com/meteorlxy/configs/commit/274e0da0e6389b1aa601f6f09df3b918b99c19f0))
+
 # [7.1.0](https://github.com/meteorlxy/configs/compare/v7.0.0...v7.1.0) (2026-03-16)
 
 ### Features
