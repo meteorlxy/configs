@@ -5,6 +5,7 @@ import { type TestBarType, TestBar } from 'bar';
 import { type TestBazType } from 'baz';
 import foo from 'foo';
 import type { Test } from 'foo';
+import foo from 'foo/bar';
 
 import foobar from '#foobar';
 import foobarbaz from '#foobar/baz';
