@@ -7,13 +7,13 @@ settings:
 catalogs:
   dev:
     '@commitlint/cli':
-      specifier: ^20.4.4
+      specifier: ^20.5.0
       version: 20.5.0
     '@commitlint/config-conventional':
-      specifier: ^20.4.4
+      specifier: ^20.5.0
       version: 20.5.0
     '@commitlint/types':
-      specifier: ^20.4.4
+      specifier: ^20.5.0
       version: 20.5.0
     '@lerna-lite/cli':
       specifier: ^4.11.5
@@ -37,7 +37,7 @@ catalogs:
       specifier: ^19.10.0
       version: 19.10.0
     tsdown:
-      specifier: ^0.21.2
+      specifier: ^0.21.4
       version: 0.21.4
     tsx:
       specifier: ^4.21.0
@@ -56,10 +56,10 @@ catalogs:
       specifier: ^1.0.3
       version: 1.0.3
     '@typescript-eslint/eslint-plugin':
-      specifier: ^8.57.0
+      specifier: ^8.57.1
       version: 8.57.1
     '@typescript-eslint/parser':
-      specifier: ^8.57.0
+      specifier: ^8.57.1
       version: 8.57.1
     confusing-browser-globals:
       specifier: ^1.0.11
