@@ -21,10 +21,10 @@ catalogs:
     '@eslint/core': ^0.17.0
     '@eslint/markdown': ^7.5.1
     '@types/confusing-browser-globals': ^1.0.3
-    '@typescript-eslint/eslint-plugin': ^8.57.1
-    '@typescript-eslint/parser': ^8.57.1
+    '@typescript-eslint/eslint-plugin': ^8.57.2
+    '@typescript-eslint/parser': ^8.57.2
     confusing-browser-globals: ^1.0.11
-    eslint-config-flat-gitignore: ^2.2.1
+    eslint-config-flat-gitignore: ^2.3.0
     eslint-config-prettier: ^10.1.8
     eslint-merge-processors: ^2.0.0
     eslint-plugin-eslint-comments: ^3.2.0
@@ -39,7 +39,7 @@ catalogs:
     jsonc-eslint-parser: ^3.1.0
     vue-eslint-parser: ^10.4.0
   oxfmt:
-    oxfmt: ^0.40.0
+    oxfmt: ^0.42.0
   prettier:
     prettier: ^3.8.1
   test:
