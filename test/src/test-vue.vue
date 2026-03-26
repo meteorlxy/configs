@@ -5,6 +5,8 @@
 <script lang="ts">
 let foo = 'foo';
 
+let bar = 'bar';
+
 export default {
   name: 'Foo',
 };

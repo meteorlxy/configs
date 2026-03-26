@@ -8,6 +8,8 @@ export default {
 
 <script setup lang="ts">
 const bar = 'bar';
+
+let baz = 'baz';
 </script>
 
 <template>
