@@ -1,4 +1,4 @@
-import type { FormatOptions } from 'oxfmt';
+import type { OxfmtConfig } from 'oxfmt';
 
 /**
  * Oxfmt Config
@@ -171,4 +171,4 @@ export const config = {
   // Whether or not to indent the code inside <script> and <style> tags in Vue files
   // default: false
   vueIndentScriptAndStyle: false,
-} satisfies FormatOptions;
+} satisfies OxfmtConfig;
