@@ -5,10 +5,13 @@ import { config } from './config';
 export const meteorlxy = (userConfig?: Partial<OxfmtConfig>): OxfmtConfig => ({
   ...config,
   ...userConfig,
-  sortImports: {
-    ...config.sortImports,
-    ...userConfig?.sortImports,
-  },
+  sortImports:
+    typeof userConfig?.sortImports !== 'boolean'
+      ? {
+          ...config.sortImports,
+          ...userConfig?.sortImports,
+        }
+      : userConfig.sortImports,
   sortPackageJson:
     typeof userConfig?.sortPackageJson !== 'boolean'
       ? {
@@ -16,10 +19,11 @@ export const meteorlxy = (userConfig?: Partial<OxfmtConfig>): OxfmtConfig => ({
           ...userConfig?.sortPackageJson,
         }
       : userConfig.sortPackageJson,
-  sortTailwindcss: userConfig?.sortTailwindcss
-    ? {
-        ...config.sortTailwindcss,
-        ...userConfig.sortTailwindcss,
-      }
-    : undefined,
+  sortTailwindcss:
+    typeof userConfig?.sortTailwindcss !== 'boolean'
+      ? {
+          ...config.sortTailwindcss,
+          ...userConfig?.sortTailwindcss,
+        }
+      : userConfig.sortTailwindcss,
 });
