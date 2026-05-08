@@ -178,9 +178,11 @@ export const vueRules = {
   'vue/prefer-define-options': 'error',
   'vue/prefer-prop-type-boolean-first': 'error',
   'vue/prefer-separate-static-class': 'error',
+  'vue/prefer-single-event-payload': 'warn',
   'vue/prefer-template': builtinRules['prefer-template'], // builtin extension
   'vue/prefer-true-attribute-shorthand': 'off',
   'vue/prefer-use-template-ref': 'error',
+  'vue/prefer-v-model': 'warn',
   'vue/require-default-export': 'warn',
   'vue/require-direct-export': [
     'error',
