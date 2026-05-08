@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.5.0](https://github.com/meteorlxy/configs/compare/v7.4.0...v7.5.0) (2026-05-08)
+
+**Note:** Version bump only for package @meteorlxy/oxfmt-config
+
 # [7.4.0](https://github.com/meteorlxy/configs/compare/v7.3.0...v7.4.0) (2026-04-30)
 
 **Note:** Version bump only for package @meteorlxy/oxfmt-config

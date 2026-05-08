@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.5.0](https://github.com/meteorlxy/configs/compare/v7.4.0...v7.5.0) (2026-05-08)
+
+### Features
+
+* **eslint-config:** add settings option for react rules ([b38d730](https://github.com/meteorlxy/configs/commit/b38d73096fa66f311fd021326b7d5d523f004973))
+* **eslint-config:** enable vue/prefer-single-event-payload and vue/prefer-v-model ([e25298c](https://github.com/meteorlxy/configs/commit/e25298cf9957dc9fadc19fc92a10eac060e9cd9e))
+* **eslint-config:** migrate to @eslint-community/eslint-plugin-eslint-comments ([4086e6c](https://github.com/meteorlxy/configs/commit/4086e6c796bd9742c6e06e2da1e6c74199d05b0d))
+* **eslint-config:** set markdown/fenced-code-meta explicitly ([5a20ecc](https://github.com/meteorlxy/configs/commit/5a20ecc6f44ac39adc86ba0f2f9abfe8d3a74735))
+* **eslint-config:** update react-hooks undocumented rules ([b7fc79f](https://github.com/meteorlxy/configs/commit/b7fc79f3fc2885f02e6d6311a3e238621cd5eb54))
+
 # [7.4.0](https://github.com/meteorlxy/configs/compare/v7.3.0...v7.4.0) (2026-04-30)
 
 **Note:** Version bump only for package @meteorlxy/eslint-config
