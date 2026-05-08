@@ -2,6 +2,7 @@ import type { Config } from 'eslint/config';
 
 export const markdownRules = {
   'markdown/fenced-code-language': 'error',
+  'markdown/fenced-code-meta': 'off',
   'markdown/heading-increment': 'error',
   'markdown/no-bare-urls': 'off',
   'markdown/no-duplicate-definitions': 'error',
