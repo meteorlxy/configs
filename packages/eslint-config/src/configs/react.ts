@@ -7,6 +7,17 @@ import { interopDefault } from '../utils';
 export interface EslintReactOptions {
   files?: Config['files'];
   overrides?: Config['rules'];
+  settings?: {
+    'react'?: {
+      version?: string;
+    };
+    /**
+     * @see https://react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks#options
+     */
+    'react-hooks'?: {
+      additionalEffectHooks?: string;
+    };
+  };
 }
 
 /**
@@ -15,6 +26,7 @@ export interface EslintReactOptions {
 export const react = async ({
   files = ['**/*.ts', '**/*.tsx'],
   overrides,
+  settings,
 }: EslintReactOptions = {}): Promise<Config[]> => {
   const [reactPlugin, reactHooksPlugin, reactRefreshPlugin] = await Promise.all(
     [
@@ -33,8 +45,13 @@ export const react = async ({
         'react-refresh': reactRefreshPlugin,
       },
       settings: {
-        react: {
+        ...settings,
+        'react': {
           version: 'detect',
+          ...settings?.react,
+        },
+        'react-hooks': {
+          ...settings?.['react-hooks'],
         },
       },
     },
