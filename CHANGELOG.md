@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.6.0](https://github.com/meteorlxy/configs/compare/v7.5.0...v7.6.0) (2026-05-08)
+
+### Features
+
+* **eslint-config:** set allowWholeFile for eslint-comments/disable-enable-pair ([229528d](https://github.com/meteorlxy/configs/commit/229528d557e2bb61fa772dc8b2eca1b4d0bf8cf7))
+
 # [7.5.0](https://github.com/meteorlxy/configs/compare/v7.4.0...v7.5.0) (2026-05-08)
 
 ### Features
