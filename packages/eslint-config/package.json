@@ -62,7 +62,7 @@
     "vue-eslint-parser": "catalog:eslint"
   },
   "peerDependencies": {
-    "eslint": "catalog:eslint",
+    "eslint": "^9.39.4 || ^10.3.0",
     "eslint-plugin-react": "catalog:eslint",
     "eslint-plugin-react-hooks": "catalog:eslint",
     "eslint-plugin-react-refresh": "catalog:eslint",

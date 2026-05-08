@@ -12,6 +12,7 @@
   "devDependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
     "@types/react": "catalog:test",
+    "eslint": "^9.39.4",
     "eslint-plugin-react": "catalog:eslint",
     "eslint-plugin-react-hooks": "catalog:eslint",
     "eslint-plugin-react-refresh": "catalog:eslint",
