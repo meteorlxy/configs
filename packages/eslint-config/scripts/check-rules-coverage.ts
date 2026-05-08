@@ -1,3 +1,4 @@
+import eslintCommentsPlugin from '@eslint-community/eslint-plugin-eslint-comments';
 import markdownPlugin from '@eslint/markdown';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import prettierConfig from 'eslint-config-prettier/flat';
@@ -10,7 +11,7 @@ import eslint from 'eslint/use-at-your-own-risk';
 
 import { rules } from '../src';
 
-// eslint-disable-next-line @typescript-eslint/no-deprecated
+// eslint-disable-next-line @typescript-eslint/no-deprecated -- we need to check builtin rules
 const builtinRules = new Set(eslint.builtinRules.keys());
 const prettierRules = new Set(Object.keys(prettierConfig.rules));
 
@@ -18,6 +19,11 @@ const configs = [
   {
     allRules: builtinRules,
     currentRules: new Set(Object.keys(rules.builtinRules)),
+  },
+  {
+    scope: '@eslint-community/eslint-comments',
+    allRules: new Set(Object.keys(eslintCommentsPlugin.rules)),
+    currentRules: new Set(Object.keys(rules.eslintCommentsRules)),
   },
   {
     scope: '@typescript-eslint',

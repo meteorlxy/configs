@@ -1,4 +1,4 @@
-import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
+import eslintCommentsPlugin from '@eslint-community/eslint-plugin-eslint-comments';
 import type { Config } from 'eslint/config';
 import globals from 'globals';
 
@@ -17,7 +17,7 @@ export const javascript = ({
   {
     name: 'meteorlxy/javascript/plugins',
     plugins: {
-      'eslint-comments': eslintCommentsPlugin,
+      '@eslint-community/eslint-comments': eslintCommentsPlugin,
     },
   },
   {

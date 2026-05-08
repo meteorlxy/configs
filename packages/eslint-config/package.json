@@ -37,6 +37,7 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "catalog:eslint",
     "@eslint/core": "catalog:eslint",
     "@eslint/markdown": "catalog:eslint",
     "@typescript-eslint/eslint-plugin": "catalog:eslint",
@@ -45,7 +46,6 @@
     "eslint-config-flat-gitignore": "catalog:eslint",
     "eslint-config-prettier": "catalog:eslint",
     "eslint-merge-processors": "catalog:eslint",
-    "eslint-plugin-eslint-comments": "catalog:eslint",
     "eslint-plugin-import-x": "catalog:eslint",
     "eslint-plugin-jsonc": "catalog:eslint",
     "globals": "catalog:eslint",
