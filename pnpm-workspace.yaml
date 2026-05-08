@@ -23,8 +23,8 @@ catalogs:
     typescript: ^6.0.3
   eslint:
     '@eslint-community/eslint-plugin-eslint-comments': ^4.7.1
-    '@eslint/core': ^0.17.0
-    '@eslint/markdown': ^7.5.1
+    '@eslint/core': ^1.2.1
+    '@eslint/markdown': ^8.0.1
     '@types/confusing-browser-globals': ^1.0.3
     '@typescript-eslint/eslint-plugin': ^8.59.2
     '@typescript-eslint/parser': ^8.59.2
@@ -38,7 +38,7 @@ catalogs:
     eslint-plugin-react-refresh: ^0.5.2
     eslint-plugin-react: ^7.37.5
     eslint-plugin-vue: ^10.9.1
-    eslint: ^9.39.4
+    eslint: ^10.3.0
     globals: ^17.6.0
     jsonc-eslint-parser: ^3.1.0
     vue-eslint-parser: ^10.4.0
