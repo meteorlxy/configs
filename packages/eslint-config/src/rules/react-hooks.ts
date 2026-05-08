@@ -25,12 +25,12 @@ export const reactHooksRules = {
   'react-hooks/use-memo': 'error',
 
   // undocumented rules
-  'react-hooks/automatic-effect-dependencies': 'off',
   'react-hooks/capitalized-calls': 'off',
+  'react-hooks/exhaustive-effect-dependencies': 'off',
   'react-hooks/fbt': 'off',
-  'react-hooks/fire': 'off',
   'react-hooks/hooks': 'off',
   'react-hooks/invariant': 'off',
+  'react-hooks/memo-dependencies': 'off',
   'react-hooks/memoized-effect-dependencies': 'off',
   'react-hooks/no-deriving-state-in-effects': 'off',
   'react-hooks/rule-suppression': 'off',
