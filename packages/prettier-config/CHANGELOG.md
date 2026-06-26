@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.7.0](https://github.com/meteorlxy/configs/compare/v7.6.0...v7.7.0) (2026-06-26)
+
+**Note:** Version bump only for package @meteorlxy/prettier-config
+
 # [7.5.0](https://github.com/meteorlxy/configs/compare/v7.4.0...v7.5.0) (2026-05-08)
 
 **Note:** Version bump only for package @meteorlxy/prettier-config
