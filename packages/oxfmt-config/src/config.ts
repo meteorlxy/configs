@@ -39,6 +39,11 @@ export const config = {
   // default: true
   insertFinalNewline: true,
 
+  // Enable JSDoc comment formatting.
+  // When enabled, JSDoc comments are normalized and reformatted: tag aliases are canonicalized, descriptions are capitalized, long lines are wrapped, and short comments are collapsed to single-line.
+  // default: Disabled
+  jsdoc: false,
+
   // Use single quotes instead of double quotes in JSX
   // default: false
   jsxSingleQuote: false,
@@ -46,6 +51,10 @@ export const config = {
   // How to wrap object literals when they could fit on one line or span multiple lines
   // default: 'preserve'
   objectWrap: 'preserve',
+
+  // File-specific overrides. When a file matches multiple overrides, the later override takes precedence (array order matters).
+  // default: []
+  overrides: [],
 
   // Maximum line length
   // default: 100
@@ -156,6 +165,10 @@ export const config = {
     // stylesheet: undefined,
   },
 
+  // Options for prettier-plugin-svelte
+  // default: Disabled
+  svelte: false,
+
   // Specify the number of spaces per indentation-level
   // default: 2
   tabWidth: 2,
@@ -171,4 +184,4 @@ export const config = {
   // Whether or not to indent the code inside <script> and <style> tags in Vue files
   // default: false
   vueIndentScriptAndStyle: false,
-} satisfies OxfmtConfig;
+} satisfies Required<OxfmtConfig>;
