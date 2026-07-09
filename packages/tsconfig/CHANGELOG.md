@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.7.1](https://github.com/meteorlxy/configs/compare/v7.7.0...v7.7.1) (2026-07-09)
+
+### Bug Fixes
+
+* **tsconfig:** remove deprecated noStrictGenericChecks ([1a1d2ed](https://github.com/meteorlxy/configs/commit/1a1d2ed21873f94f76533d647a1826486f8e91e6))
+
 # [7.0.0](https://github.com/meteorlxy/configs/compare/v6.14.0...v7.0.0) (2026-03-16)
 
 **Note:** Version bump only for package @meteorlxy/tsconfig
