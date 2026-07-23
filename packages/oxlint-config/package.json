@@ -1,0 +1,51 @@
+{
+  "name": "@meteorlxy/oxlint-config",
+  "version": "7.7.1",
+  "description": "meteorlxy oxlint config",
+  "keywords": [
+    "config",
+    "meteorlxy",
+    "oxlint"
+  ],
+  "homepage": "https://github.com/meteorlxy/configs",
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorlxy/configs.git"
+  },
+  "files": [
+    "./dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "clean": "rimraf ./dist"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "catalog:eslint"
+  },
+  "devDependencies": {
+    "@types/confusing-browser-globals": "catalog:eslint",
+    "tsdown": "catalog:dev"
+  },
+  "peerDependencies": {
+    "oxlint": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
