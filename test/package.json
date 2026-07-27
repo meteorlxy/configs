@@ -11,11 +11,13 @@
   },
   "devDependencies": {
     "@meteorlxy/eslint-config": "workspace:*",
+    "@meteorlxy/oxlint-config": "workspace:*",
     "@types/react": "catalog:test",
     "eslint": "^9.39.5",
     "eslint-plugin-react": "catalog:eslint",
     "eslint-plugin-react-hooks": "catalog:eslint",
     "eslint-plugin-react-refresh": "catalog:eslint",
-    "eslint-plugin-vue": "catalog:eslint"
+    "eslint-plugin-vue": "catalog:eslint",
+    "oxlint": "catalog:oxlint"
   }
 }

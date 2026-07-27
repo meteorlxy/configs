@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r run build",
-    "check-rules": "pnpm --filter=eslint-config check-rules",
+    "check-rules": "pnpm -r --if-present run check-rules",
     "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
     "format": "oxfmt",
