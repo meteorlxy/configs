@@ -148,21 +148,18 @@ importers:
       '@lerna-lite/publish':
         specifier: catalog:dev
         version: 5.4.1(@types/node@26.1.1)(conventional-commits-filter@6.0.1)(supports-color@7.2.0)
-      '@meteorlxy/eslint-config':
-        specifier: workspace:*
-        version: link:packages/eslint-config
       '@meteorlxy/oxfmt-config':
         specifier: workspace:*
         version: link:packages/oxfmt-config
+      '@meteorlxy/oxlint-config':
+        specifier: workspace:*
+        version: link:packages/oxlint-config
       '@meteorlxy/tsconfig':
         specifier: workspace:*
         version: link:packages/tsconfig
       '@types/node':
         specifier: catalog:dev
         version: 26.1.1
-      eslint:
-        specifier: catalog:eslint
-        version: 10.7.0(jiti@2.7.0)(supports-color@7.2.0)
       husky:
         specifier: catalog:dev
         version: 9.1.7
@@ -172,6 +169,9 @@ importers:
       oxfmt:
         specifier: catalog:oxfmt
         version: 0.60.0
+      oxlint:
+        specifier: catalog:oxlint
+        version: 1.75.0
       rimraf:
         specifier: catalog:dev
         version: 6.1.3
