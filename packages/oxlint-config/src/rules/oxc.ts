@@ -11,6 +11,7 @@ export const oxcRules = {
   'oxc/bad-bitwise-operator': 'off',
   'oxc/bad-char-at-comparison': 'warn',
   'oxc/bad-comparison-sequence': 'warn',
+  'oxc/bad-match-all-arg': 'warn',
   'oxc/bad-min-max-func': 'warn',
   'oxc/bad-object-literal-comparison': 'warn',
   'oxc/bad-replace-all-arg': 'warn',

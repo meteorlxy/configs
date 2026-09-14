@@ -46,7 +46,7 @@
     "tsdown": "catalog:dev"
   },
   "peerDependencies": {
-    "oxlint": ">=1.0.0"
+    "oxlint": ">=1.79.0"
   },
   "engines": {
     "node": ">=20.0.0"

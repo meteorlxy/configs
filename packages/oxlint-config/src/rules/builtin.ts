@@ -100,6 +100,7 @@ export const builtinRules = {
   ],
   'grouped-accessor-pairs': 'error',
   'guard-for-in': 'off',
+  'id-denylist': 'off',
   'id-length': [
     'off',
     {
@@ -618,6 +619,7 @@ export const builtinRules = {
       ignoreConstructors: false,
     },
   ],
+  'one-var': ['error', 'never'],
   'operator-assignment': ['error', 'always'],
   'prefer-arrow-callback': [
     'error',

@@ -1,8 +1,8 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
+import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 import * as rules from '../src/rules';
 
@@ -62,6 +62,7 @@ const normalizeRuleName = (rule: string): string =>
   rule.replace(/^jsx_a11y\//, 'jsx-a11y/');
 
 const printDefaultConfig = (): OxlintPrintedConfig => {
+  const cwd = tmpdir();
   const rawConfig = execFileSync(
     process.execPath,
     [
@@ -78,9 +79,10 @@ const printDefaultConfig = (): OxlintPrintedConfig => {
       '--node-plugin',
       '--vue-plugin',
       '--print-config',
-      fileURLToPath(import.meta.url),
+      join(cwd, 'oxlint-default-config.ts'),
     ],
     {
+      cwd,
       encoding: 'utf8',
     },
   );

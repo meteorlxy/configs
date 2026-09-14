@@ -23,6 +23,7 @@ export const jsdocRules = {
     },
   ],
   'jsdoc/implements-on-classes': 'warn',
+  'jsdoc/no-blank-blocks': 'warn',
   'jsdoc/no-defaults': [
     'warn',
     {

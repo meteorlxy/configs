@@ -7,6 +7,7 @@ import type { DummyRuleMap } from 'oxlint';
  */
 export const nodeRules = {
   'node/callback-return': 'off',
+  'node/exports-style': 'off',
   'node/global-require': 'off',
   'node/handle-callback-err': 'off',
   'node/no-exports-assign': 'off',
