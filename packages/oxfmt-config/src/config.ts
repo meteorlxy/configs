@@ -27,6 +27,11 @@ export const config = {
   // default: 'lf'
   endOfLine: 'lf',
 
+  // When expressions wrap lines, print operators at the start of new lines
+  // or at the end of previous lines
+  // default: 'end'
+  experimentalOperatorPosition: 'end',
+
   // Specify the global whitespace sensitivity for HTML, Vue, Angular, and Handlebars
   // default: 'css'
   htmlWhitespaceSensitivity: 'css',

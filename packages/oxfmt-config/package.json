@@ -39,7 +39,7 @@
     "tsdown": "catalog:dev"
   },
   "peerDependencies": {
-    "oxfmt": ">=0.42.0"
+    "oxfmt": ">=0.64.0"
   },
   "engines": {
     "node": ">=20.0.0"
