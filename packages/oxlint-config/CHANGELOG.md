@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.10.0](https://github.com/meteorlxy/configs/compare/v7.9.0...v7.10.0) (2026-11-09)
+
+### Features
+
+* **oxlint-config:** export OxlintConfig type ([4732894](https://github.com/meteorlxy/configs/commit/473289435ac79783403b09f84f18b235863ffcc7))
+
 # [7.9.0](https://github.com/meteorlxy/configs/compare/v7.8.0...v7.9.0) (2026-09-14)
 
 ### Features

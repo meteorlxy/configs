@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.10.0](https://github.com/meteorlxy/configs/compare/v7.9.0...v7.10.0) (2026-11-09)
+
+### Features
+
+* **oxfmt-config:** export OxfmtConfig type ([98f54b6](https://github.com/meteorlxy/configs/commit/98f54b64388a30c02bdee4a6eeb8efc12f2e4a9a))
+* **oxfmt-config:** upgrade oxfmt to 0.77.0 and add file associations support ([c1fffd4](https://github.com/meteorlxy/configs/commit/c1fffd44f46ffe42bc4034a3872e24863916a29a))
+
 # [7.9.0](https://github.com/meteorlxy/configs/compare/v7.8.0...v7.9.0) (2026-09-14)
 
 ### Features
