@@ -10,6 +10,27 @@ export const config = {
   // default: 'always'
   arrowParens: 'always',
 
+  // Format matched files as the given language, instead of detecting it from the file name.
+  // default: []
+  associations: [
+    {
+      // Glob patterns to exclude from this association.
+      // A set of glob patterns. Patterns are matched against paths relative to the configuration file's directory.
+      excludeFiles: [],
+
+      // Glob patterns to match files for this association.
+      // A set of glob patterns. Patterns are matched against paths relative to the configuration file's directory.
+      files: ['**/.vscode/*.json', '**/tsconfig.json'],
+
+      // The language to format matched files as, named by its Shiki id (as in Markdown code fences).
+      language: 'jsonc',
+    },
+  ],
+
+  // Options for prettier-plugin-astro
+  // default: false
+  astro: false,
+
   // Put the `>` of a multi-line HTML element at the end of the last line
   // instead of being alone on the next line (does not apply to self closing elements)
   // default: false
