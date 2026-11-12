@@ -25,7 +25,9 @@ export const vitestRules = {
     'warn',
     {
       additionalTestBlockFunctions: [],
-      assertFunctionNames: ['expect'],
+      // NOTE: The default value is ["expect"] for Jest and ["expect", "expectTypeOf", "assert", "assertType"] for Vitest.
+      // So we should not set it explicitly here.
+      // assertFunctionNames: ['expect'],
     },
   ],
   'vitest/hoisted-apis-on-top': 'warn',
