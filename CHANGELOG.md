@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.10.1](https://github.com/meteorlxy/configs/compare/v7.10.0...v7.10.1) (2026-11-12)
+
+### Bug Fixes
+
+* **oxlint-config:** unset explicit assertFunctionNames setting of vitest/expect-expect ([a70339c](https://github.com/meteorlxy/configs/commit/a70339c5170583aae8833f6f6f2ea2fda12ca8bc))
+
 # [7.10.0](https://github.com/meteorlxy/configs/compare/v7.9.0...v7.10.0) (2026-11-09)
 
 ### Features
